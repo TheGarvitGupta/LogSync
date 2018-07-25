@@ -1,0 +1,32 @@
+Jul 10 22:42:16:451447 -0700 NOTICE DNMLIB webrtcmgr DNMLIB webrtcmgr - connector.r_meetme47.8661.cabd059.garvit.xenial - compiled on Jun 18 2018 around 10:18:34
+Jul 10 22:42:16:451451 -0700 NOTICE DNMLIB webrtcmgr DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 10 22:42:16:451598 -0700 INFO DNMLIB webrtcmgr DNMLIB Starting NM connection
+Jul 10 22:42:16:451631 -0700 INFO DNMLIB webrtcmgr DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 10 22:42:16:456525 -0700 INFO webrtcmgr webrtcmgr pyzookeeper Recent ZK library logs: 2018-07-10 22:42:16,455:32343(0x7f87d1485700):ZOO_INFO@log_env@726: Client environment:zookeeper.version=zookeeper C client 3.4.8
+2018-07-10 22:42:16,455:32343(0x7f87d1485700):ZOO_INFO@log_env@730: Client environment:host.name=garvit-Super-Server
+2018-07-10 22:42:16,455:32343(0x7f87d1485700):ZOO_INFO@log_env@737: Client environment:os.name=Linux
+2018-07-10 22:42:16,455:32343(0x7f87d1485700):ZOO_INFO@log_env@738: Client environment:os.arch=4.13.0-45-generic
+2018-07-10 22:42:16,455:32343(0x7f87d1485700):ZOO_INFO@log_env@739: Client environment:os.version=#50~16.04.1-Ubuntu SMP Wed May 30 11:18:27 UTC 2018
+2018-07-10 22:42:16,456:32343(0x7f87d1485700):ZOO_INFO@log_env@747: Client environment:user.name=(null)
+2018-07-10 22:42:16,456:32343(0x7f87d1485700):ZOO_INFO@log_env@755: Client environment:user.home=/home/garvit
+2018-07-10 22:42:16,456:32343(0x7f87d1485700):ZOO_INFO@log_env@767: Client environment:user.dir=/home/garvit/bluejeans/connector/run
+2018-07-10 22:42:16,456:32343(0x7f87d1485700):ZOO_INFO@zookeeper_init@800: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=6000 watcher=0x7f87ce6689d0 sessionId=0 sessionPasswd=<null> context=0x2e57170 flags=0
+2018-07-10 22:42:16,456:32343(0x7f87ca045700):ZOO_ERROR@handle_socket_error_msg@1722: Socket [127.0.0.1:2181] zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2018-07-10 22:42:16,456:32343(0x7f87ca045700):ZOO_ERROR@handle_socket_error_msg@1722: Socket [127.0.0.1:2181] zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+Jul 10 22:42:16:457007 -0700 ERROR webrtcmgr webrtcmgr webrtcmgr Proxy exception
+Traceback (most recent call last):
+  File "/home/garvit/bluejeans/connector/bin/webrtcmgr", line 301, in main
+    listen(port, capacity)
+  File "/home/garvit/bluejeans/connector/bin/webrtcmgr", line 239, in listen
+    util.setCapacity(capacity)
+  File "utilization.py", line 19, in setCapacity
+  File "nm.py", line 443, in set_resource
+  File "nm.py", line 424, in ns_set
+  File "nm.py", line 362, in set
+  File "zookeeper.py", line 262, in set
+  File "zookeeper.py", line 219, in set
+  File "zookeeper.py", line 199, in _set
+  File "zookeeper.py", line 82, in wrapper
+  File "zookeeper.py", line 77, in wrapper
+ConnectionLossException: /bjn/denim/connwebrtc/4004197:32343: connection loss
+Jul 10 22:42:16:457049 -0700 INFO webrtcmgr webrtcmgr webrtcmgr exiting

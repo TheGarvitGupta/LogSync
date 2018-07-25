@@ -1,0 +1,16 @@
+Jul 11 00:53:08:453712 -0700 NOTICE DNMLIB recordmgr DNMLIB recordmgr - connector.r_meetme47.8661.cabd059.garvit.xenial - compiled on Jun 18 2018 around 10:18:34
+Jul 11 00:53:08:453716 -0700 NOTICE DNMLIB recordmgr DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 11 00:53:08:453884 -0700 INFO DNMLIB recordmgr DNMLIB Starting NM connection
+Jul 11 00:53:08:453902 -0700 INFO DNMLIB recordmgr DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 11 00:53:08:454015 -0700 INFO recordmgr recordmgr recordmgr capacity for recordmanager 100
+Jul 11 00:53:08:454942 -0700 INFO recordmgr recordmgr pyzookeeper Recent ZK library logs: 2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@726: Client environment:zookeeper.version=zookeeper C client 3.4.8
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@730: Client environment:host.name=garvit-Super-Server
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@737: Client environment:os.name=Linux
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@738: Client environment:os.arch=4.13.0-45-generic
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@739: Client environment:os.version=#50~16.04.1-Ubuntu SMP Wed May 30 11:18:27 UTC 2018
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@747: Client environment:user.name=(null)
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@755: Client environment:user.home=/home/garvit
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@log_env@767: Client environment:user.dir=/home/garvit/bluejeans/connector/run
+2018-07-11 00:53:08,454:10261(0x7f4d0ea01700):ZOO_INFO@zookeeper_init@800: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=6000 watcher=0x7f4d0c5c49d0 sessionId=0 sessionPasswd=<null> context=0x21ebd00 flags=0
+2018-07-11 00:53:08,454:10261(0x7f4d029c6700):ZOO_ERROR@handle_socket_error_msg@1722: Socket [127.0.0.1:2181] zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2018-07-11 00:53:08,454:10261(0x7f4d029c6700):ZOO_ERROR@handle_socket_error_msg@1722: Socket [127.0.0.1:2181] zk retcode=-4, errno=111(Connection refused): server refused to accept the client

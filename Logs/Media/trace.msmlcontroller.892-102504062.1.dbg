@@ -1,0 +1,683 @@
+Jul 23 09:35:09:427394 -0700 NOTICE DNMLIB msmlcontroller-tmain DNMLIB msmlcontroller - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 10 2018 around 17:37:52
+Jul 23 09:35:09:427412 -0700 NOTICE DNMLIB msmlcontroller-tmain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 23 09:35:09:427461 -0700 NOTICE _ msmlcontroller-tmain msmlsrv Meeting Guid: 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:09:427467 -0700 INFO _ msmlcontroller-tmain msmlsrv Starting call manager, listening on 10.4.4.197
+Jul 23 09:35:09:429608 -0700 INFO _ msmlcontroller-tsip RESIP:DNS (dns/AresDns.cxx:399) DNS initialization: using c-ares v1.10.0
+Jul 23 09:35:09:429632 -0700 INFO _ msmlcontroller-tsip RESIP:DNS (dns/AresDns.cxx:408) DNS initialization: found 1 name servers
+Jul 23 09:35:09:429644 -0700 INFO _ msmlcontroller-tsip RESIP:DNS (dns/AresDns.cxx:414)  name server: 127.0.1.1
+Jul 23 09:35:09:430145 -0700 INFO _ msmlcontroller-tsip RESIP:DNS (DnsUtil.cxx:170) local hostname does not contain a domain part garvit-Super-Server
+Jul 23 09:35:09:430268 -0700 INFO _ msmlcontroller-tsip callmgr Trying to bind TCP/UDP to 10.4.4.197:62415
+Jul 23 09:35:09:430960 -0700 INFO _ msmlcontroller-tmain msmlsrv Will place call with media server
+Jul 23 09:35:09:430994 -0700 INFO _ msmlcontroller-tmain Resource Locating MC
+Jul 23 09:35:09:434501 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:2747) Transition UAC_Start -> InviteSession::Connected
+Jul 23 09:35:09:434602 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:3091) Sending SipReq:  ACK 10.4.4.197:5080 tid=eb04d8715dbe526f cseq=1 ACK contact=control / 1 from(tu)
+Jul 23 09:35:09:434749 -0700 INFO _ msmlcontroller-tsip rcall (control) New session -- type 2: SipResp: 200 tid=ea88c21a91141505 cseq=1 INVITE contact=10.4.4.197:5080 / 1 from(wire)
+Jul 23 09:35:09:434803 -0700 INFO _ msmlcontroller-tsip rcall (control)  Incoming answer:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.4.4.197:62415;branch=z9hG4bK-524287-1---ea88c21a91141505;rport
+Require: timer
+Contact: <sip:10.4.4.197:5080>
+To: <sip:dvcs@10.4.4.197:5080>;tag=D6a0ye9cyeN4K
+From: <sip:control@10.4.4.197>;tag=9beeb977
+Call-ID: control-meet:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M:ovRiPdLY
+CSeq: 1 INVITE
+Session-Expires: 90;refresher=uac
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Content-Disposition: session
+Content-Type: application/sdp
+Supported: timer, 100rel
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 104
+
+v=0
+o=- 1532363709 1532363709 IN IP4 10.4.4.197
+s=Dolby Voice
+c=IN IP4 127.0.0.1
+t=0 0
+a=sendrecv
+Jul 23 09:35:09:434822 -0700 INFO _ msmlcontroller-tsip rcall (control) Session established w/ peer on SipResp: 200 tid=ea88c21a91141505 cseq=1 INVITE contact=10.4.4.197:5080 / 1 from(wire)
+Jul 23 09:35:09:436979 -0700 INFO BJ::ZooKeeper msmlcontroller-901 BJ::ZooKeeper Connected to ZooKeeper
+Jul 23 09:35:09:438331 -0700 INFO _ msmlcontroller-tmain Resource Connecting to MC at tcp://10.4.6.31:40541
+Jul 23 09:35:09:438799 -0700 INFO _ msmlcontroller-tmain Resource Requesting mixer properties for 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:09:472322 -0700 INFO _ msmlcontroller-tmain Resource Update: AudioAlert = 0
+Jul 23 09:35:09:472338 -0700 INFO _ msmlcontroller-tmain Resource Update: AudioDefaultRemoteMute = 0
+Jul 23 09:35:09:472343 -0700 INFO _ msmlcontroller-tmain Resource Update: AudioParticipantCount = 0
+Jul 23 09:35:09:472348 -0700 INFO _ msmlcontroller-tmain Resource Update: CompositorImageName = wallpaper.jpg
+Jul 23 09:35:09:472353 -0700 INFO _ msmlcontroller-tmain Resource Update: DefaultLayout = 5
+Jul 23 09:35:09:472357 -0700 INFO _ msmlcontroller-tmain Resource Update: FacebookLive = 0
+Jul 23 09:35:09:472361 -0700 INFO _ msmlcontroller-tmain Resource Update: H323Hostname = 10.4.6.31
+Jul 23 09:35:09:472365 -0700 INFO _ msmlcontroller-tmain Resource Update: H323IP = bluejeans.com
+Jul 23 09:35:09:472369 -0700 INFO _ msmlcontroller-tmain Resource Update: LeaderCompany = BlueJeans
+Jul 23 09:35:09:472374 -0700 INFO _ msmlcontroller-tmain Resource Update: LeaderName = Garvit Gupta
+Jul 23 09:35:09:472379 -0700 INFO _ msmlcontroller-tmain Resource Update: LeaderTitle = 
+Jul 23 09:35:09:472384 -0700 INFO _ msmlcontroller-tmain Resource Update: Master = 0
+Jul 23 09:35:09:472389 -0700 INFO _ msmlcontroller-tmain Resource Update: MeetingTitle = Garvit's Meeting
+Jul 23 09:35:09:472393 -0700 INFO _ msmlcontroller-tmain Resource Update: ModeratorAudioDefaultRemoteMute = 0
+Jul 23 09:35:09:472398 -0700 INFO _ msmlcontroller-tmain Resource Update: ModeratorLess = 0
+Jul 23 09:35:09:472403 -0700 INFO _ msmlcontroller-tmain Resource Update: ModeratorPasscode = 0000
+Jul 23 09:35:09:472408 -0700 INFO _ msmlcontroller-tmain Resource Update: ModeratorVideoDefaultRemoteMute = 0
+Jul 23 09:35:09:472413 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNModeratorPasscode = 0000
+Jul 23 09:35:09:472418 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNNumber = +1.408.757.0979
+Jul 23 09:35:09:472423 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNNumber2 = +1.408.757.0001
+Jul 23 09:35:09:472427 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNNumber2Tollfree = 0
+Jul 23 09:35:09:472432 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNNumberTollfree = 0
+Jul 23 09:35:09:472443 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNNumbers = [{u'city': None, u'premium': False, u'default': True, u'country': u'US', u'number': u'+1.408.757.0979', u'custom': False, u'countryName': u'United States', u'state': None, u'tollfree': False, u'defaultSettingsInherited': True, u'label': None, u'id': 69, u'sortOrder': 0}, {u'city': None, u'premium': False, u'default': True, u'country': u'US', u'number': u'+1.408.757.0001', u'custom': False, u'countryName': u'United States', u'state': None, u'tollfree': False, u'defaultSettingsInherited': True, u'label': {u'default': u'Alternate number'}, u'id': 71, u'sortOrder': 0}]
+Jul 23 09:35:09:472448 -0700 INFO _ msmlcontroller-tmain Resource Update: PSTNParticipantPasscode = 
+Jul 23 09:35:09:472452 -0700 INFO _ msmlcontroller-tmain Resource Update: ParticipantPasscode = 
+Jul 23 09:35:09:472457 -0700 INFO _ msmlcontroller-tmain Resource Update: PreAllocate = 1
+Jul 23 09:35:09:472462 -0700 INFO _ msmlcontroller-tmain Resource Update: ProfilePicture = default
+Jul 23 09:35:09:472465 -0700 INFO _ msmlcontroller-tmain Resource Update: QuietMode = 0
+Jul 23 09:35:09:472469 -0700 INFO _ msmlcontroller-tmain Resource Update: Recording = 0
+Jul 23 09:35:09:472472 -0700 INFO _ msmlcontroller-tmain Resource Update: RosterRefreshInterval = 1500
+Jul 23 09:35:09:472477 -0700 INFO _ msmlcontroller-tmain Resource Update: ShowUnencryptedWarning = 0
+Jul 23 09:35:09:472482 -0700 INFO _ msmlcontroller-tmain Resource Update: StartupLayout = WaitingRoom
+Jul 23 09:35:09:472486 -0700 INFO _ msmlcontroller-tmain Resource Update: TopPanelVisibility = 1
+Jul 23 09:35:09:472490 -0700 INFO _ msmlcontroller-tmain Resource Update: UserFeatures:html_waiting_room = 1
+Jul 23 09:35:09:472496 -0700 INFO _ msmlcontroller-tmain Resource Update: VideoAnimation = 0
+Jul 23 09:35:09:472501 -0700 INFO _ msmlcontroller-tmain Resource Update: VideoBestFit = 0
+Jul 23 09:35:09:472505 -0700 INFO _ msmlcontroller-tmain Resource Update: VideoDefaultRemoteMute = 0
+Jul 23 09:35:09:472509 -0700 INFO _ msmlcontroller-tmain Resource Update: VideoParticipantCount = 0
+Jul 23 09:35:09:472514 -0700 INFO _ msmlcontroller-tmain Resource Update: VideoPresentationParticipantCount = 0
+Jul 23 09:35:09:472519 -0700 INFO _ msmlcontroller-tmain Resource Update: WaitingRoom = 1
+Jul 23 09:35:09:472523 -0700 INFO _ msmlcontroller-tmain Resource Update: WaitingRoomEnabled = 1
+Jul 23 09:35:09:472528 -0700 INFO _ msmlcontroller-tmain Resource Update: WebURL = bluejeans.com/garvit
+Jul 23 09:35:09:472532 -0700 INFO _ msmlcontroller-tmain Resource Update: WelcomeMessage = Welcome to Garvit's meeting room
+Jul 23 09:35:09:472537 -0700 INFO _ msmlcontroller-tmain Resource Update: YoutubeLive = 0
+Jul 23 09:35:09:472541 -0700 INFO _ msmlcontroller-tmain Resource Update: all_pstn_numbers_url = http://bluejeans.com/numbers
+Jul 23 09:35:09:472546 -0700 INFO _ msmlcontroller-tmain Resource Update: meetingid = 999999999
+Jul 23 09:35:09:472551 -0700 INFO _ msmlcontroller-tmain Resource Update: partner = None
+Jul 23 09:35:09:472555 -0700 INFO _ msmlcontroller-tmain Resource Update: pstn_allow_direct_dial = 1
+Jul 23 09:35:09:472560 -0700 INFO _ msmlcontroller-tmain Resource Update: pstn_meetingid = 999999999
+Jul 23 09:35:09:472563 -0700 INFO _ msmlcontroller-tmain Resource Update: self_recording_timeout = 10800
+Jul 23 09:35:09:472658 -0700 INFO _ msmlcontroller-tmain msmlsrv Running main asio loop
+Jul 23 09:35:09:472676 -0700 INFO DNMLIB msmlcontroller-tmain DNMLIB Starting NM connection
+Jul 23 09:35:09:472694 -0700 INFO DNMLIB msmlcontroller-tmain DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 23 09:35:09:472850 -0700 INFO _ msmlcontroller-tmain msmlsrv Call manager initialized
+Jul 23 09:35:09:472937 -0700 INFO _ msmlcontroller-tmain msmlsrv Listening for mh.proto commands on tcp://10.4.4.197:42459
+Jul 23 09:35:09:472969 -0700 INFO _ msmlcontroller-tmain msmlsrv Listening for roster.proto commands on tcp://10.4.4.197:35821
+Jul 23 09:35:09:474840 -0700 INFO _ msmlcontroller-tmain msmlsrv Issuing MSML to create the conference
+Jul 23 09:35:09:474956 -0700 INFO _ msmlcontroller-tsip ctrlcall Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <createconference name="999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M" deletewhen="nocontrol" term="true">
+    <audiomix>
+      <n-loudest n="4"/>
+      <asn ri="500ms"/>
+      <howl ri="1s"/>
+    </audiomix>
+  </createconference>
+</msml>
+Jul 23 09:35:09:476580 -0700 INFO _ msmlcontroller-tmain msmlsrv Received response to conf creation: <?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+Jul 23 09:35:09:661739 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36046
+Jul 23 09:35:09:661825 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36046] roster openAudioMixerSession request from [tcp://10.4.4.197:36046]
+Jul 23 09:35:11:026147 -0700 INFO _ msmlcontroller-tmain msmlsrv New session from tcp://10.4.4.197:36132
+Jul 23 09:35:11:026275 -0700 INFO _ msmlcontroller-tmain mhsess 0x2b16ef0: Starting client
+Jul 23 09:35:11:026483 -0700 INFO _ msmlcontroller-tmain mhclient 0x2b16ef0 Connected to mhmgr at tcp://10.4.4.197:5656
+Jul 23 09:35:11:026666 -0700 INFO _ msmlcontroller-tmain mhsess 0x2b16ef0: Session request: OpenSession
+Jul 23 09:35:11:026758 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Incoming properties:
+Jul 23 09:35:11:026766 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioRecvLocalMute = 0
+Jul 23 09:35:11:026770 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   BJNUserId = uid:uid:21
+Jul 23 09:35:11:026778 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   ContentRecvLocalMute = 0
+Jul 23 09:35:11:026782 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   CountryCode = <Unknown>
+Jul 23 09:35:11:026787 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   EndpointAddressFamily = IPv4
+Jul 23 09:35:11:026793 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   Leader = 1
+Jul 23 09:35:11:026798 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   MeetingGuid = 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:11:026803 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   MixerGuid = 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0
+Jul 23 09:35:11:026808 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   SecureCall = 1
+Jul 23 09:35:11:026812 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   TalkDetected = 0
+Jul 23 09:35:11:026816 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRecvLocalMute = 0
+Jul 23 09:35:11:026820 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   callguid = eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:026826 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   conaddress = 10.4.4.197
+Jul 23 09:35:11:026830 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   endpoint = WebRTC
+Jul 23 09:35:11:026834 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   localName = 999999999
+Jul 23 09:35:11:026839 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   locales = bjn:en-us,bjn:de,bjn:es,bjn:fr
+Jul 23 09:35:11:026844 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   meetingid = 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0
+Jul 23 09:35:11:026848 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   name = Garvit Gupta
+Jul 23 09:35:11:026853 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   pairedname = Garvit Gupta
+Jul 23 09:35:11:026857 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   pairedremoteaddress = 10.4.13.50
+Jul 23 09:35:11:026861 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   sessionid = eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:026867 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   vendor = BlueJeans
+Jul 23 09:35:11:026873 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   version = 1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]
+Jul 23 09:35:11:026944 -0700 NOTICE _ msmlcontroller-tmain mhsess (eec54cc1) Open session -- callGuid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:027172 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Enqueuing local mute request = false for callguid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:027195 -0700 INFO STATS msmlcontroller-tmain STATS Start pushing stats for tag: meet:999999999 callID: <eec54cc1-6f90-41ff-8e2c-524115cd2bef>
+Jul 23 09:35:11:027280 -0700 INFO STATS msmlcontroller-tmain STATS Starting stats for: Channel_AI <> registered = false
+Jul 23 09:35:11:027394 -0700 INFO STATS msmlcontroller-tmain STATS Starting stats for: Channel_AO <> registered = false
+Jul 23 09:35:11:030978 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36082
+Jul 23 09:35:11:031049 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36082] roster 0x2b24900: Session notif: EndpointUpdate
+Jul 23 09:35:11:031459 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36084
+Jul 23 09:35:11:031509 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36084] roster Remote mute msg. Mute: false for callguid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:031519 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36084] session (eec54cc1) Enqueuing remote mute request = false for callguid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:031616 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:11:031624 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioCapID = Default - Microphone (Logitech Webcam C930e) (046d:0843)
+Jul 23 09:35:11:031629 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioPlayID = Default - Speakers / Headphones (Realtek Audio)
+Jul 23 09:35:11:031633 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoCapID = Logitech Webcam C930e (046d:0843)
+Jul 23 09:35:11:116220 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: CreateRtpChannel
+Jul 23 09:35:11:116235 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Create rtp channel request for callguid:eec54cc1-6f90-41ff-8e2c-524115cd2bef chanID: 65535 reuseaddr: false pairable: true
+Jul 23 09:35:11:116242 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Has media guid -- 00000000-0000-0000-0000-000000000000
+Jul 23 09:35:11:116247 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) (Ignored) RED description present.  pt: 0 distance: 0
+Jul 23 09:35:11:116253 -0700 INFO _ msmlcontroller-tmain mhsess Direction: 0  Src=10.4.4.197:0
+Jul 23 09:35:11:116258 -0700 INFO _ msmlcontroller-tmain mhsess Destcount: 1 10.4.4.197:45926
+Jul 23 09:35:11:116265 -0700 INFO _ msmlcontroller-tmain mhcodec Have 2 codecs:
+Jul 23 09:35:11:116276 -0700 INFO _ msmlcontroller-tmain mhcodec   PT 111: opus/48000/2 (Opus)
+Jul 23 09:35:11:116284 -0700 INFO _ msmlcontroller-tmain mhcodec Skipping rest of codec list as DVCS won't do multicodec with Opus in offer
+Jul 23 09:35:11:116290 -0700 INFO _ msmlcontroller-tmain mhcodec audChan.rtptelephoneeventpayload = 126
+Jul 23 09:35:11:116296 -0700 INFO _ msmlcontroller-tmain mhcodec For this internal client, we'll prune to just one codec (and no dtmf)
+Jul 23 09:35:11:116380 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) In place inbound call
+Jul 23 09:35:11:116475 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Generated sdp:
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=-
+c=IN IP4 10.4.4.197
+t=0 0
+m=audio 45926 RTP/AVP 111
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 maxplaybackrate=24000; stereo=1
+a=sendrecv
+Jul 23 09:35:11:116805 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Outgoing SIP invite (some transport details are TBD):
+INVITE sip:dvcs@10.4.4.197:5080 SIP/2.0
+Via: SIP/2.0/ ;branch=z9hG4bK-524287-1---ff64d64b9249d72e;rport
+Max-Forwards: 70
+Contact: <sip:eec54cc1-6f90-41ff-8e2c-524115cd2bef>
+To: <sip:dvcs@10.4.4.197:5080>
+From: <sip:eec54cc1-6f90-41ff-8e2c-524115cd2bef@10.4.4.197>;tag=cf809331
+Call-ID: eec54cc1-6f90-41ff-8e2c-524115cd2bef@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M:gS-3GNBv
+CSeq: 1 INVITE
+Session-Expires: 90
+Min-SE: 90
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, UPDATE, INFO
+Content-Type: application/sdp
+Supported: timer
+Content-Length: 278
+
+v=0
+o=- 0 0 IN IP4 10.4.4.197
+s=-
+i=eec54cc1-6f90-41ff-8e2c-524115cd2bef@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M
+c=IN IP4 10.4.4.197
+t=0 0
+m=audio 45926 RTP/AVP 111
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 maxplaybackrate=24000; stereo=1
+a=sendrecv
+Jul 23 09:35:11:144336 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:2747) Transition UAC_Start -> InviteSession::Connected
+Jul 23 09:35:11:144432 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:3091) Sending SipReq:  ACK 10.4.4.197:5080 tid=09fdc764753c1b4e cseq=1 ACK contact=eec54cc1-6f90-41ff-8e2c-524115cd2bef / 1 from(tu)
+Jul 23 09:35:11:144566 -0700 INFO _ msmlcontroller-tsip rcall (eec54cc1) New session -- type 2: SipResp: 200 tid=f543b96f0c244f5e cseq=1 INVITE contact=10.4.4.197:5080 / 1 from(wire)
+Jul 23 09:35:11:144615 -0700 INFO _ msmlcontroller-tsip rcall (eec54cc1)  Incoming answer:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.4.4.197:62415;branch=z9hG4bK-524287-1---f543b96f0c244f5e;rport
+Require: timer
+Contact: <sip:10.4.4.197:5080>
+To: <sip:dvcs@10.4.4.197:5080>;tag=g1pa4ZUQN9Qvp
+From: <sip:eec54cc1-6f90-41ff-8e2c-524115cd2bef@10.4.4.197>;tag=cf809331
+Call-ID: eec54cc1-6f90-41ff-8e2c-524115cd2bef@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M:gS-3GNBv
+CSeq: 1 INVITE
+Session-Expires: 90;refresher=uac
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Content-Disposition: session
+Content-Type: application/sdp
+Supported: timer, 100rel
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 301
+
+v=0
+o=- 1532363711 1532363711 IN IP4 10.4.4.197
+s=media server session
+i=eec54cc1-6f90-41ff-8e2c-524115cd2bef@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M
+c=IN IP4 10.4.4.197
+t=0 0
+m=audio 40000 RTP/AVP 111
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 useinbandfec=1;sprop-stereo=1
+Jul 23 09:35:11:144687 -0700 INFO _ msmlcontroller-tsip rcall (eec54cc1) Session established w/ peer on SipResp: 200 tid=f543b96f0c244f5e cseq=1 INVITE contact=10.4.4.197:5080 / 1 from(wire)
+Jul 23 09:35:11:144752 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Call established w/ address at 10.4.4.197:40000
+Jul 23 09:35:11:145094 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: StartRtpChannel
+Jul 23 09:35:11:145105 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Start RTP Channel on channel id 7
+Jul 23 09:35:11:145114 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) starting channel: inbound
+Jul 23 09:35:11:145177 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Enqueuing channel mute request = false for callguid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:152931 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session notification: InsertChannelDelay
+Jul 23 09:35:11:152939 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) handleInsertChannelDelay delayMs = 140
+Jul 23 09:35:11:163555 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session notification: InsertChannelDelay
+Jul 23 09:35:11:163569 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) handleInsertChannelDelay delayMs = 140
+Jul 23 09:35:11:166863 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:11:166876 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   remoteaddress = 10.4.13.50
+Jul 23 09:35:11:167500 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:11:167512 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioRecvLocalMute = 1
+Jul 23 09:35:11:167527 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Enqueuing local mute request = true for callguid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:632828 -0700 INFO _ msmlcontroller-tmain msmlsrv New session from tcp://10.4.4.197:36176
+Jul 23 09:35:11:632962 -0700 INFO _ msmlcontroller-tmain mhsess 0x2b292c0: Starting client
+Jul 23 09:35:11:633201 -0700 INFO _ msmlcontroller-tmain mhclient 0x2b292c0 Connected to mhmgr at tcp://10.4.4.197:5656
+Jul 23 09:35:11:633371 -0700 INFO _ msmlcontroller-tmain mhsess 0x2b292c0: Session request: OpenSession
+Jul 23 09:35:11:633470 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Incoming properties:
+Jul 23 09:35:11:633479 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioRecvLocalMute = 0
+Jul 23 09:35:11:633484 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   BJNUserId = uid:uid:21
+Jul 23 09:35:11:633488 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   ContentRecvLocalMute = 0
+Jul 23 09:35:11:633493 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   CountryCode = <Unknown>
+Jul 23 09:35:11:633497 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   EndpointAddressFamily = IPv4
+Jul 23 09:35:11:633507 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   Leader = 1
+Jul 23 09:35:11:633513 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   MeetingGuid = 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:11:633517 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   MixerGuid = 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0
+Jul 23 09:35:11:633521 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   SecureCall = 1
+Jul 23 09:35:11:633525 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   TalkDetected = 0
+Jul 23 09:35:11:633529 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRecvLocalMute = 0
+Jul 23 09:35:11:633534 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   callguid = eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:633539 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   conaddress = 10.4.4.197
+Jul 23 09:35:11:633543 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   endpoint = WebRTC
+Jul 23 09:35:11:633547 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   localName = 999999999
+Jul 23 09:35:11:633551 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   locales = bjn:en-us,bjn:de,bjn:es,bjn:fr
+Jul 23 09:35:11:633555 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   meetingid = 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0
+Jul 23 09:35:11:633559 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   name = Garvit Gupta
+Jul 23 09:35:11:633563 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   pairedname = Garvit Gupta
+Jul 23 09:35:11:633567 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   pairedremoteaddress = 10.4.13.50
+Jul 23 09:35:11:633572 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   sessionid = eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:633576 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   vendor = BlueJeans
+Jul 23 09:35:11:633581 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   version = 1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]
+Jul 23 09:35:11:633647 -0700 NOTICE _ msmlcontroller-tmain mhsess (eead5f71) Open session -- callGuid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:633869 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Enqueuing local mute request = false for callguid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:633881 -0700 INFO STATS msmlcontroller-tmain STATS Start pushing stats for tag: meet:999999999 callID: <eead5f71-e382-40a1-9d32-57a2c6b231c4>
+Jul 23 09:35:11:633919 -0700 INFO STATS msmlcontroller-tmain STATS Starting stats for: Channel_AI <> registered = false
+Jul 23 09:35:11:634000 -0700 INFO STATS msmlcontroller-tmain STATS Starting stats for: Channel_AO <> registered = false
+Jul 23 09:35:11:636626 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36126
+Jul 23 09:35:11:636725 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36126] roster 0x2b35730: Session notif: EndpointUpdate
+Jul 23 09:35:11:637004 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36128
+Jul 23 09:35:11:637107 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36128] roster Remote mute msg. Mute: false for callguid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:637120 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.4.197:36128] session (eead5f71) Enqueuing remote mute request = false for callguid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:638442 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:11:638457 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioCapID = Default - Microphone (Logitech Webcam C930e) (046d:0843)
+Jul 23 09:35:11:638463 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioPlayID = Default - Speakers / Headphones (Realtek Audio)
+Jul 23 09:35:11:638467 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoCapID = Logitech Webcam C930e (046d:0843)
+Jul 23 09:35:11:731252 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: CreateRtpChannel
+Jul 23 09:35:11:731266 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Create rtp channel request for callguid:eead5f71-e382-40a1-9d32-57a2c6b231c4 chanID: 65535 reuseaddr: false pairable: true
+Jul 23 09:35:11:731271 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Has media guid -- 00000000-0000-0000-0000-000000000000
+Jul 23 09:35:11:731276 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) (Ignored) RED description present.  pt: 0 distance: 0
+Jul 23 09:35:11:731281 -0700 INFO _ msmlcontroller-tmain mhsess Direction: 0  Src=10.4.4.197:0
+Jul 23 09:35:11:731285 -0700 INFO _ msmlcontroller-tmain mhsess Destcount: 1 10.4.4.197:57964
+Jul 23 09:35:11:731291 -0700 INFO _ msmlcontroller-tmain mhcodec Have 2 codecs:
+Jul 23 09:35:11:731301 -0700 INFO _ msmlcontroller-tmain mhcodec   PT 111: opus/48000/2 (Opus)
+Jul 23 09:35:11:731307 -0700 INFO _ msmlcontroller-tmain mhcodec Skipping rest of codec list as DVCS won't do multicodec with Opus in offer
+Jul 23 09:35:11:731311 -0700 INFO _ msmlcontroller-tmain mhcodec audChan.rtptelephoneeventpayload = 126
+Jul 23 09:35:11:731316 -0700 INFO _ msmlcontroller-tmain mhcodec For this internal client, we'll prune to just one codec (and no dtmf)
+Jul 23 09:35:11:731395 -0700 INFO _ msmlcontroller-tmain session (eead5f71) In place inbound call
+Jul 23 09:35:11:731451 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Generated sdp:
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=-
+c=IN IP4 10.4.4.197
+t=0 0
+m=audio 57964 RTP/AVP 111
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 maxplaybackrate=24000; stereo=1
+a=sendrecv
+Jul 23 09:35:11:731781 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Outgoing SIP invite (some transport details are TBD):
+INVITE sip:dvcs@10.4.4.197:5080 SIP/2.0
+Via: SIP/2.0/ ;branch=z9hG4bK-524287-1---4b74da374e98360b;rport
+Max-Forwards: 70
+Contact: <sip:eead5f71-e382-40a1-9d32-57a2c6b231c4>
+To: <sip:dvcs@10.4.4.197:5080>
+From: <sip:eead5f71-e382-40a1-9d32-57a2c6b231c4@10.4.4.197>;tag=375e3b33
+Call-ID: eead5f71-e382-40a1-9d32-57a2c6b231c4@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M:4yEDFwQ_
+CSeq: 1 INVITE
+Session-Expires: 90
+Min-SE: 90
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, UPDATE, INFO
+Content-Type: application/sdp
+Supported: timer
+Content-Length: 278
+
+v=0
+o=- 0 0 IN IP4 10.4.4.197
+s=-
+i=eead5f71-e382-40a1-9d32-57a2c6b231c4@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M
+c=IN IP4 10.4.4.197
+t=0 0
+m=audio 57964 RTP/AVP 111
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 maxplaybackrate=24000; stereo=1
+a=sendrecv
+Jul 23 09:35:11:739469 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:2747) Transition UAC_Start -> InviteSession::Connected
+Jul 23 09:35:11:739568 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:3091) Sending SipReq:  ACK 10.4.4.197:5080 tid=40634a63d8a7594e cseq=1 ACK contact=eead5f71-e382-40a1-9d32-57a2c6b231c4 / 1 from(tu)
+Jul 23 09:35:11:739706 -0700 INFO _ msmlcontroller-tsip rcall (eead5f71) New session -- type 2: SipResp: 200 tid=6d2e5c00a379d076 cseq=1 INVITE contact=10.4.4.197:5080 / 1 from(wire)
+Jul 23 09:35:11:739771 -0700 INFO _ msmlcontroller-tsip rcall (eead5f71)  Incoming answer:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.4.4.197:62415;branch=z9hG4bK-524287-1---6d2e5c00a379d076;rport
+Require: timer
+Contact: <sip:10.4.4.197:5080>
+To: <sip:dvcs@10.4.4.197:5080>;tag=Hag35tcUjjeFj
+From: <sip:eead5f71-e382-40a1-9d32-57a2c6b231c4@10.4.4.197>;tag=375e3b33
+Call-ID: eead5f71-e382-40a1-9d32-57a2c6b231c4@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M:4yEDFwQ_
+CSeq: 1 INVITE
+Session-Expires: 90;refresher=uac
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Content-Disposition: session
+Content-Type: application/sdp
+Supported: timer, 100rel
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 301
+
+v=0
+o=- 1532363711 1532363711 IN IP4 10.4.4.197
+s=media server session
+i=eead5f71-e382-40a1-9d32-57a2c6b231c4@999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M
+c=IN IP4 10.4.4.197
+t=0 0
+m=audio 40002 RTP/AVP 111
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 useinbandfec=1;sprop-stereo=1
+Jul 23 09:35:11:739810 -0700 INFO _ msmlcontroller-tsip rcall (eead5f71) Session established w/ peer on SipResp: 200 tid=6d2e5c00a379d076 cseq=1 INVITE contact=10.4.4.197:5080 / 1 from(wire)
+Jul 23 09:35:11:739869 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Call established w/ address at 10.4.4.197:40002
+Jul 23 09:35:11:740101 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: StartRtpChannel
+Jul 23 09:35:11:740117 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Start RTP Channel on channel id 7
+Jul 23 09:35:11:740129 -0700 INFO _ msmlcontroller-tmain session (eead5f71) starting channel: inbound
+Jul 23 09:35:11:740191 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Enqueuing channel mute request = false for callguid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:747675 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session notification: InsertChannelDelay
+Jul 23 09:35:11:747689 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) handleInsertChannelDelay delayMs = 140
+Jul 23 09:35:11:759284 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session notification: InsertChannelDelay
+Jul 23 09:35:11:759298 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) handleInsertChannelDelay delayMs = 140
+Jul 23 09:35:11:762275 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:11:762289 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioRecvLocalMute = 1
+Jul 23 09:35:11:762299 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Enqueuing local mute request = true for callguid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:762465 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:11:762477 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   remoteaddress = 10.4.13.50
+Jul 23 09:35:12:027467 -0700 INFO STATS msmlcontroller-tmain STATS Connecting to statmgr
+Jul 23 09:35:12:027684 -0700 INFO STATS msmlcontroller-tmain STATS Connected to statmgr
+Jul 23 09:35:12:182913 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:12:182931 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioRtcpRelay = True
+Jul 23 09:35:12:182936 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioRtcpTransport = UDP
+Jul 23 09:35:12:182940 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioRtpRelay = True
+Jul 23 09:35:12:182944 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   AudioRtpTransport = UDP
+Jul 23 09:35:12:182948 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   ContentRtcpRelay = True
+Jul 23 09:35:12:182952 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   ContentRtcpTransport = UDP
+Jul 23 09:35:12:182956 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   ContentRtpRelay = True
+Jul 23 09:35:12:182961 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   ContentRtpTransport = UDP
+Jul 23 09:35:12:182967 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   SessionIn = UDP
+Jul 23 09:35:12:182971 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   SessionInRelay = True
+Jul 23 09:35:12:182975 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   SessionOut = UDP
+Jul 23 09:35:12:182978 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   SessionOutRelay = True
+Jul 23 09:35:12:182982 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   SessionRelay = True
+Jul 23 09:35:12:182986 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRtcpRelay = True
+Jul 23 09:35:12:182989 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRtcpTransport = UDP
+Jul 23 09:35:12:182993 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRtpRelay = True
+Jul 23 09:35:12:182997 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRtpTransport = UDP
+Jul 23 09:35:12:183002 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   audio.local.address = 10.4.4.197:8000
+Jul 23 09:35:12:183006 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   audio.local.rtcpAddress = 10.4.4.197:8000
+Jul 23 09:35:12:183010 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   audio.remote.address = 10.4.4.197:20076
+Jul 23 09:35:12:183014 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   audio.remote.rtcpAddress = 10.4.4.197:20076
+Jul 23 09:35:12:183018 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   content.local.address = 10.4.4.197:8000
+Jul 23 09:35:12:183021 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   content.local.rtcpAddress = 10.4.4.197:8000
+Jul 23 09:35:12:183025 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   content.remote.address = 10.4.4.197:20076
+Jul 23 09:35:12:183029 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   content.remote.rtcpAddress = 10.4.4.197:20076
+Jul 23 09:35:12:183033 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   video.local.address = 10.4.4.197:8000
+Jul 23 09:35:12:183037 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   video.local.rtcpAddress = 10.4.4.197:8000
+Jul 23 09:35:12:183041 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   video.remote.address = 10.4.4.197:20076
+Jul 23 09:35:12:183045 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   video.remote.rtcpAddress = 10.4.4.197:20076
+Jul 23 09:35:12:204579 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: CreateRtpChannel
+Jul 23 09:35:12:204619 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Create rtp channel request for callguid:eec54cc1-6f90-41ff-8e2c-524115cd2bef chanID: 65535 reuseaddr: true pairable: true
+Jul 23 09:35:12:204625 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Has media guid -- 00000000-0000-0000-0000-000000000000
+Jul 23 09:35:12:204630 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) (Ignored) RED description present.  pt: 0 distance: 0
+Jul 23 09:35:12:204635 -0700 INFO _ msmlcontroller-tmain mhsess Direction: 1  Src=10.4.4.197:40000
+Jul 23 09:35:12:204639 -0700 INFO _ msmlcontroller-tmain mhsess Destcount: 1 10.4.4.197:45926
+Jul 23 09:35:12:204645 -0700 INFO _ msmlcontroller-tmain mhcodec Have 1 codecs:
+Jul 23 09:35:12:204657 -0700 INFO _ msmlcontroller-tmain mhcodec   PT 111: opus/48000/2 (Opus)
+Jul 23 09:35:12:204664 -0700 INFO _ msmlcontroller-tmain mhcodec audChan.rtptelephoneeventpayload = 101
+Jul 23 09:35:12:204670 -0700 INFO _ msmlcontroller-tmain mhcodec For this internal client, we'll prune to just one codec (and no dtmf)
+Jul 23 09:35:12:204749 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) In place outbound call
+Jul 23 09:35:12:204974 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: StartRtpChannel
+Jul 23 09:35:12:204986 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Start RTP Channel on channel id 8
+Jul 23 09:35:12:204992 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) starting channel: outbound
+Jul 23 09:35:12:223267 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:12:223289 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRecvLocalMute = 1
+Jul 23 09:35:12:232979 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: StopRtpChannel
+Jul 23 09:35:12:232995 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Stopping channel: outbound
+Jul 23 09:35:12:272109 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.6.31:49598
+Jul 23 09:35:12:272211 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49598] roster 0x2b25390: Session notif: MixerUpdate
+Jul 23 09:35:12:272225 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49598] Resource Update: WaitingRoom = 0
+Jul 23 09:35:12:272361 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <join id1="conn:g1pa4ZUQN9Qvp" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="from-id1" dlb:jb_min_latency="140ms" >
+      <gain amt="mute"/>
+    </stream>
+    <stream media="audio" dir="to-id1" >
+      <gain amt="0.000000" dlb:clip_level="0.000000" />
+    </stream>
+  </join>
+</msml>
+Jul 23 09:35:12:272532 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <join id1="conn:Hag35tcUjjeFj" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="from-id1" dlb:jb_min_latency="140ms" >
+      <gain amt="mute"/>
+    </stream>
+    <stream media="audio" dir="to-id1" >
+      <gain amt="-8.000000" dlb:clip_level="-8.000000" />
+    </stream>
+  </join>
+</msml>
+Jul 23 09:35:12:274176 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Successfully joined the conference
+Jul 23 09:35:12:274226 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Successfully joined the conference
+Jul 23 09:35:12:472009 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:12:472025 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   remoteaddress = 10.4.13.50
+Jul 23 09:35:12:634137 -0700 INFO STATS msmlcontroller-tmain STATS Connecting to statmgr
+Jul 23 09:35:12:634389 -0700 INFO STATS msmlcontroller-tmain STATS Connected to statmgr
+Jul 23 09:35:13:440814 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:13:440826 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioRtcpRelay = True
+Jul 23 09:35:13:440830 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioRtcpTransport = UDP
+Jul 23 09:35:13:440833 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioRtpRelay = True
+Jul 23 09:35:13:440836 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   AudioRtpTransport = UDP
+Jul 23 09:35:13:440838 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   ContentRtcpRelay = True
+Jul 23 09:35:13:440841 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   ContentRtcpTransport = UDP
+Jul 23 09:35:13:440846 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   ContentRtpRelay = True
+Jul 23 09:35:13:440860 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   ContentRtpTransport = UDP
+Jul 23 09:35:13:440864 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   SessionIn = UDP
+Jul 23 09:35:13:440867 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   SessionInRelay = True
+Jul 23 09:35:13:440870 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   SessionOut = UDP
+Jul 23 09:35:13:440873 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   SessionOutRelay = True
+Jul 23 09:35:13:440876 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   SessionRelay = True
+Jul 23 09:35:13:440878 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRtcpRelay = True
+Jul 23 09:35:13:440881 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRtcpTransport = UDP
+Jul 23 09:35:13:440885 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRtpRelay = True
+Jul 23 09:35:13:440887 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRtpTransport = UDP
+Jul 23 09:35:13:440890 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   audio.local.address = 10.4.4.197:8001
+Jul 23 09:35:13:440893 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   audio.local.rtcpAddress = 10.4.4.197:8001
+Jul 23 09:35:13:440896 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   audio.remote.address = 10.4.4.197:20320
+Jul 23 09:35:13:440899 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   audio.remote.rtcpAddress = 10.4.4.197:20320
+Jul 23 09:35:13:440902 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   content.local.address = 10.4.4.197:8001
+Jul 23 09:35:13:440905 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   content.local.rtcpAddress = 10.4.4.197:8001
+Jul 23 09:35:13:440908 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   content.remote.address = 10.4.4.197:20320
+Jul 23 09:35:13:440911 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   content.remote.rtcpAddress = 10.4.4.197:20320
+Jul 23 09:35:13:440913 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   video.local.address = 10.4.4.197:8001
+Jul 23 09:35:13:440916 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   video.local.rtcpAddress = 10.4.4.197:8001
+Jul 23 09:35:13:440919 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   video.remote.address = 10.4.4.197:20320
+Jul 23 09:35:13:440922 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   video.remote.rtcpAddress = 10.4.4.197:20320
+Jul 23 09:35:13:456110 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: CreateRtpChannel
+Jul 23 09:35:13:456151 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Create rtp channel request for callguid:eead5f71-e382-40a1-9d32-57a2c6b231c4 chanID: 65535 reuseaddr: true pairable: true
+Jul 23 09:35:13:456156 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Has media guid -- 00000000-0000-0000-0000-000000000000
+Jul 23 09:35:13:456161 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) (Ignored) RED description present.  pt: 0 distance: 0
+Jul 23 09:35:13:456165 -0700 INFO _ msmlcontroller-tmain mhsess Direction: 1  Src=10.4.4.197:40002
+Jul 23 09:35:13:456171 -0700 INFO _ msmlcontroller-tmain mhsess Destcount: 1 10.4.4.197:57964
+Jul 23 09:35:13:456178 -0700 INFO _ msmlcontroller-tmain mhcodec Have 1 codecs:
+Jul 23 09:35:13:456189 -0700 INFO _ msmlcontroller-tmain mhcodec   PT 111: opus/48000/2 (Opus)
+Jul 23 09:35:13:456195 -0700 INFO _ msmlcontroller-tmain mhcodec audChan.rtptelephoneeventpayload = 101
+Jul 23 09:35:13:456200 -0700 INFO _ msmlcontroller-tmain mhcodec For this internal client, we'll prune to just one codec (and no dtmf)
+Jul 23 09:35:13:456277 -0700 INFO _ msmlcontroller-tmain session (eead5f71) In place outbound call
+Jul 23 09:35:13:456453 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: StartRtpChannel
+Jul 23 09:35:13:456463 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Start RTP Channel on channel id 8
+Jul 23 09:35:13:456468 -0700 INFO _ msmlcontroller-tmain session (eead5f71) starting channel: outbound
+Jul 23 09:35:13:456539 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Changing the output gain to  0
+Jul 23 09:35:13:456637 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:Hag35tcUjjeFj" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="to-id1" >
+      <gain amt="0.000000" dlb:clip_level="0.000000" />
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:15:330993 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:15:331007 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRecvLocalMute = 1
+Jul 23 09:35:15:333736 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: StopRtpChannel
+Jul 23 09:35:15:333753 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Stopping channel: outbound
+Jul 23 09:35:15:333896 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:Hag35tcUjjeFj" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="to-id1" >
+      <gain amt="mute"/>
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:15:569553 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:15:569564 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   remoteaddress = 10.4.13.50
+Jul 23 09:35:30:373070 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.6.31:49684
+Jul 23 09:35:30:373202 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49684] roster 0x2b09580: Session request: DisableEndpointMedia
+Jul 23 09:35:30:373213 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49684] roster Disable ep media on eead5f71-e382-40a1-9d32-57a2c6b231c4, incoming: false, outgoing: false
+Jul 23 09:35:30:373285 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49684] session (eead5f71) disableMedia  disableAI = false disableAO = false
+Jul 23 09:35:30:373358 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:Hag35tcUjjeFj" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="to-id1" >
+      <gain amt="0.000000" dlb:clip_level="0.000000" />
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:30:587944 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:30:587961 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   VideoRecvLocalMute = 0
+Jul 23 09:35:30:592170 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: StartRtpChannel
+Jul 23 09:35:30:592186 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Start RTP Channel on channel id 8
+Jul 23 09:35:30:592196 -0700 INFO _ msmlcontroller-tmain session (eead5f71) starting channel: outbound
+Jul 23 09:35:30:592280 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Changing the output gain to  0
+Jul 23 09:35:30:592352 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:Hag35tcUjjeFj" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="to-id1" >
+      <gain amt="0.000000" dlb:clip_level="0.000000" />
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:30:706308 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:35:30:706323 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   remoteaddress = 10.4.13.50
+Jul 23 09:35:31:719989 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.6.31:49710
+Jul 23 09:35:31:720066 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49710] roster 0x2b47170: Session request: DisableEndpointMedia
+Jul 23 09:35:31:720078 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49710] roster Disable ep media on eec54cc1-6f90-41ff-8e2c-524115cd2bef, incoming: false, outgoing: false
+Jul 23 09:35:31:720170 -0700 INFO _ msmlcontroller-tmain [Roster: tcp://10.4.6.31:49710] session (eec54cc1) disableMedia  disableAI = false disableAO = false
+Jul 23 09:35:31:720249 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:g1pa4ZUQN9Qvp" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="to-id1" >
+      <gain amt="0.000000" dlb:clip_level="0.000000" />
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:31:898222 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:31:898242 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   VideoRecvLocalMute = 0
+Jul 23 09:35:31:903039 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: StartRtpChannel
+Jul 23 09:35:31:903053 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Start RTP Channel on channel id 8
+Jul 23 09:35:31:903061 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) starting channel: outbound
+Jul 23 09:35:31:903158 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Changing the output gain to  0
+Jul 23 09:35:31:903262 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:g1pa4ZUQN9Qvp" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="to-id1" >
+      <gain amt="0.000000" dlb:clip_level="0.000000" />
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:31:949337 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:35:31:949347 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   remoteaddress = 10.4.13.50
+Jul 23 09:35:46:757244 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session notification: InsertChannelDelay
+Jul 23 09:35:46:757254 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) handleInsertChannelDelay delayMs = 100
+Jul 23 09:35:46:757360 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:Hag35tcUjjeFj" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="from-id1" dlb:jb_min_latency="100ms" >
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:35:50:088040 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session notification: InsertChannelDelay
+Jul 23 09:35:50:088054 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) handleInsertChannelDelay delayMs = 100
+Jul 23 09:35:50:088160 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:g1pa4ZUQN9Qvp" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="from-id1" dlb:jb_min_latency="100ms" >
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:38:46:659484 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session notification: InsertChannelDelay
+Jul 23 09:38:46:659514 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) handleInsertChannelDelay delayMs = 120
+Jul 23 09:38:46:659600 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Issuing MSML <?xml version="1.0"?>
+<msml version="1.1">
+  <modifystream id1="conn:g1pa4ZUQN9Qvp" id2="conf:999999999.330022-ed5ed3ae-9a14-487b-af8a-99a748c2face.6llVEX8M">
+    <stream media="audio" dir="from-id1" dlb:jb_min_latency="120ms" >
+    </stream>
+  </modifystream>
+</msml>
+Jul 23 09:38:47:738680 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) Properties update:
+Jul 23 09:38:47:738692 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71)   DisconnectReason = NormalRemoteDisconnect:("User Action")
+Jul 23 09:38:47:884942 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: DestroyRtpChannel
+Jul 23 09:38:47:884957 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) DestroyRtpChannel on channel ID: 8
+Jul 23 09:38:47:926997 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) 0x2b292c0: Session request: DestroyRtpChannel
+Jul 23 09:38:47:927012 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) DestroyRtpChannel on channel ID: 7
+Jul 23 09:38:47:927018 -0700 INFO _ msmlcontroller-tmain session (eead5f71) Hanging up the call
+Jul 23 09:38:47:927130 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (ClientInviteSession.cxx:210) InviteSession::Connected: end
+Jul 23 09:38:47:927201 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:3114) <sip:eead5f71-e382-40a1-9d32-57a2c6b231c4@10.4.4.197>;tag=375e3b33 Sending BYE 
+Jul 23 09:38:47:927285 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:2747) Transition InviteSession::Connected -> InviteSession::Terminated
+Jul 23 09:38:47:927299 -0700 INFO _ msmlcontroller-tsip partcall (eead5f71) Participant call for eead5f71-e382-40a1-9d32-57a2c6b231c4 terminated due to: Local hangup
+Jul 23 09:38:47:927323 -0700 INFO _ msmlcontroller-tmain acall Removing participant eead5f71-e382-40a1-9d32-57a2c6b231c4 and associated connId conn:Hag35tcUjjeFj
+Jul 23 09:38:47:927334 -0700 INFO _ msmlcontroller-tmain partcall (eead5f71) Destroyed participant call
+Jul 23 09:38:47:927970 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:1998) InviteSession::dispatchTerminated SipResp: 200 tid=5e325e7a0ffb4615 cseq=228 BYE / 228 from(wire)
+Jul 23 09:38:47:928063 -0700 INFO _ msmlcontroller-tsip rcall (eead5f71) destructing call object
+Jul 23 09:38:47:931371 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) shutdown: eead5f71-e382-40a1-9d32-57a2c6b231c4 reason: 
+Jul 23 09:38:47:931389 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) MHClientSession stopped for callguid eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:38:47:931528 -0700 INFO STATS msmlcontroller-tmain STATS Stop pushing stats
+Jul 23 09:38:47:931591 -0700 INFO _ msmlcontroller-tmain msmlsrv finish MHClient session. erase callguid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:38:47:931608 -0700 INFO _ msmlcontroller-tmain msmlsrv Num clients remaining: 1
+Jul 23 09:38:47:931716 -0700 INFO _ msmlcontroller-tmain mhsess (eead5f71) ~MHClientSession
+Jul 23 09:38:48:633028 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36710
+Jul 23 09:38:51:628174 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) Properties update:
+Jul 23 09:38:51:628192 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1)   DisconnectReason = NormalRemoteDisconnect:("User Action")
+Jul 23 09:38:51:792755 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: DestroyRtpChannel
+Jul 23 09:38:51:792770 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) DestroyRtpChannel on channel ID: 8
+Jul 23 09:38:51:906588 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) 0x2b16ef0: Session request: DestroyRtpChannel
+Jul 23 09:38:51:906602 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) DestroyRtpChannel on channel ID: 7
+Jul 23 09:38:51:906607 -0700 INFO _ msmlcontroller-tmain session (eec54cc1) Hanging up the call
+Jul 23 09:38:51:906682 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (ClientInviteSession.cxx:210) InviteSession::Connected: end
+Jul 23 09:38:51:906757 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:3114) <sip:eec54cc1-6f90-41ff-8e2c-524115cd2bef@10.4.4.197>;tag=cf809331 Sending BYE 
+Jul 23 09:38:51:906833 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:2747) Transition InviteSession::Connected -> InviteSession::Terminated
+Jul 23 09:38:51:906846 -0700 INFO _ msmlcontroller-tsip partcall (eec54cc1) Participant call for eec54cc1-6f90-41ff-8e2c-524115cd2bef terminated due to: Local hangup
+Jul 23 09:38:51:906874 -0700 INFO _ msmlcontroller-tmain acall Removing participant eec54cc1-6f90-41ff-8e2c-524115cd2bef and associated connId conn:g1pa4ZUQN9Qvp
+Jul 23 09:38:51:906886 -0700 INFO _ msmlcontroller-tmain partcall (eec54cc1) Destroyed participant call
+Jul 23 09:38:51:907585 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:1998) InviteSession::dispatchTerminated SipResp: 200 tid=f5406e5487c85b70 cseq=231 BYE / 231 from(wire)
+Jul 23 09:38:51:907675 -0700 INFO _ msmlcontroller-tsip rcall (eec54cc1) destructing call object
+Jul 23 09:38:51:911081 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) shutdown: eec54cc1-6f90-41ff-8e2c-524115cd2bef reason: 
+Jul 23 09:38:51:911098 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) MHClientSession stopped for callguid eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:38:51:911214 -0700 INFO STATS msmlcontroller-tmain STATS Stop pushing stats
+Jul 23 09:38:51:911288 -0700 INFO _ msmlcontroller-tmain msmlsrv finish MHClient session. erase callguid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:38:51:911318 -0700 INFO _ msmlcontroller-tmain msmlsrv No clients are present now.  Will destroy conf in 10s if still no clients
+Jul 23 09:38:51:911456 -0700 INFO _ msmlcontroller-tmain mhsess (eec54cc1) ~MHClientSession
+Jul 23 09:38:52:026704 -0700 INFO _ msmlcontroller-tmain msmlsrv New roster session from tcp://10.4.4.197:36722
+Jul 23 09:39:01:911377 -0700 INFO _ msmlcontroller-tmain msmlsrv No clients are present so shutting down.
+Jul 23 09:39:01:911396 -0700 INFO _ msmlcontroller-tmain msmlsrv Shutting down
+Jul 23 09:39:01:913990 -0700 INFO _ msmlcontroller-tsip callmgr Stopping Call Manager
+Jul 23 09:39:01:914029 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (ClientInviteSession.cxx:210) InviteSession::Connected: end
+Jul 23 09:39:01:914095 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:3114) <sip:control@10.4.4.197>;tag=9beeb977 Sending BYE 
+Jul 23 09:39:01:914163 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:2747) Transition InviteSession::Connected -> InviteSession::Terminated
+Jul 23 09:39:01:914175 -0700 INFO _ msmlcontroller-tsip ctrlcall Control call hungup due to: Local hangup
+Jul 23 09:39:01:914182 -0700 INFO _ msmlcontroller-tsip callmgr Shutting down dum
+Jul 23 09:39:01:914196 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (DialogUsageManager.cxx:270) shutdown: dialogSets=1
+Jul 23 09:39:01:914316 -0700 INFO _ msmlcontroller-898 RESIP:TRANSACTION (TuSelector.cxx:48) TransactionUserMessage::RequestShutdown TU: DialogUsageManager size=0
+Jul 23 09:39:01:914844 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (InviteSession.cxx:1998) InviteSession::dispatchTerminated SipResp: 200 tid=a84efb1a1e827554 cseq=8 BYE / 8 from(wire)
+Jul 23 09:39:01:914912 -0700 INFO _ msmlcontroller-tsip rcall (control) destructing call object
+Jul 23 09:39:01:914929 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (DialogUsageManager.cxx:255) DialogUsageManager::onAllHandlesDestroyed: removing TU
+Jul 23 09:39:01:914973 -0700 INFO _ msmlcontroller-898 RESIP:TRANSACTION (TuSelector.cxx:52) TransactionUserMessage::RemoveTransactionUser TU: DialogUsageManager size=0
+Jul 23 09:39:01:915002 -0700 INFO _ msmlcontroller-tsip RESIP:DUM (DialogUsageManager.cxx:1349) TU unregistered 
+Jul 23 09:39:01:915007 -0700 INFO _ msmlcontroller-tsip callmgr Received OnDumCanBeDeleted, so ready to terminate stack
+Jul 23 09:39:01:915032 -0700 INFO _ msmlcontroller-tmain msmlsrv Call manager has finished.   Ready to cleanup
+Jul 23 09:39:01:915042 -0700 INFO _ msmlcontroller-tmain msmlsrv preDestruct: Clean up
+Jul 23 09:39:01:965290 -0700 NOTICE _ msmlcontroller-tmain RESIP:TRANSACTION (TransactionController.cxx:69) On shutdown, there are Client TransactionStates remaining!
+Jul 23 09:39:01:965728 -0700 INFO _ msmlcontroller-tmain acall These DVCS connection ids are associated with these call guids:
+Jul 23 09:39:01:965740 -0700 INFO _ msmlcontroller-tmain acall   conn:g1pa4ZUQN9Qvp  =  eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:39:01:965746 -0700 INFO _ msmlcontroller-tmain acall   conn:Hag35tcUjjeFj  =  eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:39:01:965875 -0700 INFO DNMLIB msmlcontroller-tmain DNMLIB Stopping NM connection

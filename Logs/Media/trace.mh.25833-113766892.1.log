@@ -1,0 +1,8 @@
+Jul 24 16:52:17:772962 -0700 NOTICE DNMLIB mh-tMain DNMLIB mh - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 19 2018 around 13:25:30
+Jul 24 16:52:17:772973 -0700 NOTICE DNMLIB mh-tMain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 24 16:52:17:777078 -0700 NOTICE MHLogger mh-tCmd MH New Connection from Gupta Garvit;BlueJeans; GUID: 1544282e-2f00-4b9b-a190-1d7ff1e5887c
+Jul 24 16:52:17:861561 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 24 16:52:17:861571 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 24 16:52:17:866298 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 24 16:52:17:866309 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 24 16:53:25:775903 -0700 NOTICE MHLogger mh-tMain MH mh exiting

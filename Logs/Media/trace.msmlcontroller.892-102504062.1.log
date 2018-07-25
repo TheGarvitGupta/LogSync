@@ -1,0 +1,6 @@
+Jul 23 09:35:09:427394 -0700 NOTICE DNMLIB msmlcontroller-tmain DNMLIB msmlcontroller - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 10 2018 around 17:37:52
+Jul 23 09:35:09:427412 -0700 NOTICE DNMLIB msmlcontroller-tmain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 23 09:35:09:427461 -0700 NOTICE _ msmlcontroller-tmain msmlsrv Meeting Guid: 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:11:026944 -0700 NOTICE _ msmlcontroller-tmain mhsess (eec54cc1) Open session -- callGuid: eec54cc1-6f90-41ff-8e2c-524115cd2bef
+Jul 23 09:35:11:633647 -0700 NOTICE _ msmlcontroller-tmain mhsess (eead5f71) Open session -- callGuid: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:39:01:965290 -0700 NOTICE _ msmlcontroller-tmain RESIP:TRANSACTION (TransactionController.cxx:69) On shutdown, there are Client TransactionStates remaining!

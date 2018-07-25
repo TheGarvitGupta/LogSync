@@ -1,0 +1,438 @@
+Jul 20 18:14:46:098257 -0700 NOTICE DNMLIB videomixer-tMain DNMLIB videomixer - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 18 2018 around 15:06:39
+Jul 20 18:14:46:098275 -0700 NOTICE DNMLIB videomixer-tMain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 20 18:14:46:098406 -0700 INFO _ videomixer-tMain 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0 Running on NUMA node: 0
+Jul 20 18:14:46:098412 -0700 NOTICE _ videomixer-tMain 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0 starting
+Jul 20 18:14:46:098487 -0700 INFO DNMLIB videomixer DNMLIB Starting NM connection
+Jul 20 18:14:46:098524 -0700 INFO DNMLIB videomixer DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 20 18:14:46:098586 -0700 INFO _ videomixer-tSubC SubscriptionClient Starting recvUpdates thread
+Jul 20 18:14:46:098594 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:14:46:101165 -0700 INFO BJ::ZooKeeper videomixer-2246 BJ::ZooKeeper Connected to ZooKeeper
+Jul 20 18:14:46:102126 -0700 INFO _ videomixer-tSubC SubscriptionClient Found Audio Mixer and connected to: tcp://10.4.4.197:42199
+Jul 20 18:14:46:102443 -0700 INFO _ videomixer-tSubC SubscriptionClient Subscribed to Audio Mixer updates
+Jul 20 18:14:46:112223 -0700 INFO _ videomixer-tMain LAYOUT Category ivr has 1 layouts
+Jul 20 18:14:46:112258 -0700 INFO _ videomixer-tMain LAYOUT Category video has 6 layouts
+Jul 20 18:14:46:112367 -0700 INFO _ videomixer-tMain LAYOUT Category waiting has 1 layouts
+Jul 20 18:14:46:112373 -0700 INFO _ videomixer-tMain LAYOUT Category pinnedguid has 1 layouts
+Jul 20 18:14:46:112377 -0700 INFO _ videomixer-tMain LAYOUT Category content has 5 layouts
+Jul 20 18:14:46:112393 -0700 INFO _ videomixer-tMain LAYOUT Category mobile has 4 layouts
+Jul 20 18:14:46:116826 -0700 INFO _ videomixer-tMain LAYOUT Category ivr has 1 layouts
+Jul 20 18:14:46:116846 -0700 INFO _ videomixer-tMain LAYOUT Category video has 6 layouts
+Jul 20 18:14:46:116885 -0700 INFO _ videomixer-tMain LAYOUT Category waiting has 1 layouts
+Jul 20 18:14:46:116889 -0700 INFO _ videomixer-tMain LAYOUT Category pinnedguid has 1 layouts
+Jul 20 18:14:46:116892 -0700 INFO _ videomixer-tMain LAYOUT Category content has 5 layouts
+Jul 20 18:14:46:116903 -0700 INFO _ videomixer-tMain LAYOUT Category mobile has 4 layouts
+Jul 20 18:14:46:118033 -0700 INFO _ videomixer-tMain LAYOUT Category ivr has 1 layouts
+Jul 20 18:14:46:118053 -0700 INFO _ videomixer-tMain LAYOUT Category video has 6 layouts
+Jul 20 18:14:46:118064 -0700 INFO _ videomixer-tMain LAYOUT Category waiting has 1 layouts
+Jul 20 18:14:46:118068 -0700 INFO _ videomixer-tMain LAYOUT Category pinnedguid has 1 layouts
+Jul 20 18:14:46:118072 -0700 INFO _ videomixer-tMain LAYOUT Category mobile has 4 layouts
+Jul 20 18:14:46:132498 -0700 INFO _ videomixer-tMain FONT Loaded font ArialNormal10
+Jul 20 18:14:46:138885 -0700 INFO _ videomixer-tMain FONT Loaded font ArialNormal15
+Jul 20 18:14:46:145177 -0700 INFO _ videomixer-tMain FONT Loaded font ArialNormal20
+Jul 20 18:14:46:151841 -0700 INFO _ videomixer-tMain FONT Loaded font ArialNormal30
+Jul 20 18:14:46:158817 -0700 INFO _ videomixer-tMain FONT Loaded font ArialNormal40
+Jul 20 18:14:46:166534 -0700 INFO _ videomixer-tMain FONT Loaded font ArialNormal50
+Jul 20 18:14:46:174865 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtNormal10
+Jul 20 18:14:46:177481 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtBold10
+Jul 20 18:14:46:180377 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtNormal15
+Jul 20 18:14:46:183190 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtBold15
+Jul 20 18:14:46:186227 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtNormal20
+Jul 20 18:14:46:189239 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtBold20
+Jul 20 18:14:46:192393 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtNormal30
+Jul 20 18:14:46:195778 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtBold30
+Jul 20 18:14:46:199564 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtNormal40
+Jul 20 18:14:46:203384 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtBold40
+Jul 20 18:14:46:207571 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtNormal50
+Jul 20 18:14:46:211636 -0700 INFO _ videomixer-tMain FONT Loaded font ProximaNovaLtBold50
+Jul 20 18:14:46:211872 -0700 INFO _ videomixer-tMain Resource Locating MC
+Jul 20 18:14:46:212690 -0700 INFO _ videomixer-tMain Resource Connecting to MC at tcp://10.4.6.31:40541
+Jul 20 18:14:46:213010 -0700 INFO _ videomixer-tMain Resource Requesting mixer properties for 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0
+Jul 20 18:14:46:235810 -0700 INFO _ videomixer-tMain Resource Update: AudioAlert = 0
+Jul 20 18:14:46:235842 -0700 INFO _ videomixer-tMain Resource Update: AudioDefaultRemoteMute = 0
+Jul 20 18:14:46:235864 -0700 INFO _ videomixer-tMain MuteManager Default state for type=0, is updated mute=0
+Jul 20 18:14:46:235874 -0700 INFO _ videomixer-tMain Resource Update: AudioParticipantCount = 0
+Jul 20 18:14:46:235888 -0700 INFO _ videomixer-tMain Resource Update: CompositorImageName = wallpaper.jpg
+Jul 20 18:14:46:235898 -0700 INFO _ videomixer-tMain Resource Update: DefaultLayout = 5
+Jul 20 18:14:46:235915 -0700 WARNING _ videomixer-tMain Resources Invalid default video layout submode value 5, defaulting to continuous presence
+Jul 20 18:14:46:235924 -0700 INFO _ videomixer-tMain Resource Update: FacebookLive = 0
+Jul 20 18:14:46:235937 -0700 INFO _ videomixer-tMain SMStreamingMgr Streaming FacebookLive, started: 0
+Jul 20 18:14:46:235946 -0700 INFO _ videomixer-tMain Resource Update: H323Hostname = 10.4.6.31
+Jul 20 18:14:46:235956 -0700 INFO _ videomixer-tMain Resource Update: H323IP = bluejeans.com
+Jul 20 18:14:46:235968 -0700 INFO _ videomixer-tMain Resource Update: LeaderCompany = BlueJeans
+Jul 20 18:14:46:235978 -0700 INFO _ videomixer-tMain Resource Update: LeaderName = Garvit Gupta
+Jul 20 18:14:46:235988 -0700 INFO _ videomixer-tMain Resource Update: LeaderTitle = 
+Jul 20 18:14:46:235999 -0700 INFO _ videomixer-tMain Resource Update: Master = 1
+Jul 20 18:14:46:236009 -0700 INFO _ videomixer-tMain Resource Update: MeetingTitle = Garvit's Meeting
+Jul 20 18:14:46:236020 -0700 INFO _ videomixer-tMain Resource Update: ModeratorAudioDefaultRemoteMute = 0
+Jul 20 18:14:46:236031 -0700 INFO _ videomixer-tMain Resource Update: ModeratorLess = 0
+Jul 20 18:14:46:236041 -0700 INFO _ videomixer-tMain Resource Update: ModeratorPasscode = 0000
+Jul 20 18:14:46:236052 -0700 INFO _ videomixer-tMain Resource Update: ModeratorVideoDefaultRemoteMute = 0
+Jul 20 18:14:46:236065 -0700 INFO _ videomixer-tMain Resource Update: PSTNModeratorPasscode = 0000
+Jul 20 18:14:46:236076 -0700 INFO _ videomixer-tMain Resource Update: PSTNNumber = +1.408.757.0979
+Jul 20 18:14:46:236086 -0700 INFO _ videomixer-tMain Resource Update: PSTNNumber2 = +1.408.757.0001
+Jul 20 18:14:46:236096 -0700 INFO _ videomixer-tMain Resource Update: PSTNNumber2Tollfree = 0
+Jul 20 18:14:46:236106 -0700 INFO _ videomixer-tMain Resource Update: PSTNNumberTollfree = 0
+Jul 20 18:14:46:236119 -0700 INFO _ videomixer-tMain Resource Update: PSTNNumbers = [{u'city': None, u'premium': False, u'default': True, u'country': u'US', u'number': u'+1.408.757.0979', u'custom': False, u'countryName': u'United States', u'state': None, u'tollfree': False, u'defaultSettingsInherited': True, u'label': None, u'id': 69, u'sortOrder': 0}, {u'city': None, u'premium': False, u'default': True, u'country': u'US', u'number': u'+1.408.757.0001', u'custom': False, u'countryName': u'United States', u'state': None, u'tollfree': False, u'defaultSettingsInherited': True, u'label': {u'default': u'Alternate number'}, u'id': 71, u'sortOrder': 0}]
+Jul 20 18:14:46:236135 -0700 INFO _ videomixer-tMain Resource Update: PSTNParticipantPasscode = 
+Jul 20 18:14:46:236145 -0700 INFO _ videomixer-tMain Resource Update: ParticipantPasscode = 
+Jul 20 18:14:46:236155 -0700 INFO _ videomixer-tMain Resource Update: PreAllocate = 1
+Jul 20 18:14:46:236167 -0700 INFO _ videomixer-tMain mediaCapacity alloc resource by type. Type: MixerPreAlloc, Value: 268
+Jul 20 18:14:46:236189 -0700 INFO _ videomixer-tMain Resource Update: ProfilePicture = default
+Jul 20 18:14:46:236199 -0700 INFO _ videomixer-tMain Resource Update: QuietMode = 0
+Jul 20 18:14:46:236209 -0700 INFO _ videomixer-tMain Resource Update: Recording = 0
+Jul 20 18:14:46:236218 -0700 INFO _ videomixer-tMain RecordingMgr Recording Indication, started: 0
+Jul 20 18:14:46:236226 -0700 INFO _ videomixer-tMain Resource Update: RosterRefreshInterval = 1500
+Jul 20 18:14:46:236236 -0700 INFO _ videomixer-tMain Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:14:46:236248 -0700 INFO _ videomixer-tMain Resource Update: StartupLayout = WaitingRoom
+Jul 20 18:14:46:236258 -0700 INFO _ videomixer-tMain LayoutManager Changed default layout: layout=0, submode=100
+Jul 20 18:14:46:236267 -0700 INFO _ videomixer-tMain Resource Update: TopPanelVisibility = 1
+Jul 20 18:14:46:236277 -0700 INFO _ videomixer-tMain Resource Update: UserFeatures:html_waiting_room = 1
+Jul 20 18:14:46:236293 -0700 INFO _ videomixer-tMain Resource Update: VideoAnimation = 0
+Jul 20 18:14:46:236303 -0700 INFO _ videomixer-tMain Resources Video animation now set to 0
+Jul 20 18:14:46:236311 -0700 INFO _ videomixer-tMain Resource Update: VideoBestFit = 0
+Jul 20 18:14:46:236321 -0700 INFO _ videomixer-tMain Resources Video bestfit now set to 0
+Jul 20 18:14:46:236328 -0700 INFO _ videomixer-tMain Resource Update: VideoDefaultRemoteMute = 0
+Jul 20 18:14:46:236343 -0700 INFO _ videomixer-tMain MuteManager Default state for type=1, is updated mute=0
+Jul 20 18:14:46:236353 -0700 INFO _ videomixer-tMain Resource Update: VideoParticipantCount = 0
+Jul 20 18:14:46:236364 -0700 INFO _ videomixer-tMain Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:14:46:236374 -0700 INFO _ videomixer-tMain Resource Update: WaitingRoom = 1
+Jul 20 18:14:46:236384 -0700 INFO _ videomixer-tMain LayoutManager Changed default layout: layout=0, submode=100
+Jul 20 18:14:46:236393 -0700 INFO _ videomixer-tMain Resource Update: WaitingRoomEnabled = 1
+Jul 20 18:14:46:236402 -0700 INFO _ videomixer-tMain Resource Update: WebURL = bluejeans.com/garvit
+Jul 20 18:14:46:236413 -0700 INFO _ videomixer-tMain Resource Update: WelcomeMessage = Welcome to Garvit's meeting room
+Jul 20 18:14:46:236424 -0700 INFO _ videomixer-tMain Resource Update: YoutubeLive = 0
+Jul 20 18:14:46:236434 -0700 INFO _ videomixer-tMain SMStreamingMgr Streaming YoutubeLive, started: 0
+Jul 20 18:14:46:236443 -0700 INFO _ videomixer-tMain Resource Update: all_pstn_numbers_url = http://bluejeans.com/numbers
+Jul 20 18:14:46:236453 -0700 INFO _ videomixer-tMain Resource Update: meetingid = 999999999
+Jul 20 18:14:46:236464 -0700 INFO _ videomixer-tMain Resource Update: partner = None
+Jul 20 18:14:46:236474 -0700 INFO _ videomixer-tMain Resource Update: pstn_allow_direct_dial = 1
+Jul 20 18:14:46:236484 -0700 INFO _ videomixer-tMain Resource Update: pstn_meetingid = 999999999
+Jul 20 18:14:46:236494 -0700 INFO _ videomixer-tMain Resource Update: self_recording_timeout = 10800
+Jul 20 18:14:46:236726 -0700 INFO _ videomixer-tMain Acceptor Starting
+Jul 20 18:14:46:553852 -0700 INFO _ videomixer-tMain mediaCapacity free resource by type. Type: MixerMemberDeAlloc, Value: 67
+Jul 20 18:14:46:553885 -0700 INFO _ videomixer-tMain Acceptor Accepted first member
+Jul 20 18:14:46:554167 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Locales set to bjn:en-us,bjn:de,bjn:es,bjn:fr
+Jul 20 18:14:46:554195 -0700 NOTICE _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New member: Garvit Gupta
+Jul 20 18:14:46:554367 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Bad Mobile Version 1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]contains non-numbers assuming it to be 1.0
+Jul 20 18:14:46:554510 -0700 INFO _ videomixer MuteManager new member: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b
+Jul 20 18:14:46:554524 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b audio=0
+Jul 20 18:14:46:554541 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b video=0
+Jul 20 18:14:46:554582 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b content=0
+Jul 20 18:14:46:554593 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Changing layout to waiting
+Jul 20 18:14:46:554617 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing layout as WAITINGROOM
+Jul 20 18:14:46:554681 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b run loop starting
+Jul 20 18:14:46:554786 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Update User Features received
+Jul 20 18:14:46:554930 -0700 INFO _ videomixer Resource updateUserFeatures with size  = 150
+Jul 20 18:14:46:691541 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131073
+Jul 20 18:14:46:691724 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 1
+Jul 20 18:14:46:692009 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:14:46:702236 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131074
+Jul 20 18:14:46:702324 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 0
+Jul 20 18:14:46:702516 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:14:46:892591 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Closing Video Input channel 131073
+Jul 20 18:14:46:898566 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131075
+Jul 20 18:14:46:900051 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 1
+Jul 20 18:14:46:900191 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:14:47:112817 -0700 INFO _ videomixer-tMC MCManager Connected to conference MC at tcp://10.4.6.31:43430
+Jul 20 18:14:47:220378 -0700 INFO _ videomixer Client tcp://10.4.6.31:40674: command 14
+Jul 20 18:14:47:220404 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:14:47:566174 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 0 ms to 140 ms
+Jul 20 18:14:54:146914 -0700 INFO _ videomixer-tMain mediaCapacity free resource by type. Type: MixerMemberDeAlloc, Value: 67
+Jul 20 18:14:54:147146 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Locales set to bjn:en-us,bjn:de,bjn:es,bjn:fr
+Jul 20 18:14:54:147166 -0700 NOTICE _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d New member: Garvit Gupta
+Jul 20 18:14:54:147268 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Bad Mobile Version 1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]contains non-numbers assuming it to be 1.0
+Jul 20 18:14:54:147394 -0700 INFO _ videomixer MuteManager new member: uuid=ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d
+Jul 20 18:14:54:147406 -0700 INFO _ videomixer MuteManager member set: uuid=ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d audio=0
+Jul 20 18:14:54:147421 -0700 INFO _ videomixer MuteManager member set: uuid=ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d video=0
+Jul 20 18:14:54:147458 -0700 INFO _ videomixer MuteManager member set: uuid=ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d content=0
+Jul 20 18:14:54:147477 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Changing layout to waiting
+Jul 20 18:14:54:147494 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Publishing layout as WAITINGROOM
+Jul 20 18:14:54:147547 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d run loop starting
+Jul 20 18:14:54:147670 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Update User Features received
+Jul 20 18:14:54:147836 -0700 INFO _ videomixer Resource updateUserFeatures with size  = 150
+Jul 20 18:14:54:265013 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Opened Video Input channel 131073
+Jul 20 18:14:54:265217 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set expirable to 1
+Jul 20 18:14:54:265555 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d New channel quality 5
+Jul 20 18:14:54:275989 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Opened Video Input channel 131074
+Jul 20 18:14:54:276143 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set expirable to 0
+Jul 20 18:14:54:276337 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d New channel quality 5
+Jul 20 18:14:54:463529 -0700 INFO _ videomixer LAYOUT ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Layout is changed to waiting
+Jul 20 18:14:54:463575 -0700 INFO _ videomixer Resources Wallpaper now set to wallpaper.jpg
+Jul 20 18:14:54:463584 -0700 INFO _ videomixer Resources Welcome message now set to Welcome to Garvit's meeting room
+Jul 20 18:14:54:463595 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Opened Video Output channel 196611
+Jul 20 18:14:54:464116 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame size to [(1280,720)-(848,480)] par 1
+Jul 20 18:14:54:464140 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame rate to 30 fps
+Jul 20 18:14:54:464155 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set carryPresentation to 1
+Jul 20 18:14:54:510668 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Selected new output frame size (848,480) (1,1)
+Jul 20 18:14:54:548565 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d New channel quality 5
+Jul 20 18:14:54:608642 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Closing Video Output channel 196611
+Jul 20 18:14:54:644226 -0700 INFO _ videomixer Client tcp://10.4.6.31:40781: command 14
+Jul 20 18:14:54:644251 -0700 INFO _ videomixer Resource Update: WaitingRoom = 0
+Jul 20 18:14:54:644270 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Changing layout to Video (Continuous Presence)
+Jul 20 18:14:54:644302 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing layout as VIDEO
+Jul 20 18:14:54:644323 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing sublayout as CONTINIOUSPRESENCE
+Jul 20 18:14:54:644337 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Changing layout to Video (Continuous Presence)
+Jul 20 18:14:54:644358 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Publishing layout as VIDEO
+Jul 20 18:14:54:644375 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Publishing sublayout as CONTINIOUSPRESENCE
+Jul 20 18:14:54:644383 -0700 INFO _ videomixer LayoutManager Changed default layout: layout=1, submode=6
+Jul 20 18:14:54:705365 -0700 INFO _ videomixer Client tcp://10.4.6.31:40802: command 14
+Jul 20 18:14:54:705382 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 2
+Jul 20 18:14:55:158731 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 0 ms to 140 ms
+Jul 20 18:14:59:141783 -0700 INFO _ videomixer Client tcp://10.4.6.31:40814: command 14
+Jul 20 18:14:59:141814 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 2
+Jul 20 18:14:59:141835 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:14:59:141843 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:14:59:141850 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:15:08:027105 -0700 INFO _ videomixer LAYOUT ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Layout is changed to waiting
+Jul 20 18:15:08:027156 -0700 INFO _ videomixer LAYOUT ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Layout is changed to Video (Continuous Presence)
+Jul 20 18:15:08:027172 -0700 INFO _ videomixer Resources Wallpaper now set to wallpaper.jpg
+Jul 20 18:15:08:027183 -0700 INFO _ videomixer Resources Welcome message now set to Welcome to Garvit's meeting room
+Jul 20 18:15:08:027196 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Opened Video Output channel 196612
+Jul 20 18:15:08:028338 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame size to [(1280,720)-(848,480)] par 1
+Jul 20 18:15:08:028362 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame rate to 30 fps
+Jul 20 18:15:08:028385 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set carryPresentation to 1
+Jul 20 18:15:08:057235 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Input frame size changed: (0,0)(0,0) -> (1280,720)(1,1)
+Jul 20 18:15:08:057250 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Video is being received from endpoint
+Jul 20 18:15:08:060419 -0700 INFO _ videomixer Client tcp://10.4.6.31:40854: command 32
+Jul 20 18:15:08:060441 -0700 INFO _ videomixer Client disableEndpointMedia request. disableInComing: 0, disableOutGoing: 0, guid: ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Type: 1
+Jul 20 18:15:08:090610 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Selected new output frame size (848,480) (1,1)
+Jul 20 18:15:08:116743 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d New channel quality 5
+Jul 20 18:15:08:674739 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame size to (640,360) par 1
+Jul 20 18:15:08:691174 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Selected new output frame size (640,360) (1,1)
+Jul 20 18:15:08:989287 -0700 INFO _ videomixer LAYOUT 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Layout is changed to waiting
+Jul 20 18:15:08:989330 -0700 INFO _ videomixer LAYOUT 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Layout is changed to Video (Continuous Presence)
+Jul 20 18:15:08:989342 -0700 INFO _ videomixer Resources Wallpaper now set to wallpaper.jpg
+Jul 20 18:15:08:989354 -0700 INFO _ videomixer Resources Welcome message now set to Welcome to Garvit's meeting room
+Jul 20 18:15:08:989366 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Output channel 196612
+Jul 20 18:15:08:989871 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame size to [(1280,720)-(848,480)] par 1
+Jul 20 18:15:08:989899 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame rate to 30 fps
+Jul 20 18:15:08:989925 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set carryPresentation to 1
+Jul 20 18:15:08:991489 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Input frame size changed: (0,0)(0,0) -> (1280,720)(1,1)
+Jul 20 18:15:08:991504 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Video is being received from endpoint
+Jul 20 18:15:09:024444 -0700 INFO _ videomixer Client tcp://10.4.6.31:40878: command 32
+Jul 20 18:15:09:024467 -0700 INFO _ videomixer Client disableEndpointMedia request. disableInComing: 0, disableOutGoing: 0, guid: 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Type: 1
+Jul 20 18:15:09:024883 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Selected new output frame size (848,480) (1,1)
+Jul 20 18:15:09:077331 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:15:09:241916 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame size to (1280,720) par 1
+Jul 20 18:15:09:258430 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Selected new output frame size (1280,720) (1,1)
+Jul 20 18:15:09:649277 -0700 INFO _ videomixer Client tcp://10.4.6.31:40888: command 14
+Jul 20 18:15:09:649293 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 0
+Jul 20 18:15:09:649308 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 2
+Jul 20 18:15:11:156642 -0700 INFO _ videomixer Client tcp://10.4.6.31:40894: command 14
+Jul 20 18:15:11:156668 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 0
+Jul 20 18:15:11:156685 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:15:11:156693 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 2
+Jul 20 18:15:11:156699 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:15:14:229953 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Input frame size changed: (1280,720)(1,1) -> (960,540)(1,1)
+Jul 20 18:15:15:553373 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame size to (848,480) par 1
+Jul 20 18:15:15:564636 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Selected new output frame size (848,480) (1,1)
+Jul 20 18:15:19:201490 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Input frame size changed: (960,540)(1,1) -> (640,360)(1,1)
+Jul 20 18:15:23:141490 -0700 INFO _ videomixer Client tcp://10.4.6.31:40928: command 14
+Jul 20 18:15:23:141525 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 0
+Jul 20 18:15:23:141543 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:15:23:141552 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 2
+Jul 20 18:15:23:141559 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:15:24:157915 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 140 ms to 100 ms
+Jul 20 18:15:27:564070 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 140 ms to 100 ms
+Jul 20 18:15:30:171215 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Set output frame size to (1280,720) par 1
+Jul 20 18:15:30:179015 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Selected new output frame size (1280,720) (1,1)
+Jul 20 18:15:35:141951 -0700 INFO _ videomixer Client tcp://10.4.6.31:40960: command 14
+Jul 20 18:15:35:141980 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 0
+Jul 20 18:15:35:142013 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:15:35:142022 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 2
+Jul 20 18:15:35:142028 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:15:46:928612 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b VideoInput: FrameCount: 1053, DroppedFrameCount: 80, OverflowFrameCount: 156, BufferSize: 3
+Jul 20 18:15:47:142754 -0700 INFO _ videomixer Client tcp://10.4.6.31:40996: command 14
+Jul 20 18:15:47:142781 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 0
+Jul 20 18:15:47:142800 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:15:47:142808 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 2
+Jul 20 18:15:47:142814 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:15:48:315483 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b run finish
+Jul 20 18:15:49:130793 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Input frame size changed: (640,360)(1,1) -> (480,270)(1,1)
+Jul 20 18:15:50:498378 -0700 INFO _ videomixer-tMain mediaCapacity free resource by type. Type: MixerMemberDeAlloc, Value: 67
+Jul 20 18:15:50:499345 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Locales set to bjn:en-us,bjn:de,bjn:es,bjn:fr
+Jul 20 18:15:50:499372 -0700 NOTICE _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New member: Garvit Gupta
+Jul 20 18:15:50:499519 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Bad Mobile Version 1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]contains non-numbers assuming it to be 1.0
+Jul 20 18:15:50:499623 -0700 INFO _ videomixer MuteManager new member: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b
+Jul 20 18:15:50:499635 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b audio=0
+Jul 20 18:15:50:499647 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b video=0
+Jul 20 18:15:50:499655 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b content=0
+Jul 20 18:15:50:499677 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Changing layout to Video (Continuous Presence)
+Jul 20 18:15:50:499684 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing layout as VIDEO
+Jul 20 18:15:50:499691 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing sublayout as CONTINIOUSPRESENCE
+Jul 20 18:15:50:499731 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b run loop starting
+Jul 20 18:15:50:499824 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Update User Features received
+Jul 20 18:15:50:499954 -0700 INFO _ videomixer Resource updateUserFeatures with size  = 150
+Jul 20 18:15:50:531642 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131073
+Jul 20 18:15:50:531881 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 1
+Jul 20 18:15:50:532791 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:15:50:536065 -0700 INFO _ videomixer LAYOUT 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Layout is changed to waiting
+Jul 20 18:15:50:536102 -0700 INFO _ videomixer LAYOUT 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Layout is changed to Video (Continuous Presence)
+Jul 20 18:15:50:536112 -0700 INFO _ videomixer Resources Wallpaper now set to wallpaper.jpg
+Jul 20 18:15:50:536123 -0700 INFO _ videomixer Resources Welcome message now set to Welcome to Garvit's meeting room
+Jul 20 18:15:50:536136 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Output channel 196610
+Jul 20 18:15:50:536759 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame size to [(1280,720)-(848,480)] par 1
+Jul 20 18:15:50:536786 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame rate to 30 fps
+Jul 20 18:15:50:536828 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set carryPresentation to 1
+Jul 20 18:15:50:547734 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131075
+Jul 20 18:15:50:547904 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 0
+Jul 20 18:15:50:548145 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:15:50:598914 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Selected new output frame size (848,480) (1,1)
+Jul 20 18:15:50:638222 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame size to (1280,720) par 1
+Jul 20 18:15:50:638252 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:15:50:665639 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Input frame size changed: (0,0)(0,0) -> (1280,720)(1,1)
+Jul 20 18:15:50:665653 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Video is being received from endpoint
+Jul 20 18:15:50:665688 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Selected new output frame size (1280,720) (1,1)
+Jul 20 18:15:51:508095 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 0 ms to 40 ms
+Jul 20 18:15:54:269166 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d VideoInput: FrameCount: 998, DroppedFrameCount: 7, OverflowFrameCount: 0, BufferSize: 4
+Jul 20 18:15:59:143580 -0700 INFO _ videomixer Client tcp://10.4.6.31:41035: command 14
+Jul 20 18:15:59:143600 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 0
+Jul 20 18:15:59:143617 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:15:59:143623 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 2
+Jul 20 18:15:59:143628 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:15:59:173957 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Input frame size changed: (480,270)(1,1) -> (640,360)(1,1)
+Jul 20 18:16:06:242966 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b run finish
+Jul 20 18:16:08:049265 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d VideoOutput: FrameCount: 1797, DroppedFrameCount: 0, OverflowFrameCount: 0, BufferSize: 0
+Jul 20 18:16:08:430974 -0700 INFO _ videomixer-tMain mediaCapacity free resource by type. Type: MixerMemberDeAlloc, Value: 67
+Jul 20 18:16:08:431677 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Locales set to bjn:en-us,bjn:de,bjn:es,bjn:fr
+Jul 20 18:16:08:431704 -0700 NOTICE _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New member: Garvit Gupta
+Jul 20 18:16:08:431794 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Bad Mobile Version 1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]contains non-numbers assuming it to be 1.0
+Jul 20 18:16:08:431861 -0700 INFO _ videomixer MuteManager new member: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b
+Jul 20 18:16:08:431871 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b audio=0
+Jul 20 18:16:08:431881 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b video=0
+Jul 20 18:16:08:431887 -0700 INFO _ videomixer MuteManager member set: uuid=0b4a77e3-0c93-498f-9f2f-1e97739fb27b content=0
+Jul 20 18:16:08:431896 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Changing layout to Video (Continuous Presence)
+Jul 20 18:16:08:431902 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing layout as VIDEO
+Jul 20 18:16:08:431907 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Publishing sublayout as CONTINIOUSPRESENCE
+Jul 20 18:16:08:431937 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b run loop starting
+Jul 20 18:16:08:432008 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Update User Features received
+Jul 20 18:16:08:432130 -0700 INFO _ videomixer Resource updateUserFeatures with size  = 150
+Jul 20 18:16:08:440884 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131073
+Jul 20 18:16:08:441082 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 1
+Jul 20 18:16:08:441276 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:16:08:444002 -0700 INFO _ videomixer LAYOUT 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Layout is changed to waiting
+Jul 20 18:16:08:444028 -0700 INFO _ videomixer LAYOUT 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Layout is changed to Video (Continuous Presence)
+Jul 20 18:16:08:444036 -0700 INFO _ videomixer Resources Wallpaper now set to wallpaper.jpg
+Jul 20 18:16:08:444043 -0700 INFO _ videomixer Resources Welcome message now set to Welcome to Garvit's meeting room
+Jul 20 18:16:08:444053 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Output channel 196610
+Jul 20 18:16:08:444462 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame size to [(1280,720)-(848,480)] par 1
+Jul 20 18:16:08:444485 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame rate to 30 fps
+Jul 20 18:16:08:444501 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set carryPresentation to 1
+Jul 20 18:16:08:453800 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Opened Video Input channel 131075
+Jul 20 18:16:08:453930 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set expirable to 0
+Jul 20 18:16:08:454127 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:16:08:483083 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Selected new output frame size (848,480) (1,1)
+Jul 20 18:16:08:519848 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Set output frame size to (1280,720) par 1
+Jul 20 18:16:08:519889 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New channel quality 5
+Jul 20 18:16:08:549772 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Input frame size changed: (0,0)(0,0) -> (1280,720)(1,1)
+Jul 20 18:16:08:549785 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Video is being received from endpoint
+Jul 20 18:16:08:549810 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Selected new output frame size (1280,720) (1,1)
+Jul 20 18:16:09:441632 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 0 ms to 40 ms
+Jul 20 18:16:10:351581 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Expiring stale received video frame
+Jul 20 18:16:11:150151 -0700 INFO _ videomixer Client tcp://10.4.6.31:41132: command 14
+Jul 20 18:16:11:150175 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:16:11:150192 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 1
+Jul 20 18:16:21:442181 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 40 ms to 120 ms
+Jul 20 18:16:22:157702 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 100 ms to 120 ms
+Jul 20 18:16:22:441725 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 120 ms to 140 ms
+Jul 20 18:16:23:140971 -0700 INFO _ videomixer Client tcp://10.4.6.31:41260: command 14
+Jul 20 18:16:23:140992 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:16:23:141024 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:16:23:141032 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 1
+Jul 20 18:16:23:141037 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:16:24:157936 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 120 ms to 140 ms
+Jul 20 18:16:28:442016 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 140 ms to 180 ms
+Jul 20 18:16:29:157837 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 140 ms to 180 ms
+Jul 20 18:16:30:446489 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 180 ms to 220 ms
+Jul 20 18:16:31:158304 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 180 ms to 220 ms
+Jul 20 18:16:32:840239 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Expiring stale received video frame
+Jul 20 18:16:33:157713 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 220 ms to 100 ms
+Jul 20 18:16:33:654463 -0700 INFO _ videomixer Client tcp://10.4.6.31:41310: command 14
+Jul 20 18:16:33:654491 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 2
+Jul 20 18:16:33:654509 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:16:35:146721 -0700 INFO _ videomixer Client tcp://10.4.6.31:41314: command 14
+Jul 20 18:16:35:146741 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 2
+Jul 20 18:16:35:146753 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:16:35:146774 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:16:35:146781 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:16:36:157631 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 100 ms to 220 ms
+Jul 20 18:16:39:441731 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Audio delay changed from 220 ms to 180 ms
+Jul 20 18:16:42:157304 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Audio delay changed from 220 ms to 180 ms
+Jul 20 18:16:47:142230 -0700 INFO _ videomixer Client tcp://10.4.6.31:41348: command 14
+Jul 20 18:16:47:142255 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 2
+Jul 20 18:16:47:142274 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:16:47:142281 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:16:47:142288 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:16:54:294613 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d VideoInput: FrameCount: 1181, DroppedFrameCount: 8, OverflowFrameCount: 0, BufferSize: 0
+Jul 20 18:16:56:351746 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b Closing Video Output channel 196610
+Jul 20 18:16:59:141507 -0700 INFO _ videomixer Client tcp://10.4.6.31:41372: command 14
+Jul 20 18:16:59:141532 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 2
+Jul 20 18:16:59:141549 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:16:59:141557 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:16:59:141563 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:17:03:411655 -0700 INFO _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b run finish
+Jul 20 18:17:08:074760 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d VideoOutput: FrameCount: 3596, DroppedFrameCount: 0, OverflowFrameCount: 0, BufferSize: 0
+Jul 20 18:17:11:145409 -0700 INFO _ videomixer Client tcp://10.4.6.31:41520: command 14
+Jul 20 18:17:11:145438 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:17:11:940525 -0700 INFO _ videomixer Client tcp://10.4.6.31:41540: command 29
+Jul 20 18:17:23:146343 -0700 INFO _ videomixer Client tcp://10.4.6.31:41664: command 14
+Jul 20 18:17:23:146370 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:17:23:146402 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:17:23:146411 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:17:23:146419 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:17:35:141076 -0700 INFO _ videomixer Client tcp://10.4.6.31:41716: command 14
+Jul 20 18:17:35:141102 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:17:35:141116 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:17:35:141123 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:17:35:141128 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:17:47:141686 -0700 INFO _ videomixer Client tcp://10.4.6.31:41760: command 14
+Jul 20 18:17:47:141716 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:17:47:141737 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:17:47:141747 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:17:47:141756 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:17:54:320018 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d VideoInput: FrameCount: 1181, DroppedFrameCount: 8, OverflowFrameCount: 0, BufferSize: 0
+Jul 20 18:17:59:143575 -0700 INFO _ videomixer Client tcp://10.4.6.31:41862: command 14
+Jul 20 18:17:59:143606 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:17:59:143624 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:17:59:143631 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:17:59:143638 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:18:06:516783 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d Closing Video Output channel 196612
+Jul 20 18:18:11:140559 -0700 INFO _ videomixer Client tcp://10.4.6.31:41896: command 14
+Jul 20 18:18:11:140584 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:18:11:140600 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:18:11:140608 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:18:11:140614 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:18:23:140017 -0700 INFO _ videomixer Client tcp://10.4.6.31:42004: command 14
+Jul 20 18:18:23:140039 -0700 INFO _ videomixer Resource Update: AudioParticipantCount = 1
+Jul 20 18:18:23:140053 -0700 INFO _ videomixer Resource Update: ShowUnencryptedWarning = 0
+Jul 20 18:18:23:140061 -0700 INFO _ videomixer Resource Update: VideoParticipantCount = 0
+Jul 20 18:18:23:140068 -0700 INFO _ videomixer Resource Update: VideoPresentationParticipantCount = 0
+Jul 20 18:18:23:399647 -0700 INFO _ videomixer-tSubC SubscriptionClient Connection with Audio Mixer broke. retry connecting
+Jul 20 18:18:23:404653 -0700 INFO _ videomixer AudioEventManager Connecting to audio mixer tcp://10.4.4.197:42199 failed (connect: Connection refused)
+Jul 20 18:18:24:399844 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:24:404882 -0700 INFO _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d run finish
+Jul 20 18:18:24:404976 -0700 WARNING _ videomixer VideoMixer Video update took 989 ms
+Jul 20 18:18:24:432297 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:25:432451 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:25:466514 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:26:466655 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:26:501189 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:27:501332 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:27:536334 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:28:536482 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:28:572292 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:29:572439 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:29:605245 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:30:605395 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:30:638944 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:31:639085 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:31:671439 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:32:671593 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:32:703249 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:33:419772 -0700 INFO _ videomixer-tMain Acceptor MemberList empty, shutting down
+Jul 20 18:18:33:421608 -0700 INFO _ videomixer-tMain Acceptor Finished
+Jul 20 18:18:33:703409 -0700 INFO _ videomixer-tSubC SubscriptionClient Finding Audio mixer with guid: 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:18:33:736637 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:34:429557 -0700 INFO _ videomixer-tMC MCManager Shutting down, sending finished note
+Jul 20 18:18:34:736887 -0700 INFO _ videomixer-tMain SubscriptionClient Closing SubscriptionClient
+Jul 20 18:18:34:737032 -0700 INFO _ videomixer-tMain 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0 exiting

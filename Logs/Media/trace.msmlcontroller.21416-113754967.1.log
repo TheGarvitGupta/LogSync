@@ -1,0 +1,10 @@
+Jul 24 16:50:18:479526 -0700 NOTICE DNMLIB msmlcontroller-tmain DNMLIB msmlcontroller - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 10 2018 around 17:37:52
+Jul 24 16:50:18:479545 -0700 NOTICE DNMLIB msmlcontroller-tmain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 24 16:50:18:479596 -0700 NOTICE _ msmlcontroller-tmain msmlsrv Meeting Guid: 999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9
+Jul 24 16:50:19:922142 -0700 NOTICE _ msmlcontroller-tmain mhsess (88e3ab02) Open session -- callGuid: 88e3ab02-4348-48e8-a30b-38d3d204ff82
+Jul 24 16:50:26:832053 -0700 NOTICE _ msmlcontroller-tmain mhsess (6d722644) Open session -- callGuid: 6d722644-641f-4be9-9701-b5bd65a50b25
+Jul 24 16:50:36:534142 -0700 NOTICE _ msmlcontroller-tmain mhsess (92313ebf) Open session -- callGuid: 92313ebf-8676-4680-841e-072c3c0d02d7
+Jul 24 16:50:57:328493 -0700 NOTICE _ msmlcontroller-tmain mhsess (f2e75898) Open session -- callGuid: f2e75898-aedf-419c-9e31-1a51b55a287c
+Jul 24 16:52:17:775300 -0700 NOTICE _ msmlcontroller-tmain mhsess (1544282e) Open session -- callGuid: 1544282e-2f00-4b9b-a190-1d7ff1e5887c
+Jul 24 16:52:20:344394 -0700 NOTICE _ msmlcontroller-tmain mhsess (68fa2321) Open session -- callGuid: 68fa2321-20d4-4b70-a6be-e8933124cae9
+Jul 24 16:53:35:606482 -0700 NOTICE _ msmlcontroller-tmain RESIP:TRANSACTION (TransactionController.cxx:69) On shutdown, there are Client TransactionStates remaining!

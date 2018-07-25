@@ -1,0 +1,767 @@
+[07/25/18 11:25:15:152 -07:00] [10220] (callapi.cpp:1693): Server credentials and Meeting features fetched from config.ini
+[07/25/18 11:25:15:154 -07:00] [10220] (callapi.cpp:1696): config.ini path used is: ./config.ini
+[07/25/18 11:25:15:154 -07:00] [10220] (callapi.cpp:1707): config.ini dump:
+[MeetingFeatures]
+tcp_bandwidth=true
+vi_bwmgr2=true
+mac_h264_hw_accl_3=true
+bwmgr_adjusted_timeouts=true
+mac_deferred_screen_capture_2=true
+mac_delta_screen_capture=true
+win_h264_hw_accl_2=true
+rtx_video2=true
+rtcp_xr=true
+red_encapsulated_fec2=true
+dolby_client_mac=true
+dolby_client_win=true
+dolby_client_android=true
+fiber2_lip_sync=true
+enable_win_screen_share_dd_complete=true
+win_app_share_global_hooks=true
+
+[TurnServersUdp]
+address=103.20.59.25
+hostname=turns-103-20-59-25.a.bjn.vc
+protocol=udp
+port=5000
+username=vwCw9DDB66FyvD6C
+passwd=vwCw9DDB66FyvD6C
+
+[TurnServersTls]
+address=103.20.59.25
+hostname=turns-103-20-59-25.a.bjn.vc
+protocol=tcp
+port=443
+username=vwCw9DDB66FyvD6C
+passwd=vwCw9DDB66FyvD6C
+
+[TurnServersTcp]
+address=103.20.59.25
+hostname=turns-103-20-59-25.a.bjn.vc
+protocol=tcp
+port=5000
+username=vwCw9DDB66FyvD6C
+passwd=vwCw9DDB66FyvD6C
+
+[07/25/18 11:25:15:154 -07:00] [10220] (callapi.cpp:300): Creating CallApi
+[07/25/18 11:25:15:159 -07:00] [12724] (callapi.cpp:1067): CallApi::startSip 000002465D5D8F60
+[07/25/18 11:25:15:160 -07:00] [12724] (fibersipmanager.cpp:374): SipManager begin construction
+[07/25/18 11:25:15:161 -07:00] [12724] (fibersipmanager.cpp:374): SipManager construction complete
+[07/25/18 11:25:15:161 -07:00] [12724] (fibersipmanager.cpp:91): FiberSipManager begin construction
+[07/25/18 11:25:15:164 -07:00] [12724] (fibersipmanager.cpp:374): (win32devicemanager.cc:823): Audio Volume Notification mechanism is disabled
+[07/25/18 11:25:15:167 -07:00] [12724] (fibersipmanager.cpp:129): FiberSipManager construction complete
+[07/25/18 11:25:15:167 -07:00] [12724] (callapi.cpp:1226): Posting audio mute message with state: 1
+[07/25/18 11:25:15:167 -07:00] [12724] (callapi.cpp:1077): sipmanager address 000002465F08A450
+[07/25/18 11:25:15:167 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2614): Inside InitSip
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-pjsua-log" registered
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-tsx-layer" registered
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-stateful-util" registered
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-ua" registered
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-100rel" registered
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-pjsua" registered
+[07/25/18 11:25:15:595 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-invite" registered
+[07/25/18 11:25:15:597 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):            pjlib:269  ..select() I/O Queue created (000002465D620988)
+[07/25/18 11:25:15:597 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):            pjlib:269  ..select() I/O Queue created (000002465D62C2A8)
+[07/25/18 11:25:15:597 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):            pjlib:269  ..select() I/O Queue created (000002465D636D28)
+[07/25/18 11:25:15:597 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       endpoint.c:424  ..SSRC INFO:: fec ssrc - 559288546
+[07/25/18 11:25:15:597 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       endpoint.c:435  ..SSRC INFO:: rtx ssrc - 886324967
+[07/25/18 11:25:15:598 -07:00] [1176] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       endpoint.c:469 !Thread idx 0 got scheduled
+[07/25/18 11:25:15:598 -07:00] [13020] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       endpoint.c:469 !Thread idx 1 got scheduled
+[07/25/18 11:25:15:598 -07:00] [17328] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       endpoint.c:469 !Thread idx 2 got scheduled
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:59 !..Initializing video subsystem..
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-evsub" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-presence" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-mwi" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-refer" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-pjsua-pres" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-pjsua-im" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-pjsua-options" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1054  .No SIP worker threads created
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2592):     pjsua_core.c:1060  .pjsua version 2.0.1 for win32-6.2/x86_64/msvc-19.0 initialized
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1656  .PJSUA state changed: CREATED --> INIT
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1656  PJSUA state changed: INIT --> STARTING
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2588):    pjsua_media.c:222  ..NAT type detection failed: Invalid STUN server or server not configured (PJNATH_ESTUNINSERVER)
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  .Module "mod-unsolicited-mwi" registered
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1656  .PJSUA state changed: STARTING --> RUNNING
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2671  PJSIP initialization done.
+[07/25/18 11:25:15:599 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2678): Inside InitSipManager
+[07/25/18 11:25:15:844 -07:00] [12724] (fibersipmanager.cpp:302): config.xml path used is ./config.xml
+[07/25/18 11:25:15:844 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:100): Loading configuration file: ./config.xml
+[07/25/18 11:25:15:845 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:143): Inside parseConfigXML
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:151): Config XML : 
+<bjn>
+    <cpus>
+        <cpu vendor="GenuineIntel" family="6" model="28" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Atom Pineview" />
+        <cpu vendor="GenuineIntel" family="6" model="38" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Atom Lincroft" />
+        <cpu vendor="GenuineIntel" family="6" model="54" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Atom Cedarview" />
+
+        <cpu vendor="GenuineIntel" family="6" model="15" stepping="0" vcores="2" frequency="1550" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" dual="0" description="Merom (Core 2 Duo/Quad, Xeon, Pentium)" />
+        <cpu vendor="GenuineIntel" family="6" model="15" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Merom (Core 2 Duo/Quad, Xeon, Pentium) - ULV" />
+        <cpu vendor="GenuineIntel" family="6" model="22" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" dual="0" description="Merom Conroe(Celeron, Xeon)" />
+
+        <cpu vendor="GenuineIntel" family="6" model="23" stepping="0" vcores="8" frequency="2950" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Penryn (Core 2 Duo/Quad, Xeon, Pentium)" />
+        <cpu vendor="GenuineIntel" family="6" model="23" stepping="0" vcores="2" frequency="2000" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" description="Penryn (Core 2 Duo/Quad, Xeon, Pentium)" />
+        <cpu vendor="GenuineIntel" family="6" model="23" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Penryn (Core 2 Duo/Quad, Xeon, Pentium) - ULV" />
+
+        <cpu vendor="GenuineIntel" family="6" model="29" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" description="Penryn Dunnington (MP) (Xeon-7000)" />
+
+        <cpu vendor="GenuineIntel" family="15" model="0" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="(Pentium, Celeron)" />
+        <cpu vendor="GenuineIntel" family="15" model="1" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="(Pentium, Celeron)" />
+        <cpu vendor="GenuineIntel" family="15" model="2" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="(Pentium, Celeron)" />
+        <cpu vendor="GenuineIntel" family="15" model="3" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Prescott (Xeon)" />
+        <cpu vendor="GenuineIntel" family="15" model="4" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Prescott (Xeon)" />
+        <cpu vendor="GenuineIntel" family="15" model="6" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Presler (Pentium)" />
+        <cpu vendor="GenuineIntel" family="6" model="13" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="Dothan (Pentium, Celeron)" />
+
+        <cpu vendor="GenuineIntel" family="6" model="30" stepping="0" vcores="8" frequency="1950" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Nehalem (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="30" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Nehalem (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="26" stepping="0" vcores="4" frequency="2450" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Nehalem (Server, Desktop)" />
+        <cpu vendor="GenuineIntel" family="6" model="26" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Nehalem (Server, Desktop)" />
+        <cpu vendor="GenuineIntel" family="6" model="46" stepping="0" vcores="0" frequency="0" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Nehalem (Server)" />
+
+        <cpu vendor="GenuineIntel" family="6" model="37" stepping="0" vcores="8" frequency="1950" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="37" stepping="0" vcores="4" frequency="2950" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="37" stepping="0" vcores="4" frequency="1950" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="37" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" description="Westmere (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="44" stepping="0" vcores="4" frequency="2450" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Server, Desktop)" />
+        <cpu vendor="GenuineIntel" family="6" model="44" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Server, Desktop)" />
+        <cpu vendor="GenuineIntel" family="6" model="47" stepping="0" vcores="0" frequency="0" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Server)" />
+
+        <cpu vendor="GenuineIntel" family="6" model="42" stepping="0" vcores="8" frequency="1950" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="SandyBridge (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="42" stepping="0" vcores="4" frequency="2450" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="SandyBridge (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="42" stepping="0" vcores="4" frequency="1950" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="SandyBridge (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="42" stepping="0" vcores="0" frequency="0" encwidth="512" encheight="288" encfps="30" decwidth="512" decheight="288" decfps="30" description="SandyBridge (Desktop, Mobile)" />
+      
+        <cpu vendor="GenuineIntel" family="6" model="45" stepping="0" vcores="8" frequency="1950" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="SandyBridge (Server, Desktop)" />
+        <cpu vendor="GenuineIntel" family="6" model="45" stepping="0" vcores="4" frequency="2450" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="SandyBridge (Server, Desktop)" />
+        <cpu vendor="GenuineIntel" family="6" model="45" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="SandyBridge (Server, Desktop)" />
+
+        <cpu vendor="GenuineIntel" family="6" model="58" stepping="0" vcores="8" frequency="1750" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="IvyBridge (Server, Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="58" stepping="0" vcores="4" frequency="2450" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="IvyBridge (Server, Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="58" stepping="0" vcores="4" frequency="1950" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="IvyBridge (Server, Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="58" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" description="IvyBridge (Server, Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="62" stepping="0" vcores="0" frequency="0" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="IvyTown (Server)" />
+
+        <cpu vendor="GenuineIntel" family="6" model="60" stepping="0" vcores="0" frequency="0" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Hasswell (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="69" stepping="0" vcores="0" frequency="0" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Hasswell ULT (Desktop, Mobile)" />
+        <cpu vendor="GenuineIntel" family="6" model="70" stepping="0" vcores="0" frequency="0" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Hasswell 2 (Desktop, Mobile)" />
+
+        <cpu vendor="AuthenticAMD" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" description="Generic Amd" />
+        <cpu vendor="AuthenticAMD" family="20" model="1" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="E-350 Processor" />
+        <cpu vendor="AuthenticAMD" family="20" model="2" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="15" decwidth="320" decheight="180" decfps="30" dual="0" description="E-450 APU with Radeon(tm) HD Graphics" />
+
+       <!-- Done at the request of DreamWorks Animation LLC: -->
+       <cpu vendor="GenuineIntel" family="6" model="44" stepping="0" vcores="24" frequency="2400" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="Westmere (Server, Desktop)" />
+       <!-- Done at the request of Parkside Lending: -->
+       <cpu vendor="GenuineIntel" family="6" model="23" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="360" encfps="30" decwidth="640" decheight="360" decfps="30" description="Penryn (Core 2 Duo/Quad, Xeon, Pentium) - ULV" />
+       <!-- Done at the request of Game Show Network: -->
+       <cpu vendor="GenuineIntel" family="6" model="58" stepping="0" vcores="4" frequency="2450" encwidth="1280" encheight="720" encfps="30" decwidth="1280" decheight="720" decfps="30" description="IvyBridge (Server, Desktop, Mobile)" />
+       <cpu vendor="GenuineIntel" family="6" model="58" stepping="0" vcores="4" frequency="1950" encwidth="640" encheight="360" encfps="30" decwidth="1280" decheight="720" decfps="30" description="IvyBridge (Server, Desktop, Mobile)" />
+
+      <cpu machine="MacBookAir1~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="30" decwidth="320" decheight="180" decfps="30" description="All Macbook Air 1" />
+      <cpu machine="MacBookAir2~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="30" decwidth="320" decheight="180" decfps="30" description="All Macbook Air 2" />
+      <cpu machine="MacBookAir3~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="320" encheight="180" encfps="30" decwidth="320" decheight="180" decfps="30" description="All Macbook Air 3" />
+      <cpu machine="MacBookAir4~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="512" encheight="288" encfps="30" decwidth="512" decheight="288" decfps="30" description="All Macbook Air 4" />
+      <cpu machine="MacBookAir5~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="848" encheight="480" encfps="20" decwidth="848" decheight="480" decfps="30" description="All Macbook Air 5" />
+      <cpu machine="MacBookAir6~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="848" encheight="480" encfps="20" decwidth="848" decheight="480" decfps="30" description="All Macbook Air 6" />
+      <cpu machine="MacBookAir7~" vendor="GenuineIntel" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="848" encheight="480" encfps="20" decwidth="848" decheight="480" decfps="30" description="All Macbook Air 7" />
+      <!-- For Android OS go to "About Phone" inside settings to get the machine string -->
+      <cpu machine = "potter_n" vendor="ARM" family="0" model="0" stepping="0" vcores="0" frequency="0" encwidth="640" encheight="480" encfps="30" decwidth="640" decheight="360" decfps="30" description="Moto G(5) Plus" />
+
+	<!-- Lenovo resolution restrictions come from Spector BJN channel config.xml attribute override now -->
+    </cpus>
+
+  <!-- Device properties -->
+    <!-- AEC MODES:
+        kEcAec = 0,
+        kEcConference = 1,
+        kEcAecm = 2,
+        kEcBjn = 5 -->
+
+    <!-- AECM MODES:
+        kAecmQuietEarpieceOrHeadset = 0,
+        kAecmEarpiece = 1,
+        kAecmLoudEarpiece = 2,
+        kAecmSpeakerphone = 3,
+        kAecmLoudSpeakerphone = 4 -->
+
+  <devices>
+    <device id="SPK:HDMI">
+      <property name="bjn_aec_tail_length_ms" value="300" />
+      <property name="automatic" value="0" />
+    </device>
+
+    <device id="MIC:HDAUDIO:10EC">
+      <property name="bjn_aec_tail_length_ms" value="300" />
+    </device>
+
+    <!-- XXX: Tom/Brant Review why this has a special AGC setting -->
+    <!-- Logitech N231/BCC950 Speakerphone device NS on -->
+    <device id="MIC:USB:046D:0838">
+      <property name="agc_const_gain_enabled" value="1" />
+      <property name="agc_max_gain_db" value="13" />
+    </device>	
+
+    <device id="MAC:MIC:USB:046D:0838">
+        <property name="mic_level" value="100"/>
+    </device>
+
+    <!-- XXX: Tom/Brant Review why this has a special mic setting -->
+    <!-- Biamp Tesira FORTE -->
+    <device id="MAC:MIC:USB:28E6:2411">
+     <property name="mic_level" value="100"/>
+    </device>
+    <device id="MAC:MIC:USB:28E6:2202">
+     <property name="mic_level" value="100"/>
+    </device>
+
+
+    <!-- Headsets below -->
+
+    <!-- XXX: Tom/Brant Review why this has a special ns setting. Maybe lower even further? -->
+    <!-- One entry for all Plantronics... they only make headsets -->
+    <!-- 047F:C012  Audio 628 headset Mic -->
+    <!-- 047F:C008  Audio 655 headset Mic -->
+    <device id="MIC:USB:047F">
+      <property name="ns_mode" value="1" />
+    </device>
+
+    <!-- GN/Netcom GN2000 headset Mic -->
+    <device id="MIC:USB:0B0E:2000">
+      <property name="aec_enabled" value="0" />
+      <property name="ns_mode" value="0" />
+    </device>
+    <device id="SPK:USB:0B0E:2000">
+      <property name="aec_enabled" value="0" />
+    </device>
+
+    <!-- Logitech H800 headset Mic -->
+    <device id="MIC:USB:046D:0A29">
+    <property name="mic_level" value="100" />
+    </device>
+
+    <!-- Bad audio driver on Mac -->
+    <device id="MAC:MIC:USB:046D:082D">
+      <property name="audio_delay_offset_ms" value="-450" />
+      <property name="bjn_aec_tail_length_ms" value="300" />
+    </device>
+    
+   <device id="MIC:HDAUDIO:14F1">
+      <property name="aec_mode" value="5" />
+      <property name="bjn_aec_tail_length_ms" value="300" />
+   </device>
+
+    <!-- Generic Bluetooth Devices -->
+    <device id="MIC:BTHENUM">
+      <property name="esm_mode" value="1" />
+      <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:BTHENUM">
+      <property name="esm_mode" value="1" />
+      <property name="automatic" value="0" />
+    </device>
+    <device id="MIC:BLUETOOTH">
+      <property name="esm_mode" value="1" />
+      <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:BLUETOOTH">
+      <property name="esm_mode" value="1" />
+      <property name="automatic" value="0" />
+    </device>
+
+    <!-- Virtualized OS's -->
+    <!-- VMWare -->
+    <device id="SPK:HDAUDIO:15AD:1975">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="MIC:HDAUDIO:15AD:1975">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="SPK:PCI:1274:1371">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="MIC:PCI:1274:1371">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="SPK:PCI:1274:5880">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="MIC:PCI:1274:5880">
+      <property name="esm_mode" value="1" />
+    </device>
+
+    <!-- Parallels -->
+    <device id="SPK:PCI:1022:746D">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="MIC:PCI:1022:746D">
+      <property name="esm_mode" value="1" />
+    </device>
+    <device id="SPK:PCI:8086:2445">
+        <property name="esm_mode" value="1" />
+    </device>
+    <device id="MIC:PCI:8086:2445">
+        <property name="esm_mode" value="1" />
+    </device>
+
+    <!-- Apple LED Cinema Display Audio -->
+    <device id="MIC:USB:05AC:1105">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:USB:05AC:1105">
+        <property name="automatic" value="0" />
+        <property name="spk_auto_system_unmute" value="1" />
+    </device>
+
+    <!-- Apple Thunderbolt Display Audio -->
+    <device id="MIC:USB:05AC:1107">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:USB:05AC:1107">
+        <property name="automatic" value="0" />
+        <property name="spk_auto_system_unmute" value="1" />
+    </device>
+
+    <!-- Devices with UNKNOWN classID. Mostly virtual devices -->
+    <device id="MIC:UNKNOWN">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:UNKNOWN">
+        <property name="automatic" value="0" />
+    </device>
+
+    <!-- Airplay Devices -->
+    <device id="SPK:BUILTIN:AIRPLAY">
+        <property name="automatic" value="0" />
+    </device>
+
+    <!-- RODE Microphone Podcaster -->
+    <device id="MIC:USB:19F7:0001">
+        <property name="automatic" value="0" />
+    </device>
+
+    <!-- Devices with ROOT classId. Mostly virtual devices -->
+    <device id="MIC:ROOT">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:ROOT">
+        <property name="automatic" value="0" />
+    </device>
+
+    <!-- Devices with blank device ID key. Mostly virtual devices -->
+    <device id="MIC:::">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:::">
+        <property name="automatic" value="0" />
+    </device>
+
+    <!-- ACPI -->
+    <device id="MIC:ACPI">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="SPK:ACPI">
+        <property name="automatic" value="0" />
+    </device>
+    <device id="ANDROID:POTTER_N">
+        <property name="aec_mode" value="2" />
+        <property name="aecm_mode" value="4" />
+        <property name="aec_enabled" value="1" />
+    </device>
+  </devices>
+
+  <!-- TURN toggle 0 to 1 to force relay call. Protocol either udp or tcp for protocol to use for relay call-->
+  <turn force="0" protocol="udp" />
+
+  <!-- Secure call toggling -->
+  <secure property="call" value="1" />   <!-- Toggle 1 to 0 for disabling secure call and vice-versa -->
+
+  <!-- Windows Renderer Toggling -->
+  <!-- Toggle 1 to 0 for disabling direct3d9 to switch to GDI and vice-versa -->
+  <render property="d3d9" value="1" /> 
+
+  <!-- Toggle writing pcap file for media -->
+  <!-- Toggle 1 to 0 for not writing pcap packets and vice-versa -->
+  <transport property="writepcap" value="0" />
+
+  <!-- Adjust the scale factor for color vividness -->
+  <colorVividness chromaScaleFactor="23" />
+
+  <debug>
+    <!-- enabled = (1/0) This pumps in media from a pcap in place of remote streams -->
+    <!-- pjsip log level = (4-6) increase the level to see more debug prints -->
+    <readpcap enabled="0" />
+    <pjsiplog level="4" />
+    <!-- webrtcorg log level = (1(highest) - 5(None)) increase the level to see more debug prints -->
+    <webrtcorglog level="2" />
+  </debug>
+
+  <VP8encoder>
+    <!-- VP8 video encoder quality parameters -->
+    <!-- Valid range for each of these QP properties is 0 to 63 -->
+    <!-- minQP is the minimum (highest) quality parameter for main video -->
+    <!-- maxQP is the maximum (lowest) quality parameter for main video -->
+    <!-- minQPContent is the minimum (highest) quality parameter for content -->
+    <!-- maxQPContent is the maxmium (lowest) quality parameter for content -->
+    <QP minQP="4" maxQP="52" minQPContent="4" maxQPContent="47" minQPRDC="4" maxQPRDC="63"/>
+    <!-- videoFreeRangeQPBitrate is the lowest bitrate parameter for video with free range qp value-->
+    <bitrate videoFreeRangeQPBitrate="1200"/>
+    <!-- contentHighQualityBitrate is the lowest bitrate at which we switch to content high quality mode-->
+    <!-- contentHighQualityQP is the content maxQP to be used in the content high quality mode-->
+    <contentHighQualityMode contentHighQualityBitrate="512" contentHighQualityQP="30"/>
+  </VP8encoder>
+
+  <RTX>
+    <!-- rtx related parameters -->
+    <!-- high_rtt_ms is an RTT threshold in ms above which NACK will be disabled. -1 nack always enabled -->
+    <!-- low_rtt_ms is an RTT threshold in ms below which we expect to rely on NACK only, and to wait for retransmissions. -->
+    <!-- These params are applicable only when fec is enabled. -->
+    <nack low_rtt_ms="150" high_rtt_ms="200"/>
+  </RTX>
+
+  <audio_gd_params rx_loss="25" rx_tau="40" tx_loss="25" tx_tau="40"/>
+
+  <!-- Dolby specific configurations -->
+  <!-- fec_bitrate_level: can be: 0 = disable; 1 = LOW; 2 = HIGH.
+       Any other value causes default level to be used. -->
+  <!-- device_database_version: major.minor.patch format to be used.
+       The database should be present in Resources directory.
+       Expected name is: DVC_DeviceDatabase_Major.Minor.Patch.bin -->
+  <dolby_config fec_bitrate_level="-1">
+      <lib version="2.9.2" device_db="DVC_DeviceDatabase_6.2.bin"/>
+  </dolby_config>
+
+  <!-- Goggle congension controller overuse detector tunning parameters -->
+  <!-- Adaptive Enabled/Disabled indicates if adaptive threshold is enabled or not -->
+  <!-- k_up parameter of Kalman filter. k_down paramater of Kalman filter -->
+  <!-- Ideally k_up should be greater than k_down Refer: https://tools.ietf.org/html/draft-ietf-rmcat-gcc-02 -->
+  <overuse_detector adaptive="Enabled" k_up="0.01" k_down="0.00018"/>
+
+</bjn>
+
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:427): pjsiploglevel parsed value: 4
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:439): webrtcorgloglevel parsed value: 2
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:481): audio_gd_params: rx_loss = 25 rx_tau = 40 tx_loss = 25 tx_tau = 40
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2812  In Function fbr::SipManager::initializeVideoDevices
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): bjn_render_dev.c:184  BJN renderer initialized, fmt_count = 2
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:106  Init webrtc Capture factory
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (webrtc_capture_dev.cpp:136): BJN capturer initialized.
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 0:RenderLocalView 2 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 1:RenderRemoteView 2 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 2:RenderContentView 2 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 3:VirtualVideoCapture 1 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3360  Found video device with Id: 3
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 0:RenderLocalView 2 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 1:RenderRemoteView 2 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 2:RenderContentView 2 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 3:VirtualVideoCapture 1 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 4:VirtualScreenCapture 1 drivername: BJN
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3360  Found video device with Id: 4
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:1503  Starting preview for cap_dev=3, show=1
+[07/25/18 11:25:15:846 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:478  .Creating video window: type=preview, cap_id=3, rend_id=-2
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       vid_port.c:246  ..Format ID supported by device [0] = 808596553 exp by port 808596553
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       vid_port.c:270  ..Opening device VirtualVideoCapture [BJN] for capture: format=I420, size=1280x720 @30:1 fps
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:224  ..In function webrtc_cap_factory_create_stream
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       vid_port.c:293  ..Device VirtualVideoCapture [BJN] opened: format=I420, size=1280x720 @30:1 fps
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:306  ..In function webrtc_cap_stream_set_cap with cap:64 val:0000007B666FE358
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:656  ..Preview window id 0 created for cap_dev 3, using built-in preview!
+[07/25/18 11:25:15:847 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:663  ..Window 0 created
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:306  .In function webrtc_cap_stream_set_cap with cap:64 val:0000007B666FE820
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:1503  Starting preview for cap_dev=4, show=1
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:478  .Creating video window: type=preview, cap_id=4, rend_id=-2
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       vid_port.c:246  ..Format ID supported by device [0] = 808596553 exp by port 808596553
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       vid_port.c:270  ..Opening device VirtualScreenCapture [BJN] for capture: format=I420, size=1920x1080 @30:1 fps
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:224  ..In function webrtc_cap_factory_create_stream
+[07/25/18 11:25:15:848 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       vid_port.c:293  ..Device VirtualScreenCapture [BJN] opened: format=I420, size=1920x1080 @30:1 fps
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:306  ..In function webrtc_cap_stream_set_cap with cap:64 val:0000007B666FE358
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:656  ..Preview window id 1 created for cap_dev 4, using built-in preview!
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:663  ..Window 1 created
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:306  .In function webrtc_cap_stream_set_cap with cap:64 val:0000007B666FE820
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2844  In Function fbr::SipManager::initializeVideoDevices complete
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 0:RenderLocalView 2 drivername: BJN
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3360  Found video device with Id: 0
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 0:RenderLocalView 2 drivername: BJN
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3354  Video devices: 1:RenderRemoteView 2 drivername: BJN
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3360  Found video device with Id: 1
+[07/25/18 11:25:15:849 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2715): InitSipManager complete. Fiber build info: r_fiber3.6.7f144656a
+[07/25/18 11:25:15:852 -07:00] [12724] (fibersipmanager.cpp:374): (messagequeue.cc:537): Message took 685ms to dispatch. Posted from: fbr::SipManager::postGetDevices@C:\work\fiber\clientcore\callmanager\callmanagerbase\sipmanagerbase.cpp:2920
+[07/25/18 11:25:15:852 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2592):       SipManager:5228  callMediaDirection() audioDir = recvonly videoDir = sendrecv contentDir = recvonly appVideoDir = sendrecv
+[07/25/18 11:25:15:885 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:6; is Connected:1
+[07/25/18 11:25:15:886 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:6; is Connected:1
+[07/25/18 11:25:15:887 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:6; is Connected:1
+[07/25/18 11:25:15:887 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:6; is Connected:1
+[07/25/18 11:25:15:887 -07:00] [10220] (fibersipmanager.cpp:340): Audio capture Devices:
+[07/25/18 11:25:15:887 -07:00] [10220] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2963): 0: Automatic Device, Id: -1, BuiltIn: 1, sourceName: 
+[07/25/18 11:25:15:887 -07:00] [10220] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2963): 1: Microphone Array (Realtek Audio), Id: {0.0.1.00000000}.{4c1ddb42-f5f1-49f7-b794-8167f95c6a50}, BuiltIn: 1, sourceName: 
+[07/25/18 11:25:15:889 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:7; is Connected:1
+[07/25/18 11:25:15:889 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:7; is Connected:1
+[07/25/18 11:25:15:890 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:7; is Connected:1
+[07/25/18 11:25:15:890 -07:00] [10220] (fibersipmanager.cpp:374): (win32devicemanager.cc:356): No of Jacks:1; Connection Type:7; is Connected:1
+[07/25/18 11:25:15:890 -07:00] [10220] (fibersipmanager.cpp:343): Audio playout Devices:
+[07/25/18 11:25:15:890 -07:00] [10220] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2963): 0: Automatic Device, Id: -1, BuiltIn: 1, sourceName: 
+[07/25/18 11:25:15:890 -07:00] [10220] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2963): 1: Speakers / Headphones (Realtek Audio), Id: {0.0.0.00000000}.{b5b6b35d-8c12-489b-876e-7d01796e48c4}, BuiltIn: 1, sourceName: 
+[07/25/18 11:25:15:895 -07:00] [10220] (fibersipmanager.cpp:346): Video capture Devices:
+[07/25/18 11:25:15:895 -07:00] [10220] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2963): 0: Integrated Webcam, Id: \\?\usb#vid_1bcf&pid_2b8d&mi_00#7&39389e0b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, BuiltIn: 1, sourceName: 
+[07/25/18 11:25:15:895 -07:00] [10220] (callapi.cpp:1349): Got APP_MSG_NOTIFY_LOCAL_DEVICES
+[07/25/18 11:25:15:895 -07:00] [10220] (callapi.cpp:1097): initMediaEngine
+[07/25/18 11:25:15:903 -07:00] [12724] (fibersipmanager.cpp:998): Using manually selected mic and speakers mic = {0.0.1.00000000}.{4c1ddb42-f5f1-49f7-b794-8167f95c6a50} spkr = {0.0.0.00000000}.{b5b6b35d-8c12-489b-876e-7d01796e48c4}
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:520): Setting Enhancements for reg key SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{4c1ddb42-f5f1-49f7-b794-8167f95c6a50}\FxProperties
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:540): Access denied for setting enhancements
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:562): Enhancements are already disabled for Microphone Array (Realtek Audio)
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:520): Setting Enhancements for reg key SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{b5b6b35d-8c12-489b-876e-7d01796e48c4}\FxProperties
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:540): Access denied for setting enhancements
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:562): Enhancements are already disabled for Speakers / Headphones (Realtek Audio)
+[07/25/18 11:25:15:904 -07:00] [12724] (fibersipmanager.cpp:374): (winaudiodevconfig.cpp:165): Core Audio: GetAudioHardwareIdFromDeviceIdCore called
+[07/25/18 11:25:15:905 -07:00] [12724] (fibersipmanager.cpp:374): (winaudiodevconfig.cpp:165): Core Audio: GetAudioHardwareIdFromDeviceIdCore called
+[07/25/18 11:25:15:905 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:3433): Changing audio devices to Mic: Microphone Array (Realtek Audio) id = {0.0.1.00000000}.{4c1ddb42-f5f1-49f7-b794-8167f95c6a50} mode = 2 source = , Spk: Speakers / Headphones (Realtek Audio) id = {0.0.0.00000000}.{b5b6b35d-8c12-489b-876e-7d01796e48c4} mode = 2 source = 
+[07/25/18 11:25:15:905 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:3530): ChangeDevices for audio attempted when audio engine is disabled. Caching the selected audio devices instead of opening them.
+[07/25/18 11:25:15:905 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:3537): Caching requested speaker device
+[07/25/18 11:25:15:905 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:3557): Caching requested microphone device
+[07/25/18 11:25:15:905 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:3585  Changing audio devices complete
+[07/25/18 11:25:15:911 -07:00] [10220] (bjnrenderer.h:68): setRenderer not implemented for current platform
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(bwmgr_adjusted_timeouts)
+[07/25/18 11:25:15:911 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:15:910 |    0)                               10220; (media_capture.cc:47): Initialized fieldTrial: 
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(dolby_client_android)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(dolby_client_mac)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(dolby_client_win)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(enable_win_screen_share_dd_complete)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(fiber2_lip_sync)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(mac_deferred_screen_capture_2)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(mac_delta_screen_capture)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(mac_h264_hw_accl_3)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(red_encapsulated_fec2)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(rtcp_xr)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(rtx_video2)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(tcp_bandwidth)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(vi_bwmgr2)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(win_app_share_global_hooks)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:5551  SipManager::MeetingFeatures(win_h264_hw_accl_2)
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2522  Initializing Config Parser
+[07/25/18 11:25:15:911 -07:00] [12724] (fibersipmanager.cpp:259): Overriding config.xml: size 54
+[07/25/18 11:25:15:912 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:143): Inside parseConfigXML
+[07/25/18 11:25:15:912 -07:00] [12724] (fibersipmanager.cpp:374): (config_handler.cc:151): Config XML : 
+<bjn>
+    <secure property="call" value="0" />
+</bjn>
+
+[07/25/18 11:25:15:912 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      AudioNetmon:51  rx loss = 25 rx tau = 20 tx loss = 25 tx tau = 20
+[07/25/18 11:25:15:912 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2574  pjsip log level 4
+[07/25/18 11:25:15:912 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2930): In function fbr::SipManager::postSetPJLogLevel
+[07/25/18 11:25:15:912 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2577  webrtc log level 2
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     tcplis:61173:425  SIP TCP listener ready for incoming connections at 127.0.0.1:61173
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:988  Encryption disabled
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  Module "mod-sub-factory" registered
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:6218): In fbr::SipManager::unregisterAudioFactory
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2734  In Function fbr::SipManager::initializeAudioCodecs
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:2740  In Function fbr::SipManager::initializeAudioCodecs complete
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:5932): fbr::SipManager::applyCurrentAudioDevices
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_aud.c:2384  Opening sound device to get initial settings
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_aud.c:2065  Set sound device: capture=-1, playback=-2
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2588):      pjsua_aud.c:64  .Error retrieving default audio device parameters: Unable to find default audio device (PJMEDIA_EAUD_NODEFDEV) [status=420006]
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_aud.c:2384  Opening sound device to get initial settings
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_aud.c:2065  Set sound device: capture=-1, playback=-2
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2588):      pjsua_aud.c:64  .Error retrieving default audio device parameters: Unable to find default audio device (PJMEDIA_EAUD_NODEFDEV) [status=420006]
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (graceful_event_monitor.cpp:216): SpeakingWhileMuted GD monitoring was already stopped
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:6487): Initialized fieldTrial: WebRTC-AdaptiveBweThreshold/Enabled-0.01,0.00018/WebRTC-NackFecMode/Enabled-150,200/
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:306  In function webrtc_cap_stream_set_cap with cap:4 val:000002465F636410
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:452  Attempt to start stream
+[07/25/18 11:25:15:913 -07:00] [12724] (fibersipmanager.cpp:374): (webrtc_capture_dev.cpp:440): Starting webrtc capture video :0
+[07/25/18 11:25:15:914 -07:00] [12724] (fibersipmanager.cpp:374): (webrtc_capture_dev.cpp:214): callVideo not yet created.
+[07/25/18 11:25:15:914 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:4121  PJSIP Trace level 4
+[07/25/18 11:25:15:914 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  Module "mod-pjsua-log" unregistered
+[07/25/18 11:25:15:914 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:226  Module "mod-pjsua-log" registered
+[07/25/18 11:25:15:914 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_aud.c:2341  entering pjsua_snd_set_setting
+[07/25/18 11:25:15:914 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_aud.c:2341  entering pjsua_snd_set_setting
+[07/25/18 11:25:16:045 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16: 44 |  133)                               10220; (device_info_impl.cc:131): Requested camera format: Width 640, Height 480, Frame rate 30, Color format 0
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |   88) VIDEO CAPTUR:    0     0;     10220; ======== Start Log Capture Filter Graph ========
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Filter 01: 'SinkFilter'
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220;     clsid: {88CDBBDC-A73B-4AFA-ACBF-15D5E2CE12C3}
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Connected PinType: Input, Name: VideoCapture, Connection Type {73646976-0000-0010-8000-00AA00389B71}
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Connection Subtype {32595559-0000-0010-8000-00AA00389B71}, Connection Format {05589F80-C356-11CE-BF01-00AA0055595A}
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Filter 02: 'VideoCaptureFilter'
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220;     clsid: {17CCA71B-ECD7-11D0-B908-00A0C9223196}
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220;      name: Generic WDM Filter Proxy
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Connected PinType: Output, Name: Capture, Connection Type {73646976-0000-0010-8000-00AA00389B71}
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Connection Subtype {32595559-0000-0010-8000-00AA00389B71}, Connection Format {05589F80-C356-11CE-BF01-00AA0055595A}
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; Unconnected PinType: Input, Name: Video Camera Terminal
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:131 |    0) VIDEO CAPTUR:    0     0;     10220; ========  End Log Capture Filter Graph ========
+[07/25/18 11:25:16:132 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:131 |    0)                               10220; (vcm_capturer.cc:298): BJNMediaCapture::VcmCapturer::GetPreferredResolution: CPU params supports HD
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    4)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:160, height:120, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:180, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:240, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:424, height:240, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:360, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:848, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:960, height:540, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:1280, height:720, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:135 |    0)                               10220; (vcm_capturer.cc:401): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: camera format:1280x720 @30, format: 10 is favored, added to preferred list
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    1)                               10220; (vcm_capturer.cc:480): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability:Capability Added,  camera format:1280x720 @30, format: 10
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:160, height:120, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:180, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:240, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:424, height:240, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:360, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:848, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:960, height:540, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:1280, height:720, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:480): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability:Capability Added,  camera format:640x480 @30, format: 2
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:160, height:120, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:180, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:240, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:424, height:240, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:360, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:848, height:480, @ 30
+[07/25/18 11:25:16:136 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:960, height:540, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:1280, height:720, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:480): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability:Capability Added,  camera format:640x360 @30, format: 2
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:160, height:120, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:180, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:240, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:424, height:240, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:360, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:848, height:480, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:960, height:540, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:1280, height:720, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:480): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability:Capability Added,  camera format:320x240 @30, format: 2
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:160, height:120, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:180, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:320, height:240, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:424, height:240, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:360, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 2, width:640, height:480, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:848, height:480, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:960, height:540, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:381): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability: Type 10, width:1280, height:720, @ 30
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:480): BJNMediaCapture::VcmCapturer::PopulateSupportedCapability:Capability Added,  camera format:320x180 @30, format: 2
+[07/25/18 11:25:16:137 -07:00] [10220] (fibersipmanager.cpp:374):             (18:25:16:136 |    0)                               10220; (vcm_capturer.cc:165): Creating capturer with resolution: 1280x720@30, rawType:10
+[07/25/18 11:25:16:138 -07:00] [10220] (fibersipmanager.cpp:374): WARNING   ; (18:25:16:137 |    1)                               10220; (device_info_impl.cc:131): Requested camera format: Width 1280, Height 720, Frame rate 30, Color format 10
+[07/25/18 11:25:16:170 -07:00] [10220] (fibersipmanager.cpp:374): (messagequeue.cc:537): Message took 275ms to dispatch. Posted from: bjn_sky::FiberSipManager::GetDevices@C:\work\fiber\fbrapp\fibersipmanager.cpp:350
+[07/25/18 11:25:16:480 -07:00] [15348] (fibersipmanager.cpp:374): (video_capturer_impl.cpp:140): IncomingFrame:0 Capture size:1280X720 Desired size:1280X720 Aspect Ratio:16:9
+[07/25/18 11:25:16:492 -07:00] [15348] (fibersipmanager.cpp:374): (video_renderer.cc:74): UpdatingWidthHeight: 1280x720 for Local Preview
+[07/25/18 11:25:45:543 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     Presentation:4680  Sipua failed to send sent INFO presentation request
+[07/25/18 11:25:46:118 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:6138): Audio Engine already disabled
+[07/25/18 11:25:46:780 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     Presentation:4680  Sipua failed to send sent INFO presentation request
+[07/25/18 11:25:46:988 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     Presentation:4680  Sipua failed to send sent INFO presentation request
+[07/25/18 11:25:47:432 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     Presentation:4680  Sipua failed to send sent INFO presentation request
+[07/25/18 11:25:47:566 -07:00] [2420] (callapi.cpp:1693): Server credentials and Meeting features fetched from config.ini
+[07/25/18 11:25:47:566 -07:00] [2420] (callapi.cpp:1696): config.ini path used is: ./config.ini
+[07/25/18 11:25:47:566 -07:00] [2420] (callapi.cpp:1707): config.ini dump:
+[MeetingFeatures]
+tcp_bandwidth=true
+vi_bwmgr2=true
+mac_h264_hw_accl_3=true
+bwmgr_adjusted_timeouts=true
+mac_deferred_screen_capture_2=true
+mac_delta_screen_capture=true
+win_h264_hw_accl_2=true
+rtx_video2=true
+rtcp_xr=true
+red_encapsulated_fec2=true
+dolby_client_mac=true
+dolby_client_win=true
+dolby_client_android=true
+fiber2_lip_sync=true
+enable_win_screen_share_dd_complete=true
+win_app_share_global_hooks=true
+
+[TurnServersUdp]
+address=103.20.59.25
+hostname=turns-103-20-59-25.a.bjn.vc
+protocol=udp
+port=5000
+username=vwCw9DDB66FyvD6C
+passwd=vwCw9DDB66FyvD6C
+
+[TurnServersTls]
+address=103.20.59.25
+hostname=turns-103-20-59-25.a.bjn.vc
+protocol=tcp
+port=443
+username=vwCw9DDB66FyvD6C
+passwd=vwCw9DDB66FyvD6C
+
+[TurnServersTcp]
+address=103.20.59.25
+hostname=turns-103-20-59-25.a.bjn.vc
+protocol=tcp
+port=5000
+username=vwCw9DDB66FyvD6C
+passwd=vwCw9DDB66FyvD6C
+
+[07/25/18 11:25:47:566 -07:00] [2420] (fibersipmanager.cpp:374):             (18:25:47:566 |31428)                                2420; (media_capture.cc:47): Initialized fieldTrial: 
+[07/25/18 11:25:47:572 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2592):       SipManager:5542  Ignoring call to meeting features enablement as it's already initialized
+[07/25/18 11:25:47:963 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:6138): Audio Engine already disabled
+[07/25/18 11:25:48:236 -07:00] [2420] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2935): In function fbr::SipManager::postClose
+[07/25/18 11:25:48:236 -07:00] [2420] (callapi.cpp:1214): CallApi::deinitSip
+[07/25/18 11:25:48:236 -07:00] [2420] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2940): In function fbr::SipManager::postExitSipUA
+[07/25/18 11:25:48:236 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:464  In Function fbr::SipManager::Quit
+[07/25/18 11:25:48:236 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       SipManager:476  In Function fbr::SipManager::ExitSipUA
+[07/25/18 11:25:48:236 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:306  In function webrtc_cap_stream_set_cap with cap:4 val:0000000000000000
+[07/25/18 11:25:48:236 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc_capture_d:464  Stop webrtc capture
+[07/25/18 11:25:48:239 -07:00] [12724] (callapi.cpp:1087): Deleting sip manager 000002465F08A450
+[07/25/18 11:25:48:241 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:6218): In fbr::SipManager::unregisterAudioFactory
+[07/25/18 11:25:48:241 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): subscriptionfact:87  SubscriptionFactory delete
+[07/25/18 11:25:48:241 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  Module "mod-sub-factory" unregistered
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): subscriptionfact:610  ************ Subscription Factory Deleted
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1427  Shutting down, flags=3...
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1656  PJSUA state changed: RUNNING --> CLOSING
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_pres.c:2374  .Shutting down presence..
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):    pjsua_media.c:193  .Shutting down media..
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):    pjsua_media.c:2456  ..Call 0: deinitializing media..
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):    pjsua_media.c:2456  ..Call 1: deinitializing media..
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):    pjsua_media.c:2456  ..Call 2: deinitializing media..
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):    pjsua_media.c:2456  ..Call 3: deinitializing media..
+[07/25/18 11:25:48:242 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:133  ..Destroying video subsystem..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 2: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 3: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 4: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 5: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 6: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 7: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 8: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 9: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 10: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 11: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 12: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 13: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 14: destroying..
+[07/25/18 11:25:48:243 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):      pjsua_vid.c:686  ...Window 15: destroying..
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1578  .Destroying...
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): sip_transaction.:720  .Stopping transaction layer module
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): sip_transaction.:740  .Stopped transaction layer module
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-unsolicited-mwi" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-pjsua-options" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-pjsua-im" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-pjsua-pres" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-pjsua" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-stateful-util" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-refer" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-mwi" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-presence" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-evsub" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-invite" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-100rel" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-ua" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): sip_transaction.:763  .Transaction layer module destroyed
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-tsx-layer" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-msg-print" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:306  .Module "mod-pjsua-log" unregistered
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     tcplis:61173:495  .SIP TCP listener destroyed
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):   sip_endpoint.c:639  .Endpoint 000002465D5F50D8 destroyed
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       video port:108  .Pool is not released by application, releasing now
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc-capture-d:108  .Pool is not released by application, releasing now
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):        video tee:108  .Pool is not released by application, releasing now
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):       video port:108  .Pool is not released by application, releasing now
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595): webrtc-capture-d:108  .Pool is not released by application, releasing now
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):        video tee:108  .Pool is not released by application, releasing now
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1656  .PJSUA state changed: CLOSING --> NULL
+[07/25/18 11:25:48:244 -07:00] [12724] (fibersipmanager.cpp:374): (sipmanagerbase.cpp:2595):     pjsua_core.c:1619  .PJSUA destroyed...

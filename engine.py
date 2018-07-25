@@ -1,15 +1,35 @@
+#!/usr/local/bin/python3
 from flask import Flask
+from dateutil import parser
+from logic import stampedFile
+
+# rgb(116, 112, 94)
+
 app = Flask(__name__)
 
+def file(path):
+	return open(path).read()
+
 @app.route("/")
-def hello():
+def home():
+	return file("HTML/index.html")
 
-	content = []
-	for i in range(0, 5):
-		F = open("log.log", "r")
-		read = F.readlines()
-		content.extend(read)
+@app.route("/fetchLog/<file_path>")
+def fetchLog(file_path):
 
-	print(len(content))
+	F = open(file_path, "r")
+	StampedFile = stampedFile(F)
 
-	return "<style> body {font-family: Menlo Regular, Monospace, Consolas; background-color: rgb(40, 41, 35); color: rgb(248, 248, 242);} </style>" + "<br>".join(content)
+	fileHTML = ""
+
+	fileHTML += "<div class='file'>"
+	index = 1
+
+	for time, line, mode in StampedFile:
+		lineHTML = "<div class='line'>"
+		lineHTML += "<span class='index'>" + str(index) + "\t</span>" + "<span class='timestamp'>" + time + "</span>" + "<span class='logline'>" + line + "</span>"
+		lineHTML += "</div>"
+		fileHTML += lineHTML
+		index += 1
+
+	return fileHTML

@@ -1,0 +1,213 @@
+Jul 20 18:13:43:424433 -0700 NOTICE DNMLIB mhmgr DNMLIB mhmgr - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jun 18 2018 around 10:18:34
+Jul 20 18:13:43:424436 -0700 NOTICE DNMLIB mhmgr DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 20 18:13:43:424679 -0700 INFO DNMLIB mhmgr DNMLIB Starting NM connection
+Jul 20 18:13:43:424704 -0700 INFO DNMLIB mhmgr DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 20 18:13:43:425387 -0700 INFO mhmgr mhmgr MHMgr Listening on tcp://10.4.4.197:36559
+Jul 20 18:13:43:425514 -0700 INFO mhmgr mhmgr MHMgr Listening on tcp://10.4.4.197:5656
+Jul 20 18:13:43:427410 -0700 CRITICAL mhmgr mhmgr MHMgr MEDIA_CAPACITY_OVERRIDE environment variable set to a bad value: : invalid literal for int() with base 10: ''
+Jul 20 18:13:43:430145 -0700 INFO mhmgr mhmgr pyzookeeper Connected to ZooKeeper
+Jul 20 18:13:43:431392 -0700 INFO mhmgr mhmgr MHMgr.NSRecord Created NS Record: MHMgr, val: tcp://10.4.4.197:36559
+Jul 20 18:13:43:435800 -0700 INFO mhmgr mhmgr MHMgr.NSRecord Created NS Record: MHMgr.existing, val: tcp://10.4.4.197:36559
+Jul 20 18:13:43:437884 -0700 INFO mhmgr mhmgr MHMgr.NSRecord Created NS Record: AudioMgr, val: tcp://10.4.4.197:36559
+Jul 20 18:13:43:439576 -0700 INFO mhmgr mhmgr MHMgr.NSRecord Created NS Record: AudioMgr.existing, val: tcp://10.4.4.197:36559
+Jul 20 18:13:43:439669 -0700 INFO mhmgr mhmgr pylibtt Returning Resource Manager address: tcp://127.0.0.1:5561
+Jul 20 18:13:43:439865 -0700 INFO mhmgr mhmgr pylibtt Connected to Resource Manager
+Jul 20 18:13:43:440076 -0700 INFO mhmgr mhmgr pylibtt Client initialized
+Jul 20 18:13:43:440408 -0700 INFO mhmgr mhmgr pylibtt setResource called for resource: mediaCapacity, capacity: 3000, used: 0
+Jul 20 18:14:46:464449 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:35163
+Jul 20 18:14:46:466854 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:14:46:557377 -0700 INFO mhmgr mhmgr MHMgr.client creating conference for 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2
+Jul 20 18:14:47:555032 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 3, numChanges: 7, connections by type: msmlCallLeg=1 openProcessConnection=1 videomh=1 
+Jul 20 18:14:47:555176 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:14:47:561665 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:42569
+Jul 20 18:14:54:058472 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:35163
+Jul 20 18:14:54:061112 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:14:54:150727 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:42569
+Jul 20 18:14:57:176297 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 9, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:14:57:176606 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:14:57:177297 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:14:57:177399 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:15:07:148263 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:15:07:148373 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:15:17:148168 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:15:17:148273 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:15:27:146763 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:15:27:146827 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:15:37:147242 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:15:37:147334 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:15:47:147381 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:15:47:147478 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:15:48:315541 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:15:48:315720 -0700 INFO mhmgr mhmgr MHMgr.stats 0b4a77e3-0c93-498f-9f2f-1e97739fb27b@999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0: call finished, removed 0 stats listeners
+Jul 20 18:15:50:404367 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:35163
+Jul 20 18:15:50:408283 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:15:50:554677 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:42569
+Jul 20 18:15:57:146686 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 10, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:15:57:146778 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:16:06:242931 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:16:06:243088 -0700 INFO mhmgr mhmgr MHMgr.stats 0b4a77e3-0c93-498f-9f2f-1e97739fb27b@999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0: call finished, removed 0 stats listeners
+Jul 20 18:16:07:148233 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 2, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:16:07:148338 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:16:08:351261 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:35163
+Jul 20 18:16:08:354303 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:16:08:460181 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:42569
+Jul 20 18:16:17:148504 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 8, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:16:17:148616 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:16:27:150276 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:16:27:150427 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:16:37:147216 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:16:37:147307 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:16:47:147844 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:16:47:147949 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:16:57:147776 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 20 18:16:57:147867 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:17:03:396197 -0700 INFO mhmgr mhmgr MHMgr.stats 0b4a77e3-0c93-498f-9f2f-1e97739fb27b@999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0: call finished, removed 0 stats listeners
+Jul 20 18:17:03:411569 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 20 18:17:07:148315 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 2, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:17:07:148421 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:17:17:147292 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 0, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:17:17:147398 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:17:27:147509 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 0, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:17:27:147596 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:17:37:146832 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 0, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:17:37:146908 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:17:47:148206 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 0, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:17:47:148315 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:17:57:146772 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 0, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:17:57:146847 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:18:07:159305 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 0, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 20 18:18:07:159380 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 20 18:18:13:397258 -0700 INFO mhmgr mhmgr MHMgr.stats ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d@999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0: call finished, removed 0 stats listeners
+Jul 20 18:18:23:404651 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0']
+Jul 23 09:35:10:937163 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:42459
+Jul 23 09:35:10:940295 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0']
+Jul 23 09:35:11:033726 -0700 INFO mhmgr mhmgr MHMgr.client creating conference for 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:11:548327 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:42459
+Jul 23 09:35:11:550763 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0']
+Jul 23 09:35:11:639928 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:45105
+Jul 23 09:35:12:028513 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 5, numChanges: 17, connections by type: msmlCallLeg=2 openProcessConnection=1 videomh=2 
+Jul 23 09:35:12:028676 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:35:12:037134 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:45105
+Jul 23 09:35:22:029419 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 1, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:35:22:029530 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:35:32:028463 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:35:32:028548 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:35:42:030819 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:35:42:030916 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:35:52:029005 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:35:52:029111 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:36:02:029765 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:36:02:029865 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:36:12:027850 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:36:12:027917 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:36:22:030093 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:36:22:030208 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:36:32:027724 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:36:32:027791 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:36:42:029598 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:36:42:029710 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:36:52:029226 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:36:52:029323 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:37:02:029234 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:37:02:029339 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:37:12:029388 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:37:12:029495 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:37:22:030048 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:37:22:030156 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:37:32:029645 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:37:32:029758 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:37:42:029689 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:37:42:029783 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:37:52:029324 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:37:52:029436 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:02:030510 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:38:02:030625 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:12:028797 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:38:12:028888 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:22:028382 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:38:22:028449 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:32:029324 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:38:32:029406 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:42:028785 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 23 09:38:42:028891 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:47:932065 -0700 INFO mhmgr mhmgr MHMgr.stats eead5f71-e382-40a1-9d32-57a2c6b231c4@999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0: call finished, removed 0 stats listeners
+Jul 23 09:38:48:634416 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0']
+Jul 23 09:38:48:634552 -0700 INFO mhmgr mhmgr MHMgr.stats eead5f71-e382-40a1-9d32-57a2c6b231c4@999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0: call finished, removed 0 stats listeners
+Jul 23 09:38:51:911737 -0700 INFO mhmgr mhmgr MHMgr.stats eec54cc1-6f90-41ff-8e2c-524115cd2bef@999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0: call finished, removed 0 stats listeners
+Jul 23 09:38:52:026243 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 1, numChanges: 3, connections by type: msmlCallLeg=0 openProcessConnection=0 videomh=1 
+Jul 23 09:38:52:026325 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 23 09:38:52:027582 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0']
+Jul 23 09:38:52:027740 -0700 INFO mhmgr mhmgr MHMgr.stats eec54cc1-6f90-41ff-8e2c-524115cd2bef@999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0: call finished, removed 0 stats listeners
+Jul 24 16:50:19:837337 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:45217
+Jul 24 16:50:19:840136 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:50:19:928449 -0700 INFO mhmgr mhmgr MHMgr.client creating conference for 999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9
+Jul 24 16:50:20:925873 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 3, numChanges: 8, connections by type: msmlCallLeg=1 openProcessConnection=1 videomh=1 
+Jul 24 16:50:20:925984 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:50:20:932767 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:35965
+Jul 24 16:50:26:753953 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:45217
+Jul 24 16:50:26:756058 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:50:26:837442 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:35965
+Jul 24 16:50:28:754013 -0700 INFO mhmgr mhmgr MHMgr.stats 88e3ab02-4348-48e8-a30b-38d3d204ff82@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:50:28:922133 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:50:30:835387 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 11, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 24 16:50:30:835496 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:50:36:452993 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:45217
+Jul 24 16:50:36:455539 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:50:36:540345 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:35965
+Jul 24 16:50:40:536427 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 8, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:50:40:536545 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:50:47:801393 -0700 INFO mhmgr mhmgr MHMgr.stats 6d722644-641f-4be9-9701-b5bd65a50b25@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:50:47:833779 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:50:47:833904 -0700 INFO mhmgr mhmgr MHMgr.stats 6d722644-641f-4be9-9701-b5bd65a50b25@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:50:50:535412 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 2, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 24 16:50:50:535492 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:50:57:265508 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:45217
+Jul 24 16:50:57:267469 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:50:57:334725 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:35965
+Jul 24 16:51:00:331063 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 8, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:51:00:331139 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:51:10:331428 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:51:10:331516 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:51:20:329735 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:51:20:329790 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:51:30:332178 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:51:30:332287 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:51:40:329589 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:51:40:329642 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:51:50:331336 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:51:50:331387 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:52:00:331259 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:52:00:331390 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:52:08:662393 -0700 INFO mhmgr mhmgr MHMgr.stats 92313ebf-8676-4680-841e-072c3c0d02d7@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:52:09:534865 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:52:09:535000 -0700 INFO mhmgr mhmgr MHMgr.stats 92313ebf-8676-4680-841e-072c3c0d02d7@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:52:10:343450 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 2, numChanges: 2, connections by type: msmlCallLeg=1 openProcessConnection=0 videomh=1 
+Jul 24 16:52:10:343556 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:52:17:695523 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:45217
+Jul 24 16:52:17:697929 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:52:17:779994 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:35965
+Jul 24 16:52:20:259277 -0700 INFO mhmgr mhmgr MHMgr.client msmlcontroller address tcp://10.4.4.197:45217
+Jul 24 16:52:20:261133 -0700 INFO mhmgr mhmgr MHMgr.proc Starting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:52:20:343146 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 6, numChanges: 12, connections by type: msmlCallLeg=2 openProcessConnection=1 videomh=3 
+Jul 24 16:52:20:343448 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:52:20:349946 -0700 INFO mhmgr mhmgr MHMgr.client conf address tcp://10.4.4.197:35965
+Jul 24 16:52:25:665751 -0700 INFO mhmgr mhmgr MHMgr.stats f2e75898-aedf-419c-9e31-1a51b55a287c@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:52:25:673584 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:52:30:345897 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 6, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:52:30:346002 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:52:40:344644 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:52:40:344732 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:52:50:344955 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:52:50:345112 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:53:00:345050 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:53:00:345167 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:53:10:345235 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:53:10:345325 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:53:20:343536 -0700 INFO mhmgr mhmgr CCStats Num commandHandlers: 4, numChanges: 0, connections by type: msmlCallLeg=2 openProcessConnection=0 videomh=2 
+Jul 24 16:53:20:343600 -0700 INFO mhmgr mhmgr MHMgr.stats Stat updates for 0 listeners 0 succeeded 0 failed
+Jul 24 16:53:23:781990 -0700 INFO mhmgr mhmgr MHMgr.stats 68fa2321-20d4-4b70-a6be-e8933124cae9@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:53:24:343633 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:53:24:343752 -0700 INFO mhmgr mhmgr MHMgr.stats 68fa2321-20d4-4b70-a6be-e8933124cae9@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:53:25:551813 -0700 INFO mhmgr mhmgr MHMgr.stats 1544282e-2f00-4b9b-a190-1d7ff1e5887c@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners
+Jul 24 16:53:25:776067 -0700 INFO mhmgr mhmgr MHMgr.proc Exiting ['mh', '-v', '999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0']
+Jul 24 16:53:25:776241 -0700 INFO mhmgr mhmgr MHMgr.stats 1544282e-2f00-4b9b-a190-1d7ff1e5887c@999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0: call finished, removed 0 stats listeners

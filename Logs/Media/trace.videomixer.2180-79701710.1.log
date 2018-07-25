@@ -1,0 +1,19 @@
+Jul 20 18:14:46:098257 -0700 NOTICE DNMLIB videomixer-tMain DNMLIB videomixer - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 18 2018 around 15:06:39
+Jul 20 18:14:46:098275 -0700 NOTICE DNMLIB videomixer-tMain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 20 18:14:46:098412 -0700 NOTICE _ videomixer-tMain 999999999:329642-c6ce0eac-1cbd-48ad-ace4-31d1beacf3f2,0 starting
+Jul 20 18:14:46:235915 -0700 WARNING _ videomixer-tMain Resources Invalid default video layout submode value 5, defaulting to continuous presence
+Jul 20 18:14:46:554195 -0700 NOTICE _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New member: Garvit Gupta
+Jul 20 18:14:54:147166 -0700 NOTICE _ videomixer ec6916d6-4ef0-4117-b1c3-f2c1f8fa7a2d New member: Garvit Gupta
+Jul 20 18:15:50:499372 -0700 NOTICE _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New member: Garvit Gupta
+Jul 20 18:16:08:431704 -0700 NOTICE _ videomixer 0b4a77e3-0c93-498f-9f2f-1e97739fb27b New member: Garvit Gupta
+Jul 20 18:18:24:404976 -0700 WARNING _ videomixer VideoMixer Video update took 989 ms
+Jul 20 18:18:24:432297 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:25:466514 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:26:501189 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:27:536334 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:28:572292 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:29:605245 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:30:638944 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:31:671439 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:32:703249 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting
+Jul 20 18:18:33:736637 -0700 ERROR _ videomixer-tSubC SubscriptionClient Audio mixer address not found retry connecting

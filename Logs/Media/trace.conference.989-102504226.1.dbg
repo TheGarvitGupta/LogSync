@@ -1,0 +1,36 @@
+Jul 23 09:35:11:185232 -0700 NOTICE DNMLIB conference DNMLIB conference - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jun 18 2018 around 10:18:34
+Jul 23 09:35:11:185246 -0700 NOTICE DNMLIB conference DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 23 09:35:11:185346 -0700 INFO DNMLIB conference DNMLIB Starting NM connection
+Jul 23 09:35:11:185363 -0700 INFO DNMLIB conference DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 23 09:35:11:185390 -0700 INFO conference conference conference addresstr tcp://10.4.4.197:45105
+Jul 23 09:35:11:185498 -0700 INFO conference conference conference Conference '999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face'
+Jul 23 09:35:11:185686 -0700 INFO conference conference conference.reflector Reflector for 999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face
+Jul 23 09:35:11:185807 -0700 INFO conference conference conference.reflector Checking conn
+Jul 23 09:35:11:185836 -0700 INFO conference conference conference.reflector Checking createChannel
+Jul 23 09:35:11:185862 -0700 INFO conference conference conference.reflector Publishing createChannel
+Jul 23 09:35:11:185886 -0700 INFO conference conference conference.reflector Checking destroyChannel
+Jul 23 09:35:11:185913 -0700 INFO conference conference conference.reflector Publishing destroyChannel
+Jul 23 09:35:11:185950 -0700 INFO conference conference conference.reflector Checking lock
+Jul 23 09:35:11:185976 -0700 INFO conference conference conference.reflector Checking meetingGuid
+Jul 23 09:35:11:186002 -0700 INFO conference conference conference.reflector Checking shutdownCb
+Jul 23 09:35:11:186027 -0700 INFO conference conference conference.reflector Publishing shutdownCb
+Jul 23 09:35:11:186053 -0700 INFO conference conference conference.reflector Checking subscribe
+Jul 23 09:35:11:186077 -0700 INFO conference conference conference.reflector Publishing subscribe
+Jul 23 09:35:11:186102 -0700 INFO conference conference conference.reflector Checking unsubscribe
+Jul 23 09:35:11:186126 -0700 INFO conference conference conference.reflector Publishing unsubscribe
+Jul 23 09:35:11:641742 -0700 INFO conference conference conference ReqId=0: Request: openSession: {'openSessionReq': {'properties': {u'MeetingGuid': u'999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face', u'MixerGuid': u'999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0', u'Leader': u'1', u'meetingid': u'999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0', u'CountryCode': u'<Unknown>', u'pairedname': u'Garvit Gupta', u'version': u'1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]', u'AudioRecvLocalMute': u'0', u'VideoRecvLocalMute': u'0', u'EndpointAddressFamily': u'IPv4', u'localName': u'999999999', u'SecureCall': u'1', u'vendor': u'BlueJeans', u'conaddress': u'10.4.4.197', u'TalkDetected': u'0', u'sessionid': u'eead5f71-e382-40a1-9d32-57a2c6b231c4', u'locales': u'bjn:en-us,bjn:de,bjn:es,bjn:fr', u'endpoint': u'WebRTC', u'name': u'Garvit Gupta', u'callguid': u'eead5f71-e382-40a1-9d32-57a2c6b231c4', u'pairedremoteaddress': u'10.4.13.50', u'BJNUserId': u'uid:uid:21', u'ContentRecvLocalMute': u'0'}}, 'commandId': 1}
+Jul 23 09:35:11:641837 -0700 INFO conference conference conference.client Open event req 
+Jul 23 09:35:11:642504 -0700 INFO conference conference conference ReqId=0: Delay=0.001: Reply: {'commandId': 2, 'openSessionResp': {'status': 0, 'statusText': u'OK'}}
+Jul 23 09:35:12:038889 -0700 INFO conference conference conference ReqId=1: Request: openSession: {'openSessionReq': {'properties': {u'MeetingGuid': u'999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face', u'MixerGuid': u'999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0', u'Leader': u'1', u'meetingid': u'999999999:330022-ed5ed3ae-9a14-487b-af8a-99a748c2face,0', u'CountryCode': u'<Unknown>', u'pairedname': u'Garvit Gupta', u'version': u'1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]', u'AudioRecvLocalMute': u'0', u'VideoRecvLocalMute': u'0', u'EndpointAddressFamily': u'IPv4', u'localName': u'999999999', u'SecureCall': u'1', u'vendor': u'BlueJeans', u'conaddress': u'10.4.4.197', u'TalkDetected': u'0', u'sessionid': u'eec54cc1-6f90-41ff-8e2c-524115cd2bef', u'locales': u'bjn:en-us,bjn:de,bjn:es,bjn:fr', u'endpoint': u'WebRTC', u'name': u'Garvit Gupta', u'callguid': u'eec54cc1-6f90-41ff-8e2c-524115cd2bef', u'pairedremoteaddress': u'10.4.13.50', u'BJNUserId': u'uid:uid:21', u'ContentRecvLocalMute': u'0'}}, 'commandId': 1}
+Jul 23 09:35:12:038993 -0700 INFO conference conference conference.client Open event req 
+Jul 23 09:35:12:039333 -0700 INFO conference conference conference ReqId=1: Delay=0.001: Reply: {'commandId': 2, 'openSessionResp': {'status': 0, 'statusText': u'OK'}}
+Jul 23 09:38:47:931643 -0700 INFO conference conference conference.ep Exit. Callguid is eead5f71-e382-40a1-9d32-57a2c6b231c4 ep rdc None
+Jul 23 09:38:47:931780 -0700 INFO conference conference conference.ep ep.callguid eead5f71-e382-40a1-9d32-57a2c6b231c4 controller None presenter None
+Jul 23 09:38:47:932014 -0700 INFO conference conference conference 140210973225488: RequestHandler finishing: 
+Jul 23 09:38:51:911349 -0700 INFO conference conference conference.ep Exit. Callguid is eec54cc1-6f90-41ff-8e2c-524115cd2bef ep rdc None
+Jul 23 09:38:51:911469 -0700 INFO conference conference conference.ep ep.callguid eec54cc1-6f90-41ff-8e2c-524115cd2bef controller None presenter None
+Jul 23 09:38:51:911651 -0700 INFO conference conference conference 140210973226256: RequestHandler finishing: 
+Jul 23 09:38:52:057137 -0700 INFO conference conference conference Timeout and membercount is 0. Will exit
+Jul 23 09:38:52:057215 -0700 INFO conference conference conference connect error: timed out
+Jul 23 09:38:52:057264 -0700 INFO conference conference conference connection ending
+Jul 23 09:38:52:057326 -0700 INFO conference conference conference Exiting

@@ -1,0 +1,386 @@
+Jul 24 16:50:57:326411 -0700 NOTICE DNMLIB mh-tMain DNMLIB mh - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 19 2018 around 13:25:30
+Jul 24 16:50:57:326444 -0700 NOTICE DNMLIB mh-tMain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 24 16:50:57:326597 -0700 INFO MHLogger mh-tMain MH Running on NUMA node: 0
+Jul 24 16:50:57:326648 -0700 INFO DNMLIB mh DNMLIB Starting NM connection
+Jul 24 16:50:57:326673 -0700 INFO DNMLIB mh DNMLIB Connecting to NM at tcp://127.0.0.1:5557
+Jul 24 16:50:57:326706 -0700 INFO MHLogger mh-tMain MH listening on tcp://10.4.4.197:38523
+Jul 24 16:50:57:329173 -0700 INFO MHLogger mh-tCmd CMD Open Session Request type 1
+Jul 24 16:50:57:329211 -0700 INFO MHLogger mh-tCmd MH Connecting to mixer using meeting name 999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0 {"AudioRecvLocalMute": "0", "ContentRecvLocalMute": "0", "CountryCode": "<Unknown>", "EndpointAddressFamily": "IPv4", "Leader": "0", "MeetingGuid": "999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9", "MixerGuid": "999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0", "SecureCall": "1", "TalkDetected": "0", "VideoRecvLocalMute": "0", "callguid": "f2e75898-aedf-419c-9e31-1a51b55a287c", "conaddress": "10.4.4.197", "endpoint": "WebRTC", "localName": "999999999", "locales": "bjn:en-us,bjn:de,bjn:es,bjn:fr", "meetingid": "999999999:330210-46c4d3c3-6c14-4565-b55f-20c686b355a9,0", "name": "Gupta Garvit", "pairedname": "Gupta Garvit", "pairedremoteaddress": "10.4.13.50", "sessionid": "f2e75898-aedf-419c-9e31-1a51b55a287c", "vendor": "BlueJeans", "version": "1.0/windows 10.0/[BROWSER: chrome 67.0.3396.99]/[UI:1.0]/[USERAGENT: WebRTC 1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36]"}
+Jul 24 16:50:57:329290 -0700 INFO MHLogger mh-tCmd MH MH received 150 features:
+Jul 24 16:50:57:329294 -0700 INFO MHLogger mh-tCmd MH   auto_mic_unmute
+Jul 24 16:50:57:329297 -0700 INFO MHLogger mh-tCmd MH   improved_temporal_scalability
+Jul 24 16:50:57:329300 -0700 INFO MHLogger mh-tCmd MH   dcp_lipsync_jb
+Jul 24 16:50:57:329302 -0700 INFO MHLogger mh-tCmd MH   rtcp-mux
+Jul 24 16:50:57:329305 -0700 INFO MHLogger mh-tCmd MH   enable_audio_error_reporting
+Jul 24 16:50:57:329307 -0700 INFO MHLogger mh-tCmd MH   high_fps_content5
+Jul 24 16:50:57:329312 -0700 INFO MHLogger mh-tCmd MH   new_application_sharing
+Jul 24 16:50:57:329315 -0700 INFO MHLogger mh-tCmd MH   new_novideo_screen
+Jul 24 16:50:57:329318 -0700 INFO MHLogger mh-tCmd MH   carmel_home_button
+Jul 24 16:50:57:329320 -0700 INFO MHLogger mh-tCmd MH   fiber2_lip_sync
+Jul 24 16:50:57:329323 -0700 INFO MHLogger mh-tCmd MH   html_waiting_room
+Jul 24 16:50:57:329326 -0700 INFO MHLogger mh-tCmd MH   typing_detection
+Jul 24 16:50:57:329328 -0700 INFO MHLogger mh-tCmd MH   render_low_selfview_fps
+Jul 24 16:50:57:329331 -0700 INFO MHLogger mh-tCmd MH   carmel_google_calendar_meetings_v3
+Jul 24 16:50:57:329334 -0700 INFO MHLogger mh-tCmd MH   carmel_use_asset_service
+Jul 24 16:50:57:329337 -0700 INFO MHLogger mh-tCmd MH   enable_h264_capability_publish
+Jul 24 16:50:57:329339 -0700 INFO MHLogger mh-tCmd MH   bwmgr_adjusted_timeouts
+Jul 24 16:50:57:329342 -0700 INFO MHLogger mh-tCmd MH   disable_rdp_outbound
+Jul 24 16:50:57:329344 -0700 INFO MHLogger mh-tCmd MH   fiber_rtx_new_nack_logic
+Jul 24 16:50:57:329347 -0700 INFO MHLogger mh-tCmd MH   use_boost_lockfree_queue
+Jul 24 16:50:57:329352 -0700 INFO MHLogger mh-tCmd MH   max_freq_based_res_cap
+Jul 24 16:50:57:329354 -0700 INFO MHLogger mh-tCmd MH   personal_url
+Jul 24 16:50:57:329362 -0700 INFO MHLogger mh-tCmd MH   admin_pstn_settings_2
+Jul 24 16:50:57:329364 -0700 INFO MHLogger mh-tCmd MH   wmc6_ui_change
+Jul 24 16:50:57:329367 -0700 INFO MHLogger mh-tCmd MH   win_core_audio_dev_notify2
+Jul 24 16:50:57:329370 -0700 INFO MHLogger mh-tCmd MH   dolby_client_mac
+Jul 24 16:50:57:329372 -0700 INFO MHLogger mh-tCmd MH   recording_v2
+Jul 24 16:50:57:329375 -0700 INFO MHLogger mh-tCmd MH   reduced_temporal_scalability_cpu
+Jul 24 16:50:57:329380 -0700 INFO MHLogger mh-tCmd MH   carmel_remote_desktop_control
+Jul 24 16:50:57:329383 -0700 INFO MHLogger mh-tCmd MH   wmc_app_pitch
+Jul 24 16:50:57:329385 -0700 INFO MHLogger mh-tCmd MH   jf3_webrtc_desktop_app_offer
+Jul 24 16:50:57:329388 -0700 INFO MHLogger mh-tCmd MH   monotonic_clock
+Jul 24 16:50:57:329391 -0700 INFO MHLogger mh-tCmd MH   hw_cc_render_windows
+Jul 24 16:50:57:329393 -0700 INFO MHLogger mh-tCmd MH   vo_packet_pacing
+Jul 24 16:50:57:329396 -0700 INFO MHLogger mh-tCmd MH   jf3_firefox_webrtc_desktop_app_offer
+Jul 24 16:50:57:329400 -0700 INFO MHLogger mh-tCmd MH   enable_custom_aec_mac
+Jul 24 16:50:57:329402 -0700 INFO MHLogger mh-tCmd MH   carmel_recent_meetings_v3
+Jul 24 16:50:57:329405 -0700 INFO MHLogger mh-tCmd MH   invalid_mic_or_speaker_error
+Jul 24 16:50:57:329407 -0700 INFO MHLogger mh-tCmd MH   carder
+Jul 24 16:50:57:329410 -0700 INFO MHLogger mh-tCmd MH   carmel_tnps
+Jul 24 16:50:57:329412 -0700 INFO MHLogger mh-tCmd MH   win_core_audio_dev_notify_improvement
+Jul 24 16:50:57:329415 -0700 INFO MHLogger mh-tCmd MH   rtx_video2
+Jul 24 16:50:57:329420 -0700 INFO MHLogger mh-tCmd MH   red_encapsulated_fec2
+Jul 24 16:50:57:329422 -0700 INFO MHLogger mh-tCmd MH   enable_custom_aec_external
+Jul 24 16:50:57:329425 -0700 INFO MHLogger mh-tCmd MH   carmel_schedule_meeting_button
+Jul 24 16:50:57:329428 -0700 INFO MHLogger mh-tCmd MH   new_scheduling_app
+Jul 24 16:50:57:329430 -0700 INFO MHLogger mh-tCmd MH   ipv6_nat64
+Jul 24 16:50:57:329438 -0700 INFO MHLogger mh-tCmd MH   enable_screen_share_static_mode
+Jul 24 16:50:57:329441 -0700 INFO MHLogger mh-tCmd MH   admin_onboarding
+Jul 24 16:50:57:329443 -0700 INFO MHLogger mh-tCmd MH   webrtc_rtx_outbound
+Jul 24 16:50:57:329446 -0700 INFO MHLogger mh-tCmd MH   audio_glitch_auto_reset
+Jul 24 16:50:57:329449 -0700 INFO MHLogger mh-tCmd MH   invalidating_core_animation
+Jul 24 16:50:57:329455 -0700 INFO MHLogger mh-tCmd MH   enable_custom_aec_win
+Jul 24 16:50:57:329458 -0700 INFO MHLogger mh-tCmd MH   tcp_presentation
+Jul 24 16:50:57:329460 -0700 INFO MHLogger mh-tCmd MH   sharing_border_infobar
+Jul 24 16:50:57:329463 -0700 INFO MHLogger mh-tCmd MH   webrtc_screenshare_only
+Jul 24 16:50:57:329466 -0700 INFO MHLogger mh-tCmd MH   enable_mac_camera_caps
+Jul 24 16:50:57:329469 -0700 INFO MHLogger mh-tCmd MH   x11_enable_network_monitor
+Jul 24 16:50:57:329472 -0700 INFO MHLogger mh-tCmd MH   vi_lip_sync
+Jul 24 16:50:57:329475 -0700 INFO MHLogger mh-tCmd MH   audio_assistant
+Jul 24 16:50:57:329477 -0700 INFO MHLogger mh-tCmd MH   aggregate_api
+Jul 24 16:50:57:329480 -0700 INFO MHLogger mh-tCmd MH   carmel_sso_redirect_flow
+Jul 24 16:50:57:329482 -0700 INFO MHLogger mh-tCmd MH   high_sierra_avf_capture
+Jul 24 16:50:57:329485 -0700 INFO MHLogger mh-tCmd MH   private_chat
+Jul 24 16:50:57:329488 -0700 INFO MHLogger mh-tCmd MH   join_flow_4
+Jul 24 16:50:57:329490 -0700 INFO MHLogger mh-tCmd MH   video_frame_timestamp3
+Jul 24 16:50:57:329493 -0700 INFO MHLogger mh-tCmd MH   webrtc_opus_stereo
+Jul 24 16:50:57:329496 -0700 INFO MHLogger mh-tCmd MH   webrtc_fec
+Jul 24 16:50:57:329499 -0700 INFO MHLogger mh-tCmd MH   desktop_app_endpoint_ga
+Jul 24 16:50:57:329501 -0700 INFO MHLogger mh-tCmd MH   tcp_bandwidth
+Jul 24 16:50:57:329504 -0700 INFO MHLogger mh-tCmd MH   scheduling_microservice
+Jul 24 16:50:57:329507 -0700 INFO MHLogger mh-tCmd MH   mac_h264_hw_accl_3
+Jul 24 16:50:57:329510 -0700 INFO MHLogger mh-tCmd MH   force_firefox_webrtc
+Jul 24 16:50:57:329512 -0700 INFO MHLogger mh-tCmd MH   win_core_audio_improvements_phase2
+Jul 24 16:50:57:329515 -0700 INFO MHLogger mh-tCmd MH   reduce_content_reencode2
+Jul 24 16:50:57:329518 -0700 INFO MHLogger mh-tCmd MH   win_h264_hw_accl_2
+Jul 24 16:50:57:329521 -0700 INFO MHLogger mh-tCmd MH   audio_device_auto_selection_blacklist
+Jul 24 16:50:57:329523 -0700 INFO MHLogger mh-tCmd MH   dynamic_audio_capture_buffer_mac
+Jul 24 16:50:57:329526 -0700 INFO MHLogger mh-tCmd MH   carmel_release_phase_1
+Jul 24 16:50:57:329529 -0700 INFO MHLogger mh-tCmd MH   enable_post_for_audiocb_messages
+Jul 24 16:50:57:329532 -0700 INFO MHLogger mh-tCmd MH   aec_psycho_nlp
+Jul 24 16:50:57:329534 -0700 INFO MHLogger mh-tCmd MH   meeting_enforce_encryption_2
+Jul 24 16:50:57:329537 -0700 INFO MHLogger mh-tCmd MH   any_to_many
+Jul 24 16:50:57:329540 -0700 INFO MHLogger mh-tCmd MH   win_gpu_logging
+Jul 24 16:50:57:329542 -0700 INFO MHLogger mh-tCmd MH   enable_mjpeg_linux
+Jul 24 16:50:57:329545 -0700 INFO MHLogger mh-tCmd MH   wmc8_ui_change
+Jul 24 16:50:57:329548 -0700 INFO MHLogger mh-tCmd MH   jf3_onboarding
+Jul 24 16:50:57:329551 -0700 INFO MHLogger mh-tCmd MH   video_downscale_quality
+Jul 24 16:50:57:329553 -0700 INFO MHLogger mh-tCmd MH   carmel_personal_meeting_info
+Jul 24 16:50:57:329556 -0700 INFO MHLogger mh-tCmd MH   force_mjpg_for_hd
+Jul 24 16:50:57:329559 -0700 INFO MHLogger mh-tCmd MH   carmel_release_phase_0
+Jul 24 16:50:57:329561 -0700 INFO MHLogger mh-tCmd MH   carmel_full_update
+Jul 24 16:50:57:329564 -0700 INFO MHLogger mh-tCmd MH   enable_mixer_split
+Jul 24 16:50:57:329567 -0700 INFO MHLogger mh-tCmd MH   local_storage_logging
+Jul 24 16:50:57:329571 -0700 INFO MHLogger mh-tCmd MH   1080p_sip_roomsystem_support
+Jul 24 16:50:57:329574 -0700 INFO MHLogger mh-tCmd MH   win_app_share_global_hooks
+Jul 24 16:50:57:329577 -0700 INFO MHLogger mh-tCmd MH   chat
+Jul 24 16:50:57:329585 -0700 INFO MHLogger mh-tCmd MH   ai_neteq_jb
+Jul 24 16:50:57:329588 -0700 INFO MHLogger mh-tCmd MH   subscribe_to_audio_session_events
+Jul 24 16:50:57:329590 -0700 INFO MHLogger mh-tCmd MH   carmel_meeting_aggregation_api
+Jul 24 16:50:57:329593 -0700 INFO MHLogger mh-tCmd MH   webrtc_rtx_inbound
+Jul 24 16:50:57:329596 -0700 INFO MHLogger mh-tCmd MH   roster_push_notification
+Jul 24 16:50:57:329599 -0700 INFO MHLogger mh-tCmd MH   dolby_client_android
+Jul 24 16:50:57:329601 -0700 INFO MHLogger mh-tCmd MH   vp8
+Jul 24 16:50:57:329604 -0700 INFO MHLogger mh-tCmd MH   carmel_new_login_flow
+Jul 24 16:50:57:329607 -0700 INFO MHLogger mh-tCmd MH   vo_rtx_new_nack_logic
+Jul 24 16:50:57:329610 -0700 INFO MHLogger mh-tCmd MH   aec_modified_buffer_logic
+Jul 24 16:50:57:329612 -0700 INFO MHLogger mh-tCmd MH   enable_custom_aec_linux
+Jul 24 16:50:57:329615 -0700 INFO MHLogger mh-tCmd MH   webrtc_opus_24khz
+Jul 24 16:50:57:329618 -0700 INFO MHLogger mh-tCmd MH   app_unsupported_device_join_page
+Jul 24 16:50:57:329620 -0700 INFO MHLogger mh-tCmd MH   msml_media_server
+Jul 24 16:50:57:329623 -0700 INFO MHLogger mh-tCmd MH   enable_turn_tls2
+Jul 24 16:50:57:329628 -0700 INFO MHLogger mh-tCmd MH   vi_bwmgr2
+Jul 24 16:50:57:329631 -0700 INFO MHLogger mh-tCmd MH   dolby_client_win
+Jul 24 16:50:57:329633 -0700 INFO MHLogger mh-tCmd MH   vi_exp_bwmgr
+Jul 24 16:50:57:329636 -0700 INFO MHLogger mh-tCmd MH   hijack_warning_screen
+Jul 24 16:50:57:329639 -0700 INFO MHLogger mh-tCmd MH   video_sharing
+Jul 24 16:50:57:329642 -0700 INFO MHLogger mh-tCmd MH   webrtc_rtx_new_nack_logic
+Jul 24 16:50:57:329644 -0700 INFO MHLogger mh-tCmd MH   speaker_auto_system_unmute
+Jul 24 16:50:57:329650 -0700 INFO MHLogger mh-tCmd MH   multi_view_widget_v3
+Jul 24 16:50:57:329653 -0700 INFO MHLogger mh-tCmd MH   webrtc_frame_cropping
+Jul 24 16:50:57:329656 -0700 INFO MHLogger mh-tCmd MH   mac_deferred_screen_capture_2
+Jul 24 16:50:57:329659 -0700 INFO MHLogger mh-tCmd MH   jf3
+Jul 24 16:50:57:329661 -0700 INFO MHLogger mh-tCmd MH   pstn_pairing
+Jul 24 16:50:57:329664 -0700 INFO MHLogger mh-tCmd MH   webrtc_force_turn
+Jul 24 16:50:57:329667 -0700 INFO MHLogger mh-tCmd MH   filter_active_speaker
+Jul 24 16:50:57:329669 -0700 INFO MHLogger mh-tCmd MH   self_view_network_indicator
+Jul 24 16:50:57:329672 -0700 INFO MHLogger mh-tCmd MH   schedule_personal_meeting_rollout
+Jul 24 16:50:57:329675 -0700 INFO MHLogger mh-tCmd MH   carmel_scheduled_meetings_v3
+Jul 24 16:50:57:329677 -0700 INFO MHLogger mh-tCmd MH   rtcp_xr
+Jul 24 16:50:57:329680 -0700 INFO MHLogger mh-tCmd MH   enable_win_screen_share_dd_complete
+Jul 24 16:50:57:329683 -0700 INFO MHLogger mh-tCmd MH   wmc_direct_launch
+Jul 24 16:50:57:329686 -0700 INFO MHLogger mh-tCmd MH   linux_desktop_app_support
+Jul 24 16:50:57:329688 -0700 INFO MHLogger mh-tCmd MH   rivet5_premeeting_updates
+Jul 24 16:50:57:329691 -0700 INFO MHLogger mh-tCmd MH   pure_js_header
+Jul 24 16:50:57:329694 -0700 INFO MHLogger mh-tCmd MH   mac_delta_screen_capture
+Jul 24 16:50:57:329697 -0700 INFO MHLogger mh-tCmd MH   carmel_incremental_update
+Jul 24 16:50:57:329700 -0700 INFO MHLogger mh-tCmd MH   desktop_app_offer
+Jul 24 16:50:57:329702 -0700 INFO MHLogger mh-tCmd MH   carmel_outlook_meetings_v3
+Jul 24 16:50:57:329705 -0700 INFO MHLogger mh-tCmd MH   deprefer_usb_on_thunderbolt
+Jul 24 16:50:57:329708 -0700 INFO MHLogger mh-tCmd MH   cache_audio_rtp_seq_ts
+Jul 24 16:50:57:329711 -0700 INFO MHLogger mh-tCmd MH   opus_mode_voip
+Jul 24 16:50:57:329714 -0700 INFO MHLogger mh-tCmd MH   ui_refresh
+Jul 24 16:50:57:329716 -0700 INFO MHLogger mh-tCmd MH   force_webrtc
+Jul 24 16:50:57:329719 -0700 INFO MHLogger mh-tCmd MH   carmel_premeeting_tips
+Jul 24 16:50:57:329721 -0700 INFO MHLogger mh-tCmd MH   new_content_bw_split
+Jul 24 16:50:57:329724 -0700 INFO MHLogger mh-tCmd MH   wmc4_ui_change
+Jul 24 16:50:57:329727 -0700 INFO MHLogger mh-tCmd MH   icon_labels
+Jul 24 16:50:57:329730 -0700 INFO MHLogger mh-tCmd MH   webrtc_con_pacer
+Jul 24 16:50:57:329732 -0700 INFO MHLogger mh-tCmd MH   new_settings_app
+Jul 24 16:50:57:329736 -0700 INFO MHLogger mh-tCmd MH MH received 0 client side features:
+Jul 24 16:50:57:330528 -0700 NOTICE MHLogger mh-tCmd MH New Connection from Gupta Garvit;BlueJeans; GUID: f2e75898-aedf-419c-9e31-1a51b55a287c
+Jul 24 16:50:57:330651 -0700 INFO STATS mh-tCmd STATS Start pushing stats for tag: meet:999999999 callID: <f2e75898-aedf-419c-9e31-1a51b55a287c>
+Jul 24 16:50:57:458116 -0700 INFO MHLogger mh-tCmd CMD Filling in address with 10.4.4.197
+Jul 24 16:50:57:458152 -0700 INFO MHLogger mh-tCmd CMD Request to create an RTP channel src :0 dst(0) 10.4.4.197:34444  ssrc e6a93657 mediaGuid 00000000-0000-0000-0000-000000000000 type video transport UDP (hint)chan 0 pairable 1 reuseAddr 0
+Jul 24 16:50:57:458165 -0700 INFO MHLogger mh-tCmd CMD Inbound video channel expirable: true
+Jul 24 16:50:57:458283 -0700 INFO MHLogger mh-tCmd MH Fail to bind rtp socket to (addr=10.4.4.197 port=4000) : Address already in use.
+Jul 24 16:50:57:458304 -0700 INFO MHLogger mh-tCmd MH Fail to bind rtp socket to (addr=10.4.4.197 port=4002) : Address already in use.
+Jul 24 16:50:57:458326 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 24 16:50:57:458329 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 24 16:50:57:458349 -0700 INFO MHLogger mh-tCmd MH (chan 267) Adding codec VP8 to map with PT 96
+Jul 24 16:50:57:458380 -0700 INFO MHLogger mh-tCmd STATS Set jitter clockrate = 16000
+Jul 24 16:50:57:458390 -0700 INFO MHLogger mh-tCmd CMD Response for creating an RTP channel src 10.4.4.197:4004 type video chan 267
+Jul 24 16:50:57:458590 -0700 INFO MHLogger mh-tCmd CMD Request to start RTP channel 267
+Jul 24 16:50:57:458604 -0700 INFO MHLogger mh-tCmd MH (chan 267) Calling VideoInbound Start
+Jul 24 16:50:57:458608 -0700 INFO STATS mh-tCmd STATS Starting stats for: Channel_VI <> registered = false
+Jul 24 16:50:57:458743 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Starting video inbound thread
+Jul 24 16:50:57:458797 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) VideoInbound::processThread. Allocating 1382688 x 4 bytes for mixer shared memory queue, based on max frameSize: 1280 x 720 for descriptor size: 1280 x 720 Descriptor is for CONFERENCING
+Jul 24 16:50:57:462716 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) VideoInbound creating VP8 decoder
+Jul 24 16:50:57:462732 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) Video decoder set reference frame selection to: TRUE 
+Jul 24 16:50:57:462737 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267)  When there is packet loss video decoder set decode type to: FREEZE 
+Jul 24 16:50:57:462849 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video Decoder Frame Size: 1280x720 (corrected to 1280x720) 1x1
+Jul 24 16:50:57:462875 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) Video decoder set reference frame selection to: FALSE 
+Jul 24 16:50:57:462882 -0700 INFO MHLogger mh-tVI:267 MH VP8 Decoder options RPSI/SLI: 0
+Jul 24 16:50:57:462889 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) Video decoder min keyframe period set to 0
+Jul 24 16:50:57:462893 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267)  When there is packet loss video decoder set decode type to: FREEZE 
+Jul 24 16:50:57:462898 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) Video decoder ignore marker bit set to 0
+Jul 24 16:50:57:462906 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Video Decoder options: w:1280 h:720 key period:0 concealment: 0 contentType: CONFERENCING ignoreMarkerBit: 0
+Jul 24 16:50:57:462915 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) VideoInbound creating Fec decoder PT 124
+Jul 24 16:50:57:462939 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) Video decoder ignore RTP gap set to 1
+Jul 24 16:50:57:462955 -0700 INFO MHLogger mh-tVI:267 STATS New jitter clockrate = 90000
+Jul 24 16:50:57:462962 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) VideoInbound dropVideo initialized to 0
+Jul 24 16:50:57:462969 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) setDropVideo 0
+Jul 24 16:50:57:463074 -0700 INFO MHLogger mh-tCmd CMD Sending Resp ID to Start Channel. ID is 267
+Jul 24 16:50:57:463258 -0700 INFO MHLogger mh-tCmd CMD InsertChannelDelayNote - chan: 0 delay: 140
+Jul 24 16:50:57:463270 -0700 INFO MHLogger mh-tCmd MH ChannelMgr:: channelId = 267 Inserting inChan delay = 140
+Jul 24 16:50:57:463346 -0700 INFO MHLogger mh-tCmd CMD Filling in address with 10.4.4.197
+Jul 24 16:50:57:463373 -0700 INFO MHLogger mh-tCmd CMD Request to create an RTP channel src :0 dst(0) 10.4.4.197:28102  ssrc 0 mediaGuid 00000000-0000-0000-0000-000000000000 type content transport UDP (hint)chan 0 pairable 1 reuseAddr 0
+Jul 24 16:50:57:463385 -0700 INFO MHLogger mh-tCmd CMD Inbound content channel expirable: false
+Jul 24 16:50:57:463472 -0700 INFO MHLogger mh-tCmd MH Fail to bind rtp socket to (addr=10.4.4.197 port=4000) : Address already in use.
+Jul 24 16:50:57:463487 -0700 INFO MHLogger mh-tCmd MH Fail to bind rtp socket to (addr=10.4.4.197 port=4002) : Address already in use.
+Jul 24 16:50:57:463494 -0700 INFO MHLogger mh-tCmd MH Fail to bind rtp socket to (addr=10.4.4.197 port=4004) : Address already in use.
+Jul 24 16:50:57:463504 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 24 16:50:57:463507 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 24 16:50:57:463519 -0700 INFO MHLogger mh-tCmd MH (chan 268) Adding codec VP8 to map with PT 96
+Jul 24 16:50:57:463549 -0700 INFO MHLogger mh-tCmd STATS Set jitter clockrate = 16000
+Jul 24 16:50:57:463558 -0700 INFO MHLogger mh-tCmd CMD Response for creating an RTP channel src 10.4.4.197:4006 type content chan 268
+Jul 24 16:50:57:463830 -0700 INFO MHLogger mh-tCmd CMD Request to start RTP channel 268
+Jul 24 16:50:57:463836 -0700 INFO MHLogger mh-tCmd MH (chan 268) Calling VideoInbound Start
+Jul 24 16:50:57:463840 -0700 INFO STATS mh-tCmd STATS Starting stats for: Channel_CI <> registered = false
+Jul 24 16:50:57:463995 -0700 INFO MHLogger mh-tVIC:268 VI (chan 268) Starting video inbound thread
+Jul 24 16:50:57:464067 -0700 INFO MHLogger mh-tVIC:268 VI (chan 268) VideoInbound::processThread. Allocating 3110688 x 4 bytes for mixer shared memory queue, based on max frameSize: 1920 x 1080 for descriptor size: 1280 x 720 Descriptor is for CONFERENCING
+Jul 24 16:50:57:472102 -0700 INFO MHLogger mh-tVIC:268 MH (chan 268) VideoInbound creating VP8 decoder
+Jul 24 16:50:57:472121 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268) Video decoder set reference frame selection to: TRUE 
+Jul 24 16:50:57:472125 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268)  When there is packet loss video decoder set decode type to: FREEZE 
+Jul 24 16:50:57:472160 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268) VP8 Video Decoder Frame Size: 1280x720 (corrected to 1280x720) 1x1
+Jul 24 16:50:57:472170 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268) Video decoder set reference frame selection to: FALSE 
+Jul 24 16:50:57:472174 -0700 INFO MHLogger mh-tVIC:268 MH VP8 Decoder options RPSI/SLI: 0
+Jul 24 16:50:57:472178 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268) Video decoder min keyframe period set to 0
+Jul 24 16:50:57:472181 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268)  When there is packet loss video decoder set decode type to: FREEZE 
+Jul 24 16:50:57:472183 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268) Video decoder ignore marker bit set to 0
+Jul 24 16:50:57:472190 -0700 INFO MHLogger mh-tVIC:268 VI (chan 268) Video Decoder options: w:1280 h:720 key period:0 concealment: 0 contentType: CONFERENCING ignoreMarkerBit: 0
+Jul 24 16:50:57:472194 -0700 INFO MHLogger mh-tVIC:268 MH (chan 268) VideoInbound creating Fec decoder PT 124
+Jul 24 16:50:57:472203 -0700 INFO MHLogger mh-tVIC:268 MH (Chan 268) Video decoder ignore RTP gap set to 1
+Jul 24 16:50:57:472218 -0700 INFO MHLogger mh-tVIC:268 STATS New jitter clockrate = 90000
+Jul 24 16:50:57:472224 -0700 INFO MHLogger mh-tVIC:268 MH (chan 268) VideoInbound dropVideo initialized to 0
+Jul 24 16:50:57:472228 -0700 INFO MHLogger mh-tVIC:268 MH (chan 268) setDropVideo 0
+Jul 24 16:50:57:472265 -0700 INFO MHLogger mh-tCmd CMD Sending Resp ID to Start Channel. ID is 268
+Jul 24 16:50:57:472463 -0700 INFO MHLogger mh-tCmd CMD InsertChannelDelayNote - chan: 0 delay: 140
+Jul 24 16:50:57:472469 -0700 INFO MHLogger mh-tCmd MH ChannelMgr:: channelId = 267 Inserting inChan delay = 140
+Jul 24 16:50:57:472472 -0700 INFO MHLogger mh-tCmd MH ChannelMgr:: channelId = 268 Inserting inChan delay = 140
+Jul 24 16:50:57:613447 -0700 INFO MHLogger mh-tCmd CMD Request to create an RTP channel src 10.4.4.197:4004 dst(0) 10.4.4.197:34444  ssrc e29059c0 mediaGuid 00000000-0000-0000-0000-000000000000 type video transport UDP (hint)chan 0 pairable 1 reuseAddr 1
+Jul 24 16:50:57:613460 -0700 INFO MHLogger mh-tCmd CMD Outbound video channel CarryPresentation: true
+Jul 24 16:50:57:613510 -0700 INFO MHLogger mh-tCmd RtpContext Reusing session
+Jul 24 16:50:57:613519 -0700 INFO MHLogger mh-tCmd MH (chan 269) Adding codec VP8 to map with PT 96
+Jul 24 16:50:57:613529 -0700 INFO MHLogger mh-tCmd mediaCapacity alloc resource by type. Type: HDVideo, Value: 67
+Jul 24 16:50:57:613541 -0700 INFO MHLogger mh-tCmd CMD Response for creating an RTP channel src 10.4.4.197:4004 type video chan 269
+Jul 24 16:50:57:613826 -0700 INFO MHLogger mh-tCmd CMD Request to create an RTP channel src 10.4.4.197:4006 dst(0) 10.4.4.197:28102  ssrc 9219dcc7 mediaGuid 00000000-0000-0000-0000-000000000000 type content transport UDP (hint)chan 0 pairable 1 reuseAddr 1
+Jul 24 16:50:57:613837 -0700 INFO MHLogger mh-tCmd CMD Outbound content channel CarryPresentation: true
+Jul 24 16:50:57:613879 -0700 INFO MHLogger mh-tCmd RtpContext Reusing session
+Jul 24 16:50:57:613885 -0700 INFO MHLogger mh-tCmd MH (chan 270) Adding codec VP8 to map with PT 96
+Jul 24 16:50:57:613892 -0700 INFO MHLogger mh-tCmd CMD Response for creating an RTP channel src 10.4.4.197:4006 type content chan 270
+Jul 24 16:50:57:617180 -0700 INFO BJ::ZooKeeper mh-23024 BJ::ZooKeeper Connected to ZooKeeper
+Jul 24 16:50:57:721148 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2857974675 Last seq 28539 ssrc e6a93657
+Jul 24 16:50:57:730511 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) VideoInbound decoded first frame.
+Jul 24 16:50:57:738970 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) VideoInbound New resolution quality modifier is now 0
+Jul 24 16:50:58:330918 -0700 INFO STATS mh STATS Connecting to statmgr
+Jul 24 16:50:58:331116 -0700 INFO STATS mh STATS Connected to statmgr
+Jul 24 16:50:58:467284 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 3 based on current pre-decode fps 20.9163 and delay(ms) 140
+Jul 24 16:50:58:473659 -0700 INFO MHLogger mh-tVIC:268 VI (chan 268) Update decoder max frame delay to 2 based on current pre-decode fps 1 and delay(ms) 2000
+Jul 24 16:50:59:472815 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 4 based on current pre-decode fps 28.0639 and delay(ms) 140
+Jul 24 16:50:59:708770 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2858157645 Last seq 28606 ssrc e6a93657
+Jul 24 16:50:59:711790 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video decoder new video size from 1280x720 to 640x360
+Jul 24 16:50:59:711914 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video Decoder Frame Size: 640x360 (corrected to 640x360) 1x1
+Jul 24 16:50:59:751383 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) VideoInbound New resolution quality modifier is now 0
+Jul 24 16:51:00:322916 -0700 INFO MHLogger mh-tCmd CMD Request to start RTP channel 269
+Jul 24 16:51:00:322937 -0700 INFO MHLogger mh-tCmd VO (chan 269) Calling VideoOutbound Start
+Jul 24 16:51:00:322944 -0700 INFO STATS mh-tCmd STATS Starting stats for: Channel_VO <> registered = false
+Jul 24 16:51:00:323067 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) Starting video outbound thread
+Jul 24 16:51:00:323121 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) VideoOutbound::processThread. Allocating 1382688 x 3 bytes for VO mixer shared memory queue based on descriptor size 1280 x 720 Descriptor is for CONFERENCING
+Jul 24 16:51:00:325370 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) VideoOutbound creating Fec encoder PT 124
+Jul 24 16:51:00:325383 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) FEC Encoder options: sendFecOnUniqueSSRC:false ssrc:0 seq:0
+Jul 24 16:51:00:325446 -0700 INFO MHLogger mh-tVO:269 MH FEC encoder Media seq set to 0
+Jul 24 16:51:00:325450 -0700 INFO MHLogger mh-tVO:269 MH FEC encoder FEC seq set to 0
+Jul 24 16:51:00:325467 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) VideoOutbound creating VP8 encoder
+Jul 24 16:51:00:325500 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder width set to 1280
+Jul 24 16:51:00:325505 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder height set to 720
+Jul 24 16:51:00:325509 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder frame rate set to 30
+Jul 24 16:51:00:325514 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder key frame period set to 3600
+Jul 24 16:51:00:325519 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder dynamic size set to true
+Jul 24 16:51:00:325522 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder dynamic QP set to false
+Jul 24 16:51:00:325535 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder videoFreeRangeQPBitrate 1200
+Jul 24 16:51:00:325540 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder set reference frame selection to: FALSE 
+Jul 24 16:51:00:325544 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder dynamic size set to true
+Jul 24 16:51:00:325548 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder set number of temporal layer to 0
+Jul 24 16:51:00:325552 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder content type 0
+Jul 24 16:51:00:325557 -0700 INFO MHLogger mh-tVO:269 MH Setting up dynamic table
+Jul 24 16:51:00:325561 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder minQP 4
+Jul 24 16:51:00:325564 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder maxQP 40
+Jul 24 16:51:00:325569 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder minRDCQP 4
+Jul 24 16:51:00:325572 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder maxRDCQP 63
+Jul 24 16:51:00:325581 -0700 INFO MHLogger mh-tVO:269 MH VP8 Encoder options RPSI/SLI: 0 Dynamic Size: 1 Num Temporal Layers: 0 Min Quantizer: 4 Max Quantizer: 40 Min RDC Quantizer: 4 Max RDC Quantizer: 63 RDC Framerate: 5 Video Free Range QP Bitrate: 1200 Resolution Hysteresis: 1 Content Type: CONFERENCING
+Jul 24 16:51:00:325592 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) Encoder options: w:1280 h:720 min w:1280 min h:720 fr:30 br:512000 max packet size:1280 key period (frame):3600 vfr:0 filler:1 seq:0 timestamp:0 contentType:CONFERENCING
+Jul 24 16:51:00:325601 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video Encoder max packet size set to set to 1280
+Jul 24 16:51:00:325604 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Set max packet size to 1270
+Jul 24 16:51:00:325608 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder key frame period set to 3600
+Jul 24 16:51:00:325612 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder payload type set to 96
+Jul 24 16:51:00:325616 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder ssrc set to e29059c0
+Jul 24 16:51:00:325620 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Video encoder seq set to 0
+Jul 24 16:51:00:325626 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder width set to 848
+Jul 24 16:51:00:325629 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder height set to 480
+Jul 24 16:51:00:325635 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder Enabling improved temporal scalability for multi layer encoding
+Jul 24 16:51:00:325644 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder Enabling reduce temporal scalability CPU feature for multi layer encoding
+Jul 24 16:51:00:325654 -0700 INFO MHLogger mh-tVO:269 MH BitrateRegulator is currently set to FALSE with m_maxSleepTime=45000
+Jul 24 16:51:00:325667 -0700 INFO MHLogger mh-tVO:269 MH Packet pacing is enabled
+Jul 24 16:51:00:325787 -0700 INFO MHLogger mh-tCmd CMD Sending Resp ID to Start Channel. ID is 269
+Jul 24 16:51:00:345089 -0700 INFO MHLogger mh-tCmd CMD Fast update request for channel: 269
+Jul 24 16:51:00:345099 -0700 INFO MHLogger mh-tCmd VO (chan 269) VideoOutbound has received a fast update request but is ignoring it
+Jul 24 16:51:00:345110 -0700 INFO MHLogger mh-tCmd CMD Fast update request for channel: 270
+Jul 24 16:51:00:345113 -0700 INFO MHLogger mh-tCmd VO (chan 270) VideoOutbound has received a fast update request
+Jul 24 16:51:00:348017 -0700 INFO MHLogger mh-tCmd CMD Fast update request for channel: 269
+Jul 24 16:51:00:348031 -0700 INFO MHLogger mh-tCmd VO (chan 269) VideoOutbound has received a fast update request but is ignoring it
+Jul 24 16:51:00:348080 -0700 INFO MHLogger mh-tCmd CMD Fast update request for channel: 270
+Jul 24 16:51:00:348085 -0700 INFO MHLogger mh-tCmd VO (chan 270) VideoOutbound has received a fast update request but is ignoring it
+Jul 24 16:51:00:380848 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) Basetimestamp = 3000 First timestamp from mixer = 102383244810 Timestamp Offset = 3598994002 Framerate = 30
+Jul 24 16:51:00:381532 -0700 INFO MHLogger mh-tVO:269 MH Setting up dynamic table
+Jul 24 16:51:00:381544 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder reinitialized with size 848x480 1x1
+Jul 24 16:51:00:381557 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder initial picture ID is 7250
+Jul 24 16:51:00:410135 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Key frame sent for picture id 7250
+Jul 24 16:51:00:693003 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 433000 bps
+Jul 24 16:51:01:376434 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 921820 bps
+Jul 24 16:51:01:405150 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder width set to 1280
+Jul 24 16:51:01:405164 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder height set to 720
+Jul 24 16:51:01:415749 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 Encoder reinitialized with size 1280x720 1x1
+Jul 24 16:51:01:416680 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) VP8 encoder initial picture ID is 19100
+Jul 24 16:51:01:475890 -0700 INFO MHLogger mh-tVO:269 MH (Chan 269) Key frame sent for picture id 19100
+Jul 24 16:51:01:522950 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 5 based on current pre-decode fps 29.6227 and delay(ms) 140
+Jul 24 16:51:01:942287 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1200000 bps
+Jul 24 16:51:02:694813 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder decoding an incomplete frame ts=2858403165 (missing RTP pkt. Frame spans 28751-28751, num pkts: 1).
+Jul 24 16:51:02:694836 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) VideoInbound fast update requested !!!
+Jul 24 16:51:02:776733 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2858433135 Last seq 28773 ssrc e6a93657
+Jul 24 16:51:05:709001 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2858694135 Last seq 28911 ssrc e6a93657
+Jul 24 16:51:05:713148 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video decoder new video size from 640x360 to 960x540
+Jul 24 16:51:05:713170 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video Decoder Frame Size: 960x540 (corrected to 960x540) 1x1
+Jul 24 16:51:05:749273 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) VideoInbound New resolution quality modifier is now 0
+Jul 24 16:51:07:741351 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 7 based on current pre-decode fps 30.8802 and delay(ms) 200
+Jul 24 16:51:17:750344 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2859776205 Last seq 29863 ssrc e6a93657
+Jul 24 16:51:17:753940 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video decoder new video size from 960x540 to 1280x720
+Jul 24 16:51:17:753965 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video Decoder Frame Size: 1280x720 (corrected to 1280x720) 1x1
+Jul 24 16:51:17:777486 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) VideoInbound New resolution quality modifier is now 0
+Jul 24 16:51:18:120661 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 6 based on current pre-decode fps 29.7428 and delay(ms) 200
+Jul 24 16:51:18:549840 -0700 INFO MHLogger mh-tCmd CMD InsertChannelDelayNote - chan: 0 delay: 100
+Jul 24 16:51:18:549853 -0700 INFO MHLogger mh-tCmd MH ChannelMgr:: channelId = 267 Inserting inChan delay = 100
+Jul 24 16:51:18:549863 -0700 INFO MHLogger mh-tCmd MH ChannelMgr:: channelId = 268 Inserting inChan delay = 100
+Jul 24 16:51:20:260060 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 4 based on current pre-decode fps 31.2277 and delay(ms) 100
+Jul 24 16:51:24:776585 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder decoding an incomplete frame ts=2860390995 (missing RTP pkt. Frame spans 30797-30799, num pkts: 3).
+Jul 24 16:51:24:776604 -0700 INFO MHLogger mh-tVI:267 MH (chan 267) VideoInbound fast update requested !!!
+Jul 24 16:51:24:852465 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2860417995 Last seq 30843 ssrc e6a93657
+Jul 24 16:51:26:340279 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 3 based on current pre-decode fps 29.9945 and delay(ms) 100
+Jul 24 16:51:27:342466 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 6 based on current pre-decode fps 29.5844 and delay(ms) 200
+Jul 24 16:51:28:343797 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1024710 bps
+Jul 24 16:51:28:973689 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 967011 bps
+Jul 24 16:51:29:604692 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1012458 bps
+Jul 24 16:51:30:214431 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1060749 bps
+Jul 24 16:51:30:855007 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1113823 bps
+Jul 24 16:51:31:450825 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1155215 bps
+Jul 24 16:51:32:116903 -0700 INFO MHLogger mh-tCmd CMD Flow control request for channel: 269 rate 1200000 bps
+Jul 24 16:51:34:621923 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 5 based on current pre-decode fps 24.3411 and delay(ms) 200
+Jul 24 16:51:35:654690 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 3 based on current pre-decode fps 23.1551 and delay(ms) 100
+Jul 24 16:51:39:809080 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 6 based on current pre-decode fps 26.5531 and delay(ms) 200
+Jul 24 16:51:42:951096 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder received a key frame. ts=2862034575 Last seq 33389 ssrc e6a93657
+Jul 24 16:51:42:953174 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video decoder new video size from 1280x720 to 960x540
+Jul 24 16:51:42:953198 -0700 INFO MHLogger mh-tVI:267 MH (Chan 267) VP8 Video Decoder Frame Size: 960x540 (corrected to 960x540) 1x1
+Jul 24 16:51:42:964018 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) VideoInbound New resolution quality modifier is now 0
+Jul 24 16:51:43:131193 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 7 based on current pre-decode fps 30.6772 and delay(ms) 200
+Jul 24 16:51:47:221242 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 6 based on current pre-decode fps 29.3719 and delay(ms) 200
+Jul 24 16:51:48:238179 -0700 INFO MHLogger mh-tVI:267 VI (chan 267) Update decoder max frame delay to 7 based on current pre-decode fps 30.2838 and delay(ms) 200
+Jul 24 16:51:57:557370 -0700 INFO MHLogger mh-tVIC:268 MH (chan 268) VP8decoder avg dec time (ms): 0 bitrate (kbps): 0 FEC bitrate (kbps): 0 framerate (fps): 0 frames: 0 bad: 0
+Jul 24 16:52:00:548552 -0700 INFO MHLogger mh-tVO:269 MH (chan 269) VP8encoder avg enc time (ms): 21.2357 bitrate (kbps): 991.948 FEC bitrate (kbps): 0 framerate (fps): 29.5567 frames: 1804 bad: 0
+Jul 24 16:52:10:089802 -0700 INFO MHLogger mh-tCmd CMD Request to destroy RTP channel 269
+Jul 24 16:52:10:089825 -0700 INFO MHLogger mh-tCmd MH (chan 269) Shutting Down
+Jul 24 16:52:10:089833 -0700 INFO MHLogger mh-tCmd VO (chan 269) Calling VideoOutbound Stop
+Jul 24 16:52:10:096163 -0700 INFO MHLogger mh-tVO:269 VO (chan 269) Exiting video outbound thread
+Jul 24 16:52:10:097559 -0700 INFO MHLogger mh-tCmd MH (chan 269) Destroyed
+Jul 24 16:52:10:097949 -0700 INFO MHLogger mh-tCmd CMD Request to destroy RTP channel 270
+Jul 24 16:52:10:097961 -0700 INFO MHLogger mh-tCmd MH (chan 270) Shutting Down
+Jul 24 16:52:10:097967 -0700 INFO MHLogger mh-tCmd VO (chan 270) Calling VideoOutbound Stop
+Jul 24 16:52:10:097976 -0700 INFO MHLogger mh-tCmd MH (chan 270) Destroyed
+Jul 24 16:52:10:190897 -0700 INFO MHLogger mh-tCmd CMD Request to destroy RTP channel 267
+Jul 24 16:52:10:190912 -0700 INFO MHLogger mh-tCmd MH (chan 267) Shutting Down
+Jul 24 16:52:10:190918 -0700 INFO MHLogger mh-tCmd MH (chan 267) Calling VideoInbound Stop
+Jul 24 16:52:10:427060 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:11:427130 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:12:427203 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:13:427284 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:14:426949 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:15:427042 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:16:427124 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:17:427176 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:18:427254 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:19:427324 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:20:427399 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:21:427446 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:22:427487 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:23:427541 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:24:427617 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:25:427674 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock

@@ -1,0 +1,9 @@
+Jul 23 09:35:11:630946 -0700 NOTICE DNMLIB mh-tMain DNMLIB mh - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 19 2018 around 13:25:30
+Jul 23 09:35:11:630956 -0700 NOTICE DNMLIB mh-tMain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 23 09:35:11:636434 -0700 NOTICE MHLogger mh-tCmd MH New Connection from Garvit Gupta;BlueJeans; GUID: eead5f71-e382-40a1-9d32-57a2c6b231c4
+Jul 23 09:35:11:741266 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 23 09:35:11:741276 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 23 09:35:11:747962 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 23 09:35:11:747976 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 23 09:35:15:581111 -0700 WARNING MHLogger mh-tVI:267 MH (Chan 267) VP8 Decoder error 5 Bitstream not supported by this decoder((null))
+Jul 23 09:38:48:634272 -0700 NOTICE MHLogger mh-tMain MH mh exiting

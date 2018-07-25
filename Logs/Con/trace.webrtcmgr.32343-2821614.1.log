@@ -1,0 +1,18 @@
+Jul 10 22:42:16:451447 -0700 NOTICE DNMLIB webrtcmgr DNMLIB webrtcmgr - connector.r_meetme47.8661.cabd059.garvit.xenial - compiled on Jun 18 2018 around 10:18:34
+Jul 10 22:42:16:451451 -0700 NOTICE DNMLIB webrtcmgr DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 10 22:42:16:457007 -0700 ERROR webrtcmgr webrtcmgr webrtcmgr Proxy exception
+Traceback (most recent call last):
+  File "/home/garvit/bluejeans/connector/bin/webrtcmgr", line 301, in main
+    listen(port, capacity)
+  File "/home/garvit/bluejeans/connector/bin/webrtcmgr", line 239, in listen
+    util.setCapacity(capacity)
+  File "utilization.py", line 19, in setCapacity
+  File "nm.py", line 443, in set_resource
+  File "nm.py", line 424, in ns_set
+  File "nm.py", line 362, in set
+  File "zookeeper.py", line 262, in set
+  File "zookeeper.py", line 219, in set
+  File "zookeeper.py", line 199, in _set
+  File "zookeeper.py", line 82, in wrapper
+  File "zookeeper.py", line 77, in wrapper
+ConnectionLossException: /bjn/denim/connwebrtc/4004197:32343: connection loss

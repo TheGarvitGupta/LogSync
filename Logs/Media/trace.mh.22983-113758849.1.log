@@ -1,0 +1,23 @@
+Jul 24 16:50:57:326411 -0700 NOTICE DNMLIB mh-tMain DNMLIB mh - media.r_meetme47.27429.966bc42.garvit.xenial - compiled on Jul 19 2018 around 13:25:30
+Jul 24 16:50:57:326444 -0700 NOTICE DNMLIB mh-tMain DNMLIB platformlib - r_meetme47.2728.a2ab238 - compiled on Jun 18 2018 around 10:18:34
+Jul 24 16:50:57:330528 -0700 NOTICE MHLogger mh-tCmd MH New Connection from Gupta Garvit;BlueJeans; GUID: f2e75898-aedf-419c-9e31-1a51b55a287c
+Jul 24 16:50:57:458326 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 24 16:50:57:458329 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 24 16:50:57:463504 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast TTL on socket.
+Jul 24 16:50:57:463507 -0700 WARNING MHLogger mh-tCmd MH Failed to set multicast loopback on socket.
+Jul 24 16:52:10:427060 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:11:427130 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:12:427203 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:13:427284 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:14:426949 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:15:427042 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:16:427124 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:17:427176 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:18:427254 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:19:427324 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:20:427399 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:21:427446 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:22:427487 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:23:427541 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:24:427617 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
+Jul 24 16:52:25:427674 -0700 WARNING MHLogger mh-tMain MH sendStats failed to acquire lock
