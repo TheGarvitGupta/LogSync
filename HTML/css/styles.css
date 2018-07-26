@@ -1,0 +1,255 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.timeline {
+	background-color: rgb(40, 41, 35);
+	font-size: 16px;
+	font-family: Lucida Console, Monospace, Consolas, Menlo-Regular;
+	overflow: auto;
+	padding-top:50px;
+}
+
+.timeline::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+	width: calc(100% - 40px);
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(109, 110, 106);
+	background-color: rgb(246, 246, 246);
+	background-color: rgb(40, 41, 35);
+	color: rgb(248, 248, 242);
+	position: fixed;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#logPath {
+	height: 24px;
+	line-height: 24px;
+	padding: 0px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-family: Roboto;
+	margin: 0px;
+	border: 0px;
+	border-radius: 2px;
+}
+
+.button {
+	background-color: rgb(0, 120, 249);
+	color: rgb(248, 248, 242);
+	cursor: pointer;
+
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	font-family: Roboto;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	margin-left: 5px;
+	border: 0px;
+	outline: 0px;
+	border: 0px;
+	border-radius: 2px;
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+
+.index {
+	color: rgb(144, 145, 139);
+	min-width: 50px;
+
+	display: inline-block;
+	min-width: 30px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently */
+}
+
+.file {
+	overflow-x: scroll;
+	/*-webkit-box-shadow: 10px 0 15px -2px rgba(0,0,0,0.30);*/
+}
+
+.file-menu {
+	padding: 10px;
+	height: 20px;
+	padding-left: 20px;
+	white-space: nowrap;
+}
+
+.file-name {
+	color: rgb(104, 216, 239);
+	height: 20px;
+	line-height: 16px;
+	font-size: 16px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+.deltas-form {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+.time-delta {
+	height: 16px;
+	border: none;
+	/*border-radius: 2px;*/
+	background-color: rgba(255,255,255,0.2);
+	outline: none;
+	padding: 2px;
+	text-align: center;
+	width: 20px;
+	margin: 0px;
+	margin-right: 0px;
+	border-right: 1px solid rgba(0,0,0,1);
+	line-height: 16px;
+	font-size: 12px;
+	color: rgb(248, 248, 242);
+
+	float: left;
+}
+
+.td-left {
+	border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+}
+
+.td-right {
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-right: 0px;
+}
+
+.delta-button {
+	background-color: rgb(0, 120, 249);
+	color: rgb(248, 248, 242);
+	cursor: pointer;
+
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: Roboto;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	border: 0px;
+	border-radius: 2px;
+	width: auto;
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.line {
+	white-space: nowrap;
+}
+
+.timestamp {
+	color: rgb(166, 226, 44);
+}
+
+.timestamp-interpolated {
+	color: rgb(249, 35, 114);
+}
+
+.logline {
+	color: rgb(248, 248, 242);
+}
+
+.error {
+	color: rgb(104, 216, 239);
+}
+
+
+/*Text highlight color*/
+
+
+::selection {
+	background: rgb(172, 171, 161); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: rgb(172, 171, 161); /* Gecko Browsers */
+}
+
+
+/* Custom width holders - upto 10 files! (Anything beyond 3 or 4, even on a high resolution screen would be a mess though) */
+
+.div-1 {
+	width: 100%;
+	float: none;
+}
+
+.div-2 {
+	width: 50%;
+	float: left;
+}
+
+.div-3 {
+	width: 33.33%;
+	float: left;
+}
+
+.div-4 {
+	width: 25%;
+	float: left;
+}
+
+.div-5 {
+	width: 20%;
+	float: left;
+}
+
+.div-6 {
+	width: 16.66%;
+	float: left;
+}
+
+.div-7 {
+	width: 14.285%;
+	float: left;
+}
+
+.div-8 {
+	width: 12.5%;
+	float: left;
+}
+
+.div-9 {
+	width: 11.11%;
+	float: left;
+}
+
+.div-10 {
+	width: 10%;
+	float: left;
+}
