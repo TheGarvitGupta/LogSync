@@ -16,7 +16,7 @@ html, body {
 	font-size: 16px;
 	font-family: Lucida Console, Monospace, Consolas, Menlo-Regular;
 	overflow: auto;
-	padding-top:160px;
+	padding-top:180px;
 }
 
 .timeline::after {
@@ -109,7 +109,7 @@ html, body {
 	padding-left: 20px;
 	white-space: nowrap;
 	position: fixed;
-	margin-top:-120px;
+	margin-top:-140px;
 	background-color: rgb(40, 41, 35);
 	width: 100%;
 }
