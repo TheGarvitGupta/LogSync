@@ -23,7 +23,7 @@ FLASK_APP=engine.py flask run
 
 The tool should be accessible at `localhost:5000/`
 
-# Setting up a virtual environment
+# Setup with a virtual environment (Python3)
 
 ```
 cd LogSync
