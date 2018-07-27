@@ -25,7 +25,7 @@ The tool should be accessible at `localhost:5000/`
 
 # Setup with a virtual environment (Python3)
 
-```
+```sh
 cd LogSync
 mkdir env
 python3 -m venv env
@@ -39,7 +39,7 @@ FLASK_APP=engine.py flask run
 The following file contain the date formats for parsing the file and rendering finally. You might need to modify these based on your log files.
 
 `Config/date_formats.txt`: These are the formats that are (by default) used to attempt to parse the time, along with the lengths that are tired for each format.
-```
+```py
 [
 	('%b %d %H:%M:%S:%f %z', [25, 28]),
 	('[%b %d %H:%M:%S:%f %z]', [27, 30]),
@@ -49,7 +49,7 @@ The following file contain the date formats for parsing the file and rendering f
 ```
 
 `Config/date_print_formats.txt`: This is the default print format
-```
+```sh
 "%Y/%m/%d %H:%M:%S:%f"
 ```
 Check the `datetime` directives for understanding what those symbols mean: (https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
