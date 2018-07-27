@@ -1,6 +1,14 @@
 html, body {
 	padding: 0;
 	margin: 0;
+	background-color: rgb(40, 41, 35);
+}
+
+#logBox {
+	float: right;
+	font-family: Lucida Console, Monospace, Consolas, Menlo-Regular;
+	font-size: 16px;
+	color: rgb(116, 112, 94);
 }
 
 .timeline {
@@ -8,7 +16,7 @@ html, body {
 	font-size: 16px;
 	font-family: Lucida Console, Monospace, Consolas, Menlo-Regular;
 	overflow: auto;
-	padding-top:50px;
+	padding-top:160px;
 }
 
 .timeline::after {
@@ -17,11 +25,17 @@ html, body {
     display: table;
 }
 
+.remove {
+	color: rgb(0, 122, 244);
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
 .header {
 	width: calc(100% - 40px);
 	padding: 20px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 130px;
 	background-color: rgb(109, 110, 106);
 	background-color: rgb(246, 246, 246);
 	background-color: rgb(40, 41, 35);
@@ -31,10 +45,9 @@ html, body {
 }
 
 #logPath {
-	height: 24px;
-	line-height: 24px;
-	padding: 0px;
-	padding-left: 10px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 5px;
 	font-size: 14px;
 	font-family: Roboto;
 	margin: 0px;
@@ -74,9 +87,9 @@ html, body {
 
 	display: inline-block;
 	min-width: 30px;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
+	text-align: right;
+	padding-left: 6px;
+	padding-right: 14px;
 
 	-webkit-touch-callout: none; /* iOS Safari */
 	-webkit-user-select: none; /* Safari */
@@ -95,6 +108,10 @@ html, body {
 	padding: 10px;
 	padding-left: 20px;
 	white-space: nowrap;
+	position: fixed;
+	margin-top:-120px;
+	background-color: rgb(40, 41, 35);
+	width: 100%;
 }
 
 .file-menu::after {
@@ -112,6 +129,42 @@ html, body {
 	margin-right: 10px;
 }
 
+.regex {
+	
+	/*The actual input box*/
+	width: 277px;
+	display: block;
+	position: relative;
+	height: 14px;
+	font-size: 14px;
+	border-radius: 2px;
+	border: 0px;
+	margin: 0px;
+	line-height: 14px;
+	padding: 5px;
+	font-family: Roboto;
+	/*border-bottom-right-radius: 0px;*/
+	/*border-top-right-radius: 0px;*/
+	float: left;
+}
+
+.grep {
+	display: block;
+	padding-top: 10px;
+}
+
+.grep::before {
+	content: "Regex";
+	color: rgb(248, 248, 242);
+	float: left;
+	margin-right: 10px;
+	display: block;
+	font-family: Roboto;
+	line-height: 20px;
+	font-size: 14px;
+	width: 80px;
+}
+
 .deltas-form {
 	display: inline-block;
 	padding: 0;
@@ -124,6 +177,7 @@ html, body {
 	content: "Time Delta ";
 	color: rgb(248, 248, 242);
 	float: left;
+	width: 80px;
 	margin-right: 10px;
 	display: block;
 	font-family: Roboto;
@@ -132,7 +186,7 @@ html, body {
 }
 
 .time-delta {
-	height: 16px;
+	height: 14px;
 	border: none;
 	/*border-radius: 2px;*/
 	background-color: rgba(255,255,255,0.2);
@@ -143,7 +197,9 @@ html, body {
 	margin: 0px;
 	margin-right: 0px;
 	border-right: 1px solid rgba(0,0,0,1);
-	line-height: 16px;
+	line-height: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-size: 12px;
 	color: rgb(248, 248, 242);
 
@@ -163,7 +219,7 @@ html, body {
 	display: inline-block;
 	width: 40px;
 	color: #ffffff;
-	top:-15px;
+	top:-16px;
 	font-size: 11px;
 	font-family: Roboto;
 	/*color: rgba(255,255,255,0.5);*/
@@ -215,15 +271,16 @@ html, body {
 }
 
 .delta-button {
+	
+	display: block;
 	background-color: rgb(0, 120, 249);
 	color: rgb(248, 248, 242);
 	cursor: pointer;
-
-	height: 20px;
-	line-height: 20px;
+	height: 24px;
+	line-height: 14px;
 	font-size: 14px;
 	font-family: Roboto;
-	padding: 0px;
+	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 0px;
@@ -232,10 +289,8 @@ html, body {
 	border: 0px;
 	border-radius: 2px;
 	width: auto;
-
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-
 	border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
 	float: left;
@@ -261,8 +316,16 @@ html, body {
 	color: rgb(104, 216, 239);
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 
 /*Text highlight color*/
+
+
 
 
 ::selection {
@@ -270,6 +333,13 @@ html, body {
 }
 ::-moz-selection {
 	background: rgb(172, 171, 161); /* Gecko Browsers */
+}
+
+.time-delta::selection {
+	background: rgb(220, 220, 220); /* WebKit/Blink Browsers */
+}
+.time-delta::-moz-selection {
+	background: rgb(220, 220, 220); /* WebKit/Blink Browsers */
 }
 
 

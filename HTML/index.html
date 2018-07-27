@@ -9,8 +9,9 @@
 </head>
 <body>
 	<div class='header'>
-		<input type="text" id='logPath' placeholder='Log file path' value="/Users/garvit/Desktop/LogSync/Logs/Media/trace.msmlcontroller.21416-113754967.1.dbg">
-		<input type='button' class='button' value='Add Log File'>
+		<input type="text" id='logPath' placeholder='Log file path' onkeyup='addLog()'>
+		<input id="logAdd" type='button' class='button' value='Add Log File'>
+		<span class='log' id='logBox'></span>
 	</div>
 
 	<div class='timeline'>
