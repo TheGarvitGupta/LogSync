@@ -9,6 +9,10 @@ function render() {
 	});
 }
 
+function filter(e) {
+	alert(e.name + String(e.value));
+}
+
 $(document).ready(function(){
 	render();
 

@@ -95,6 +95,7 @@ def renderPane():
 		fileHTML += "		<input class='time-delta delta-button' type='submit' value='Update'>"
 
 		fileHTML += "		</form>"
+		fileHTML += "		<input class='regex' name='" + filePath + "' onkeyup='filter(this)'>"
 		fileHTML += "	</div>"
 
 		for index, time, line, mode in StampedFile:

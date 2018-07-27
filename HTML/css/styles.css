@@ -163,8 +163,8 @@ html, body {
 	display: inline-block;
 	width: 40px;
 	color: #ffffff;
-	top:-14px;
-	font-size: 9px;
+	top:-15px;
+	font-size: 11px;
 	font-family: Roboto;
 	/*color: rgba(255,255,255,0.5);*/
 	background-color: rgb(231, 219, 116);
@@ -205,7 +205,7 @@ html, body {
 
 .td-left {
 	border-bottom-left-radius: 2px;
-	border-top-left-radius: 2px;
+	/*border-top-left-radius: 2px;*/
 }
 
 .td-right {
