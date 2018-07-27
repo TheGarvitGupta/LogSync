@@ -9,7 +9,7 @@ This app runs on Python 3. It will not run with Python 2.7 versions due to the d
 # Setup
 
 ```sh
-git pull git@github.com:TheGarvitGupta/LogSync.git
+git clone git@github.com:TheGarvitGupta/LogSync.git
 ```
 
 * Download the latest version of Python 3 (https://www.python.org/downloads/)
