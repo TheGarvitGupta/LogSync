@@ -20,12 +20,9 @@ $(document).ready(function(){
 
     	$.get(URL, function(data, status) {
 		
-			// alert(status + ": " + data);
-    		if (data == "+OK") {
+			console.log(status + ": " + data);
+    		if (data.substring(0,3) == "+OK") {
     			render();
-    		}
-    		else{
-    			// alert(status + ": " + data);
     		}
 		});
 

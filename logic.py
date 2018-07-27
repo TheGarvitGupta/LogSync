@@ -10,7 +10,7 @@ DATE_FORMATS = [
 	('[%m/%d/%y %H:%M:%S:%f %z]', [30, 32]),
 ]
 
-DATE_PRINT_FORMAT = "%H:%M:%S:%f"
+DATE_PRINT_FORMAT = "%Y/%m/%d %H:%M:%S:%f"
 
 def sanitized(string):
 	string = string.replace('<', '&lt;')
@@ -69,3 +69,45 @@ def fileName(filePath):
 		if filePath[i] == '/':
 			slash = i
 	return filePath[slash + 1:]
+
+def interleave(DELTA_FILES):
+	
+	# [Timestamp, Remaining line, mode]
+	# [Timestamp, line, mode, fileName]
+
+	allFiles = []
+	allLines = []
+	SPARCE_LOG = {}
+
+	for file in DELTA_FILES:
+		allFiles.append(file)
+		SPARCE_LOG[file] = []
+
+		for [index, timestamp, line, mode] in DELTA_FILES[file]:
+			allLines.append([file, index, timestamp, line, mode])
+
+	allLines.sort(key=lambda x: x[2])
+
+	# Next
+
+	zeroTime = datetime(year=1, month=1, day=1, tzinfo=pytz.utc)
+	currentTime = zeroTime
+	lastFile = None
+
+	for [file, index, timestamp, line, mode] in allLines:
+		if timestamp > currentTime or lastFile == file:
+
+			SPARCE_LOG[file].append([index, timestamp, line, mode])
+			lastFile = file
+			# currentTime = timestamp
+
+			for otherfile in DELTA_FILES:
+				if file != otherfile:
+					SPARCE_LOG[otherfile].append([0, zeroTime, 0, 0])
+
+		else:
+			# (Timestamp is equal to last one but other file)
+			# Overwrite the last empty block for this file
+			SPARCE_LOG[file][-1] = list([index, timestamp, line, mode])
+
+	return SPARCE_LOG

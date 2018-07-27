@@ -40,6 +40,7 @@ html, body {
 	margin: 0px;
 	border: 0px;
 	border-radius: 2px;
+	width: 600px;
 }
 
 .button {
@@ -92,9 +93,14 @@ html, body {
 
 .file-menu {
 	padding: 10px;
-	height: 20px;
 	padding-left: 20px;
 	white-space: nowrap;
+}
+
+.file-menu::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .file-name {
@@ -102,16 +108,27 @@ html, body {
 	height: 20px;
 	line-height: 16px;
 	font-size: 16px;
-	display: inline-block;
-	float: left;
+	display: block;
 	margin-right: 10px;
 }
 
 .deltas-form {
 	display: inline-block;
 	padding: 0;
+	padding-top: 16px;
 	margin: 0;
 	outline: 0;
+}
+
+.deltas-form::before {
+	content: "Time Delta ";
+	color: rgb(248, 248, 242);
+	float: left;
+	margin-right: 10px;
+	display: block;
+	font-family: Roboto;
+	line-height: 20px;
+	font-size: 14px;
 }
 
 .time-delta {
@@ -122,7 +139,7 @@ html, body {
 	outline: none;
 	padding: 2px;
 	text-align: center;
-	width: 20px;
+	width: 36px;
 	margin: 0px;
 	margin-right: 0px;
 	border-right: 1px solid rgba(0,0,0,1);
@@ -131,6 +148,59 @@ html, body {
 	color: rgb(248, 248, 242);
 
 	float: left;
+}
+
+.label-delta {
+	float: left;
+	position: relative;
+}
+
+.label-delta::before {
+	content: "";
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	display: inline-block;
+	width: 40px;
+	color: #ffffff;
+	top:-14px;
+	font-size: 9px;
+	font-family: Roboto;
+	/*color: rgba(255,255,255,0.5);*/
+	background-color: rgb(231, 219, 116);
+	color: rgba(255,255,255,0.7);
+	color: #000000;
+	text-align: center;
+
+	background-color: rgb(109, 110, 106);
+	padding-top: 2px;
+	height:14px;	
+	line-height: 14px;
+
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.label-y::before {
+	content: 'Years'
+}
+.label-m::before {
+	content: 'Months'
+}
+.label-d::before {
+	content: 'Days'
+}
+.label-H::before {
+	content: 'Hours'
+}
+.label-M::before {
+	content: 'Mins'
+}
+.label-S::before {
+	content: 'Secs'
+}
+.label-f::before {
+	content: 'Micros'
 }
 
 .td-left {
@@ -168,6 +238,7 @@ html, body {
 
 	border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
+	float: left;
 }
 
 .line {

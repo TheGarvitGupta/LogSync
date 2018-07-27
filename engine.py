@@ -2,7 +2,7 @@
 from flask import Flask, request, send_from_directory, redirect
 from dateutil import parser
 from datetime import timedelta
-from logic import stampedFile, fileName, stringTime, updateDeltaFiles
+from logic import stampedFile, fileName, stringTime, updateDeltaFiles, interleave
 import urllib
 import random
 
@@ -64,7 +64,7 @@ def addLog(file_path):
 	LOG_FILES[file_path] = StampedFile
 	FILE_DELTAS[file_path] = ((0,0,0,0,0,0,0), timedelta(days=0, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0))
 	DELTA_FILES[file_path] = LOG_FILES[file_path]
-	return "+OK"
+	return "+OK: Loaded file " + file_path
 
 @app.route('/renderTimeline')
 def renderTimeline():
@@ -72,10 +72,12 @@ def renderTimeline():
 
 def renderPane():
 	logHTMLS = []
+ 
+	SPARCE_LOG = interleave(DELTA_FILES)
 
-	logs = len(DELTA_FILES)
-	for filePath in DELTA_FILES:
-		StampedFile = DELTA_FILES[filePath]
+	logs = len(SPARCE_LOG)
+	for filePath in SPARCE_LOG:
+		StampedFile = SPARCE_LOG[filePath]
 		fileHTML = "<div class='file" + " div-"+ str(logs) + "'>"
 		fileHTML += "	<div class='file-menu'>"
 		fileHTML += "		<div class='file-name' title='" + filePath+ "'>" + fileName(filePath) + "</div>"
@@ -83,13 +85,13 @@ def renderPane():
 
 		((y,m,d,H,M,S,f), delta) = FILE_DELTAS[filePath]
 		fileHTML += "		<input style='display:none' name='filePath' type='text' value='" + filePath + "'>"
-		fileHTML += "		<input class='time-delta delta-y td-left' name='y' type='text' value='" + str(y) + "' placeholder='Years'>"
-		fileHTML += "		<input class='time-delta delta-m' name='m' type='text' value='" + str(m) + "' placeholder='Months '>"
-		fileHTML += "		<input class='time-delta delta-d' name='d' type='text' value='" + str(d) + "' placeholder='Days'>"
-		fileHTML += "		<input class='time-delta delta-H' name='H' type='text' value='" + str(H) + "' placeholder='Hours'>"
-		fileHTML += "		<input class='time-delta delta-M' name='M' type='text' value='" + str(M) + "' placeholder='Minutes'>"
-		fileHTML += "		<input class='time-delta delta-S' name='S' type='text' value='" + str(S) + "' placeholder='Seconds'>"
-		fileHTML += "		<input class='time-delta delta-f td-right' name='f' type='text' value='" + str(f) + "' placeholder='Microseconds'>"
+		fileHTML += "		<div class='label-delta label-y'><input class='time-delta delta-y td-left' name='y' type='text' value='" + str(y) + "' placeholder='Years'></div>"
+		fileHTML += "		<div class='label-delta label-m'><input class='time-delta delta-m' name='m' type='text' value='" + str(m) + "' placeholder='Months '></div>"
+		fileHTML += "		<div class='label-delta label-d'><input class='time-delta delta-d' name='d' type='text' value='" + str(d) + "' placeholder='Days'></div>"
+		fileHTML += "		<div class='label-delta label-H'><input class='time-delta delta-H' name='H' type='text' value='" + str(H) + "' placeholder='Hours'></div>"
+		fileHTML += "		<div class='label-delta label-M'><input class='time-delta delta-M' name='M' type='text' value='" + str(M) + "' placeholder='Minutes'></div>"
+		fileHTML += "		<div class='label-delta label-S'><input class='time-delta delta-S' name='S' type='text' value='" + str(S) + "' placeholder='Seconds'></div>"
+		fileHTML += "		<div class='label-delta label-f'><input class='time-delta delta-f td-right' name='f' type='text' value='" + str(f) + "' placeholder='Microseconds'></div>"
 		fileHTML += "		<input class='time-delta delta-button' type='submit' value='Update'>"
 
 		fileHTML += "		</form>"
@@ -97,10 +99,14 @@ def renderPane():
 
 		for index, time, line, mode in StampedFile:
 			lineHTML = "<div class='line'>"
-			if mode == '0':
-				lineHTML += "<span class='index'>" + str(index) + "\t</span>" + "<span class='timestamp'>" + stringTime(time) + "</span>" + "<span class='logline'>" + line + "</span>"
+			if index == 0:
+				lineHTML += "<span class='index'>" + "\t</span>" + "<span class='timestamp'>" + "</span>" + "<span class='logline'>" + " " + "</span>"
 			else:
-				lineHTML += "<span class='index'>" + str(index) + "\t</span>" + "<span class='timestamp-interpolated'>" + stringTime(time) + "</span>" + "<span class='logline'>" + line + "</span>"
+
+				if mode == '0':
+					lineHTML += "<span class='index'>" + str(index) + "\t</span>" + "<span class='timestamp'>" + stringTime(time) + "</span>" + "<span class='logline'>" + line + "</span>"
+				else:
+					lineHTML += "<span class='index'>" + str(index) + "\t</span>" + "<span class='timestamp-interpolated'>" + stringTime(time) + "</span>" + "<span class='logline'>" + line + "</span>"
 			lineHTML += "</div>"
 			fileHTML += lineHTML
 
