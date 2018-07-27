@@ -13,7 +13,7 @@ git pull git@github.com:TheGarvitGupta/LogSync.git
 ```
 
 * Download the latest version of Python 3 (https://www.python.org/downloads/)
-* If you would like to keep the environment separate, perform the following steps in a virtual environment (https://docs.python-guide.org/dev/virtualenvs/)
+* If you would like to (highly recommended) keep the environment separate, perform the following steps in a virtual environment (https://docs.python-guide.org/dev/virtualenvs/)
 
 ```sh
 cd LogSync
@@ -22,6 +22,17 @@ FLASK_APP=engine.py flask run
 ```
 
 The tool should be accessible at `localhost:5000/`
+
+# Setting up a virtual environment
+
+```
+cd LogSync
+mkdir env
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+FLASK_APP=engine.py flask run
+```
 
 # Custom Time Format
 
