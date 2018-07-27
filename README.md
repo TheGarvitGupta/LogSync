@@ -61,4 +61,7 @@ Check the `datetime` directives for understanding what those symbols mean: (http
 Loaded one log with parsed timestamps, and filtering (regex)
 
 ![LogSync](https://raw.githubusercontent.com/TheGarvitGupta/LogSync/master/Screenshots/Screen%20Shot%202018-07-27%20at%203.52.18%20PM.png "LogSync")
-Comparing two logs by accounting for the offset in the time.
+Comparing two logs side by side
+
+![LogSync](https://raw.githubusercontent.com/TheGarvitGupta/LogSync/master/Screenshots/Screen%20Shot%202018-07-27%20at%203.57.08%20PM.png "LogSync")
+Comparing two logs by accounting for the offset in the time
