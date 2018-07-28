@@ -13,7 +13,7 @@ git clone git@github.com:TheGarvitGupta/LogSync.git
 ```
 
 * Download the latest version of Python 3 (https://www.python.org/downloads/)
-* If you would like to (highly recommended) keep the environment separate, perform the following steps in a virtual environment (https://docs.python-guide.org/dev/virtualenvs/)
+* Installation and execution. See Setup with virual environment (Recommended).
 
 ```sh
 cd LogSync
@@ -36,9 +36,9 @@ FLASK_APP=engine.py flask run
 
 # Custom Time Format
 
-The following file contain the date formats for parsing the file and rendering finally. You might need to modify these based on your log files.
+The following files contain the date formats for parsing and rendering each log file. You might need to modify these based on your log files.
 
-`Config/date_formats.txt`: These are the formats that are (by default) used to attempt to parse the time, along with the lengths that are tired for each format.
+`Config/date_formats.txt`: These are the formats that are (by default) used to attempt to parse the time, along with the lengths that are tried for each format.
 ```py
 [
 	('%b %d %H:%M:%S:%f %z', [25, 28]),
