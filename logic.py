@@ -45,11 +45,12 @@ def standardDate(localDate):
 def parseDate(log):
 	for (date_format, lengths) in DATE_FORMATS:
 		for length in lengths:
-			try:
-				timestamp = datetime.strptime(log[:length], date_format)
-				return (standardDate(timestamp), length)
-			except ValueError:
-				pass
+			for start in [0,1]:
+				try:
+					timestamp = datetime.strptime(log[start:length + start], date_format)
+					return (standardDate(timestamp), start, length)
+				except ValueError:
+					pass
 	return None
 
 def stringTime(datetime_):
@@ -65,11 +66,11 @@ def stampedFile(originalFile):
 	for line in lines:
 		parsedLog = parseDate(line)
 		if parsedLog:
-			timestamp, length = parsedLog
+			timestamp, start, length = parsedLog
 			if minStamp == None:
 				minStamp = timestamp
 			minStamp = max(minStamp, timestamp)
-			stampedFile.append([index, timestamp, sanitized(line[length:-1]), '0'])
+			stampedFile.append([index, timestamp, sanitized(line[length + start:-1]), '0'])
 		else:
 			stampedFile.append([index, minStamp, " " + sanitized(line[:-1]), '1'])
 		index += 1
