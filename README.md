@@ -40,11 +40,10 @@ The following files contain the date formats for parsing and rendering each log 
 
 `Config/date_formats.txt`: These are the formats that are (by default) used to attempt to parse the time, along with the lengths that are tried for each format.
 ```py
-[
-	('%b %d %H:%M:%S:%f %z', [25, 28]),
-	('[%b %d %H:%M:%S:%f %z]', [27, 30]),
-	('%m/%d/%y %H:%M:%S:%f %z', [28, 30]),
-	('[%m/%d/%y %H:%M:%S:%f %z]', [30, 32]),
+[	
+	('%m/%d/%y %H:%M:%S:%f %z', [31, 28]),
+	('%b %d %H:%M:%S:%f %z', [28, 25]),
+	('%m/%d/%y %H:%M:%S:%f', [24, 21]),
 ]
 ```
 
