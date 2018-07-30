@@ -21,6 +21,9 @@ pip install -r requirements.txt
 FLASK_APP=engine.py flask run
 ```
 
+If you want to run it on a port other than the default (5000) port, use:
+```FLASK_APP=engine.py FLASK_RUN_PORT=5001 flask run```
+
 The tool should be accessible at `localhost:5000/`
 
 # Setup with a virtual environment (Python3)
